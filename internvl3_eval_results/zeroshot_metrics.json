@@ -1,0 +1,163 @@
+{
+  "model": "InternVL3-2B zero-shot",
+  "total_samples": 211,
+  "strict_correct_count": 192,
+  "disaster_type_accuracy": 0.909952606635071,
+  "total": 211,
+  "strict_correct": 192,
+  "accuracy": 0.909952606635071,
+  "strict_accuracy": 0.909952606635071,
+  "macro_f1": 0.7705230871888893,
+  "weighted_f1": 0.901507550466403,
+  "valid_json_count": 211,
+  "valid_json_rate": 1.0,
+  "invalid_json_count": 0,
+  "canonical_prediction_count": 210,
+  "canonical_prediction_rate": 0.995260663507109,
+  "noncanonical_prediction_count": 1,
+  "missing_prediction_count": 0,
+  "valid_subset_count": 210,
+  "valid_subset_correct": 192,
+  "valid_subset_accuracy": 0.9142857142857143,
+  "valid_subset_macro_f1": 0.7719105602889007,
+  "valid_subset_weighted_f1": 0.9035408445152721,
+  "per_class_metrics": {
+    "flood": {
+      "precision": 0.8596491228070176,
+      "recall": 0.9423076923076923,
+      "f1": 0.8990825688073395,
+      "support": 52
+    },
+    "earthquake": {
+      "precision": 1.0,
+      "recall": 0.9183673469387755,
+      "f1": 0.9574468085106383,
+      "support": 49
+    },
+    "fire": {
+      "precision": 0.8536585365853658,
+      "recall": 1.0,
+      "f1": 0.9210526315789473,
+      "support": 35
+    },
+    "landslide": {
+      "precision": 0.9444444444444444,
+      "recall": 0.85,
+      "f1": 0.8947368421052632,
+      "support": 40
+    },
+    "windstorm_or_typhoon": {
+      "precision": 0.9354838709677419,
+      "recall": 0.9666666666666667,
+      "f1": 0.9508196721311475,
+      "support": 30
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 5
+    }
+  },
+  "confusion_matrix_labels": [
+    "flood",
+    "earthquake",
+    "fire",
+    "landslide",
+    "windstorm_or_typhoon",
+    "other",
+    "__invalid_or_noncanonical__"
+  ],
+  "confusion_matrix": [
+    [
+      49,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      45,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      34,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "avg_latency": 4.11576754221984,
+  "median_latency": 3.954148054122925,
+  "p95_latency": 5.7903358936309814,
+  "peak_gpu_memory_gb": 5.449143886566162,
+  "field_completion_rate": {
+    "disaster_type": 1.0,
+    "damage_count": 1.0,
+    "object_relations": 1.0,
+    "report": 1.0
+  },
+  "eval_config": {
+    "model_path": "models\\InternVL3-2B-hf",
+    "test_data_path": "data/dataset_test_canonical_clean.json",
+    "images_dir": "sample_images",
+    "output_dir": "internvl3_eval_results",
+    "torch_dtype": "bfloat16",
+    "device_map": "auto",
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "temperature": 0.0,
+    "seed": 42,
+    "limit": null,
+    "local_files_only": true,
+    "model_card": "https://huggingface.co/OpenGVLab/InternVL3-2B-hf",
+    "license": "qwen",
+    "note": "OpenGVLab InternVL3-2B Hugging Face image-text-to-text baseline."
+  }
+}

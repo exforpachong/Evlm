@@ -1,0 +1,3589 @@
+[
+  {
+    "id": "flood_洪涝_59",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数百栋）\",\n  \"object_relations\": \"洪水淹没居民区，河流环绕区域，建筑被水覆盖，周边有道路、停车场等设施\",\n  \"report\": \"洪水灾害致居民区大面积被淹，大量建筑受损，河流周边区域受洪水侵袭，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数百栋）",
+      "object_relations": "洪水淹没居民区，河流环绕区域，建筑被水覆盖，周边有道路、停车场等设施",
+      "report": "洪水灾害致居民区大面积被淹，大量建筑受损，河流周边区域受洪水侵袭，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.908246517181396,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_478",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因滑坡坍塌，泥土与碎石堆积，背景可见房屋\",\n  \"report\": \"滑坡导致道路坍塌，周边区域受影响，暂未发现建筑损毁或人员伤亡。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因滑坡坍塌，泥土与碎石堆积，背景可见房屋",
+      "report": "滑坡导致道路坍塌，周边区域受影响，暂未发现建筑损毁或人员伤亡。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 8.580450296401978,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_287",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"直升机在燃烧的森林上空执行灭火任务，周围弥漫着烟雾，森林处于火灾状态\",\n  \"report\": \"森林火灾现场，直升机正在灭火，烟雾弥漫，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "直升机在燃烧的森林上空执行灭火任务，周围弥漫着烟雾，森林处于火灾状态",
+      "report": "森林火灾现场，直升机正在灭火，烟雾弥漫，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 8.868003606796265,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_574",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被大量浓烟包围，浓烟从建筑顶部及侧面涌出，显示火灾正在发生\",\n  \"report\": \"一栋建筑发生火灾，浓烟从建筑顶部及侧面涌出，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物被大量浓烟包围，浓烟从建筑顶部及侧面涌出，显示火灾正在发生",
+      "report": "一栋建筑发生火灾，浓烟从建筑顶部及侧面涌出，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.03927755355835,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_447",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑损毁\",\n  \"object_relations\": \"穿黑色外套的男子在坍塌建筑废墟中，周围散落建筑碎片、电线等杂物，男子与废墟形成救援场景\",\n  \"report\": \"地震致建筑坍塌，废墟遍地，男子在救援，多栋建筑损毁，灾情严重\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋建筑损毁",
+      "object_relations": "穿黑色外套的男子在坍塌建筑废墟中，周围散落建筑碎片、电线等杂物，男子与废墟形成救援场景",
+      "report": "地震致建筑坍塌，废墟遍地，男子在救援，多栋建筑损毁，灾情严重",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.741503953933716,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_156",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物发生坍塌，大量建筑碎片从结构中坠落，与建筑主体分离\",\n  \"report\": \"地震致一栋高层建筑严重坍塌，建筑碎片散落，结构损毁严重，需紧急评估救援。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "建筑物发生坍塌，大量建筑碎片从结构中坠落，与建筑主体分离",
+      "report": "地震致一栋高层建筑严重坍塌，建筑碎片散落，结构损毁严重，需紧急评估救援。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.191616773605347,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_718",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"泥石流（泥浆、碎石）冲刷山体，与山体、植被形成破坏关系，泥浆覆盖区域\",\n  \"report\": \"山区发生泥石流，泥浆冲刷山体，暂未发现建筑或人员受损，需关注后续影响。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "泥石流（泥浆、碎石）冲刷山体，与山体、植被形成破坏关系，泥浆覆盖区域",
+      "report": "山区发生泥石流，泥浆冲刷山体，暂未发现建筑或人员受损，需关注后续影响。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 10.324202299118042,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_29",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物发生严重倾斜，结构受损，周围环境受影响\",\n  \"report\": \"地震致一栋建筑严重倾斜损毁，周边环境受影响，需紧急评估救援。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "建筑物发生严重倾斜，结构受损，周围环境受影响",
+      "report": "地震致一栋建筑严重倾斜损毁，周边环境受影响，需紧急评估救援。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 7.703176259994507,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_465",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑受损，约10人受伤\",\n  \"object_relations\": \"救援人员（穿红色制服、戴安全帽）在坍塌建筑废墟中开展救援行动，周围散落建筑碎片与桶等杂物\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中紧急搜救，多栋建筑受损，约10人受伤，现场秩序紧张\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋建筑受损，约10人受伤",
+      "object_relations": "救援人员（穿红色制服、戴安全帽）在坍塌建筑废墟中开展救援行动，周围散落建筑碎片与桶等杂物",
+      "report": "地震致建筑坍塌，救援人员在废墟中紧急搜救，多栋建筑受损，约10人受伤，现场秩序紧张",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 11.920681953430176,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_758",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"泥石流（泥沙、碎石）冲刷道路，导致车辆被困，周围山体有滑坡迹象，人员在滑坡区域附近活动\",\n  \"report\": \"山区发生泥石流，道路被泥沙碎石阻断，车辆被困，暂未发现建筑或人员严重受损\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "泥石流（泥沙、碎石）冲刷道路，导致车辆被困，周围山体有滑坡迹象，人员在滑坡区域附近活动",
+      "report": "山区发生泥石流，道路被泥沙碎石阻断，车辆被困，暂未发现建筑或人员严重受损",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 11.25559115409851,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_380",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震出现大面积裂缝，护栏紧邻道路，山体与道路相邻，道路处于山地环境中\",\n  \"report\": \"地震致山地道路严重开裂，暂未发现建筑或人员受损，需尽快开展道路抢修工作。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因地震出现大面积裂缝，护栏紧邻道路，山体与道路相邻，道路处于山地环境中",
+      "report": "地震致山地道路严重开裂，暂未发现建筑或人员受损，需尽快开展道路抢修工作。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.020659923553467,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_628",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的多层建筑处于画面中心，浓烟从建筑顶部和侧面升腾，建筑周围分布着废墟，远处可见其他受损建筑\",\n  \"report\": \"一栋多层建筑发生严重火灾，火焰与浓烟笼罩建筑，周围有废墟，建筑受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的多层建筑处于画面中心，浓烟从建筑顶部和侧面升腾，建筑周围分布着废墟，远处可见其他受损建筑",
+      "report": "一栋多层建筑发生严重火灾，火焰与浓烟笼罩建筑，周围有废墟，建筑受损严重",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 10.47105073928833,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1325",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"树木因强风出现折断、倒伏，与周围植被形成受损关联，背景山体受风力影响\",\n  \"report\": \"风灾致区域树木折断倒伏，无建筑或人员受损，需关注后续植被恢复与生态影响\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "树木因强风出现折断、倒伏，与周围植被形成受损关联，背景山体受风力影响",
+      "report": "风灾致区域树木折断倒伏，无建筑或人员受损，需关注后续植被恢复与生态影响",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 10.489519357681274,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_984",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木与树枝散落在楼梯及地面，楼梯两侧设有金属栏杆，树木与树枝覆盖楼梯，阻碍通行\",\n  \"report\": \"风灾致树木倒伏，树枝散落楼梯，阻碍通行，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的树木与树枝散落在楼梯及地面，楼梯两侧设有金属栏杆，树木与树枝覆盖楼梯，阻碍通行",
+      "report": "风灾致树木倒伏，树枝散落楼梯，阻碍通行，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 10.53056001663208,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_83",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑严重受损\",\n  \"object_relations\": \"坍塌建筑与救援人员、起重机等设备相邻，救援人员在废墟中开展行动\",\n  \"report\": \"地震致多栋建筑坍塌，救援人员在废墟中作业，现场救援紧张有序\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋建筑严重受损",
+      "object_relations": "坍塌建筑与救援人员、起重机等设备相邻，救援人员在废墟中开展行动",
+      "report": "地震致多栋建筑坍塌，救援人员在废墟中作业，现场救援紧张有序",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.477773189544678,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_944",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两栋房屋屋顶严重损毁，周围有树木、草坪等植被，房屋与植被相邻，受损建筑处于草坪区域\",\n  \"report\": \"风灾致两栋房屋屋顶损毁，周边植被受影响，需紧急评估救援\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 2,
+      "object_relations": "两栋房屋屋顶严重损毁，周围有树木、草坪等植被，房屋与植被相邻，受损建筑处于草坪区域",
+      "report": "风灾致两栋房屋屋顶损毁，周边植被受影响，需紧急评估救援",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.928407192230225,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1313",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树与周围植被、草地相邻，部分树枝散落，背景有建筑物\",\n  \"report\": \"强风致大树倒伏，周边植被受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树与周围植被、草地相邻，部分树枝散落，背景有建筑物",
+      "report": "强风致大树倒伏，周边植被受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.259952545166016,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_392",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭燃烧的火焰，火焰为灾害源，消防员为救援主体，二者形成对抗关系\",\n  \"report\": \"野外发生火灾，消防员现场扑救，暂未发现建筑或人员受损，灾情正在处置中。\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员正在扑灭燃烧的火焰，火焰为灾害源，消防员为救援主体，二者形成对抗关系",
+      "report": "野外发生火灾，消防员现场扑救，暂未发现建筑或人员受损，灾情正在处置中。",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 9.70765471458435,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_623",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的房屋与消防水柱形成灭火关系，火焰吞噬建筑结构，周围有植被和道路\",\n  \"report\": \"火灾致一栋房屋被大火吞噬，消防水柱正在扑救，建筑受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的房屋与消防水柱形成灭火关系，火焰吞噬建筑结构，周围有植被和道路",
+      "report": "火灾致一栋房屋被大火吞噬，消防水柱正在扑救，建筑受损严重",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.964780569076538,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_506",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟中协作救援被包裹的伤员\",\n  \"report\": \"地震引发建筑坍塌，救援人员在废墟中成功救出伤员，现场救援工作紧张进行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1",
+      "object_relations": "救援人员在坍塌建筑废墟中协作救援被包裹的伤员",
+      "report": "地震引发建筑坍塌，救援人员在废墟中成功救出伤员，现场救援工作紧张进行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.98140549659729,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_38",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数百栋）\",\n  \"object_relations\": \"洪水淹没居民区，房屋、车辆被水覆盖，树木散布于洪水中，车辆在洪水中行驶\",\n  \"report\": \"该区域遭受洪水侵袭，大量房屋被淹，街道积水，车辆受困，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数百栋）",
+      "object_relations": "洪水淹没居民区，房屋、车辆被水覆盖，树木散布于洪水中，车辆在洪水中行驶",
+      "report": "该区域遭受洪水侵袭，大量房屋被淹，街道积水，车辆受困，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.17216944694519,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_467",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑及1辆车辆受损\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟旁开展救援作业，建筑坍塌物与车辆相邻，救援人员与废墟、车辆存在互动\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中作业，1栋建筑及1辆车辆受损，现场救援紧张有序\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑及1辆车辆受损",
+      "object_relations": "救援人员在坍塌建筑废墟旁开展救援作业，建筑坍塌物与车辆相邻，救援人员与废墟、车辆存在互动",
+      "report": "地震致建筑坍塌，救援人员在废墟中作业，1栋建筑及1辆车辆受损，现场救援紧张有序",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 11.686654806137085,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1149",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋建筑受损，人员受困\",\n  \"object_relations\": \"街道被洪水淹没，建筑周边散落杂物，行人处于灾后环境中\",\n  \"report\": \"洪水侵袭街道，多栋建筑受损，行人受困，街道被杂物与积水覆盖，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋建筑受损，人员受困",
+      "object_relations": "街道被洪水淹没，建筑周边散落杂物，行人处于灾后环境中",
+      "report": "洪水侵袭街道，多栋建筑受损，行人受困，街道被杂物与积水覆盖，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.92975926399231,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1179",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树压在人行道上，树根裸露，周围草地受影响，远处有车辆和建筑物\",\n  \"report\": \"强风致大树倒伏压毁人行道，周边草地受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树压在人行道上，树根裸露，周围草地受影响，远处有车辆和建筑物",
+      "report": "强风致大树倒伏压毁人行道，周边草地受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 11.350607872009277,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1263",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木与散落的树枝阻塞道路，骑行者在受损道路上行驶，树木与道路、骑行者形成空间上的阻碍关系\",\n  \"report\": \"强风致树木倒伏阻塞道路，骑行者绕行，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的树木与散落的树枝阻塞道路，骑行者在受损道路上行驶，树木与道路、骑行者形成空间上的阻碍关系",
+      "report": "强风致树木倒伏阻塞道路，骑行者绕行，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 11.672203540802002,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_301",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路出现大面积裂缝，裂缝与道路表面分离，道路位于堤坝旁，背景有水域\",\n  \"report\": \"地震致道路严重开裂，无建筑损毁，需关注周边设施安全\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路出现大面积裂缝，裂缝与道路表面分离，道路位于堤坝旁，背景有水域",
+      "report": "地震致道路严重开裂，无建筑损毁，需关注周边设施安全",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.054138660430908,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1136",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡产生的大量泥土、岩石滑落至山谷，与周围森林形成空间上的覆盖与破坏关系\",\n  \"report\": \"山谷发生山体滑坡，大量泥土岩石滑落，周边森林受影响，暂未发现建筑或人员损毁。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡产生的大量泥土、岩石滑落至山谷，与周围森林形成空间上的覆盖与破坏关系",
+      "report": "山谷发生山体滑坡，大量泥土岩石滑落，周边森林受影响，暂未发现建筑或人员损毁。",
+      "disaster_type_original": "山体滑坡"
+    },
+    "inference_time": 12.01357913017273,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1167",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"滑坡体（泥土、植被）覆盖区域，人员在滑坡体旁观察，无人机在滑坡体上方执行监测任务\",\n  \"report\": \"山体滑坡发生，滑坡体覆盖区域，人员现场查看，无人机监测灾情，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "滑坡体（泥土、植被）覆盖区域，人员在滑坡体旁观察，无人机在滑坡体上方执行监测任务",
+      "report": "山体滑坡发生，滑坡体覆盖区域，人员现场查看，无人机监测灾情，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 13.51325798034668,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1203",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树位于画面中央，周围有其他树木，树根裸露，与地面及周边植被形成空间上的覆盖与破坏关系\",\n  \"report\": \"强风致大树倒伏，周边树木受影响，暂未发现建筑或人员受损，需关注后续植被恢复情况\",\n  \"disaster_type_original\": \"风灾（台风/强风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树位于画面中央，周围有其他树木，树根裸露，与地面及周边植被形成空间上的覆盖与破坏关系",
+      "report": "强风致大树倒伏，周边树木受影响，暂未发现建筑或人员受损，需关注后续植被恢复情况",
+      "disaster_type_original": "风灾（台风/强风）"
+    },
+    "inference_time": 11.86819577217102,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_461",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑严重损毁\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟中开展搜救作业，建筑结构损毁严重，周围散落建筑材料\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟搜救，1栋建筑严重损毁，现场废墟遍地。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑严重损毁",
+      "object_relations": "救援人员在坍塌建筑废墟中开展搜救作业，建筑结构损毁严重，周围散落建筑材料",
+      "report": "地震致建筑坍塌，救援人员在废墟搜救，1栋建筑严重损毁，现场废墟遍地。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.55032730102539,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_450",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"2栋建筑严重损毁\",\n  \"object_relations\": \"救援人员（穿橙色制服、戴安全帽）在坍塌建筑废墟中开展救援工作，背景可见未完全坍塌的建筑\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中作业，2栋建筑严重损毁，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "2栋建筑严重损毁",
+      "object_relations": "救援人员（穿橙色制服、戴安全帽）在坍塌建筑废墟中开展救援工作，背景可见未完全坍塌的建筑",
+      "report": "地震致建筑坍塌，救援人员在废墟中作业，2栋建筑严重损毁，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 12.438838005065918,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_387",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭燃烧的森林火灾，火焰与烟雾是灾害源，消防员为救援主体，二者形成对抗关系\",\n  \"report\": \"森林火灾肆虐，消防员奋力扑救，火焰与烟雾笼罩林区，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员正在扑灭燃烧的森林火灾，火焰与烟雾是灾害源，消防员为救援主体，二者形成对抗关系",
+      "report": "森林火灾肆虐，消防员奋力扑救，火焰与烟雾笼罩林区，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 10.949426889419556,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1069",
+    "ground_truth": "earthquake",
+    "prediction": "other",
+    "raw_output": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"人物在受损建筑周边的道路上行走，周围散布碎石、倒伏树木，建筑呈现损毁状态\",\n  \"report\": \"该区域发生灾害致多栋建筑损毁，道路旁碎石遍地、树木倒伏，人物在受损建筑周边活动，灾情明显。\",\n  \"disaster_type_original\": \"灾害类型为其他（非洪水、地震、火灾、泥石流等特定灾害）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "other",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "人物在受损建筑周边的道路上行走，周围散布碎石、倒伏树木，建筑呈现损毁状态",
+      "report": "该区域发生灾害致多栋建筑损毁，道路旁碎石遍地、树木倒伏，人物在受损建筑周边活动，灾情明显。",
+      "disaster_type_original": "灾害类型为其他（非洪水、地震、火灾、泥石流等特定灾害）"
+    },
+    "inference_time": 14.500470161437988,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_443",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路被山体滑坡产生的岩石、泥土掩埋或冲毁，道路与滑坡体形成破坏关系\",\n  \"report\": \"山体滑坡导致多条道路损毁，滑坡体掩埋或冲毁道路，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"山体滑坡\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路被山体滑坡产生的岩石、泥土掩埋或冲毁，道路与滑坡体形成破坏关系",
+      "report": "山体滑坡导致多条道路损毁，滑坡体掩埋或冲毁道路，暂未发现建筑或人员受损",
+      "disaster_type_original": "山体滑坡"
+    },
+    "inference_time": 9.523609638214111,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_600",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的高层建筑位于城市中心，周围有其他建筑、电线杆及树木，处于雨夜环境中\",\n  \"report\": \"城市中心一栋高层建筑发生火灾，建筑燃烧，周围建筑受雨夜影响，灾情紧急\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的高层建筑位于城市中心，周围有其他建筑、电线杆及树木，处于雨夜环境中",
+      "report": "城市中心一栋高层建筑发生火灾，建筑燃烧，周围建筑受雨夜影响，灾情紧急",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.246281862258911,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_442",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，警示带与交通锥用于隔离危险区域，周围为山地森林环境\",\n  \"report\": \"山体滑坡导致道路坍塌，警示带与交通锥隔离，周边森林受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因山体滑坡坍塌，警示带与交通锥用于隔离危险区域，周围为山地森林环境",
+      "report": "山体滑坡导致道路坍塌，警示带与交通锥隔离，周边森林受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.404097080230713,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_865",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"黑色SUV被洪水淹没的泥沙包围，工作人员在洪水区域附近查看，周围有树木和木栅栏\",\n  \"report\": \"洪水致道路被泥沙淹没，一辆SUV受困，工作人员现场查看灾情，周边环境受影响\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "黑色SUV被洪水淹没的泥沙包围，工作人员在洪水区域附近查看，周围有树木和木栅栏",
+      "report": "洪水致道路被泥沙淹没，一辆SUV受困，工作人员现场查看灾情，周边环境受影响",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.37581205368042,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_591",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑受损，人员受困\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟中开展搜救作业，周围是倒塌的建筑结构\",\n  \"report\": \"地震引发建筑坍塌，救援人员在废墟中搜救，多栋建筑受损，人员受困，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋建筑受损，人员受困",
+      "object_relations": "救援人员在坍塌建筑废墟中开展搜救作业，周围是倒塌的建筑结构",
+      "report": "地震引发建筑坍塌，救援人员在废墟中搜救，多栋建筑受损，人员受困，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.772384643554688,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_787",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"约20栋建筑受损\",\n  \"object_relations\": \"建筑物屋顶、墙体受损，树木倒伏，道路有 debris，水域旁建筑受影响，建筑与树木、道路、水域相邻，灾害导致建筑与周边环境受损\",\n  \"report\": \"飓风过境致沿海住宅区建筑受损，屋顶坍塌、树木倒伏，道路 debris，水域旁建筑受影响，灾情严重。\",\n  \"disaster_type_original\": \"飓风（台风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": "约20栋建筑受损",
+      "object_relations": "建筑物屋顶、墙体受损，树木倒伏，道路有 debris，水域旁建筑受影响，建筑与树木、道路、水域相邻，灾害导致建筑与周边环境受损",
+      "report": "飓风过境致沿海住宅区建筑受损，屋顶坍塌、树木倒伏，道路 debris，水域旁建筑受影响，灾情严重。",
+      "disaster_type_original": "飓风（台风）"
+    },
+    "inference_time": 11.86203145980835,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_155",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数百栋）\",\n  \"object_relations\": \"洪水淹没居民区，建筑物被水覆盖，道路被水阻断，周边农田受洪水影响\",\n  \"report\": \"洪水灾害致居民区大面积被淹，大量建筑受损，道路阻断，周边农田受波及，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数百栋）",
+      "object_relations": "洪水淹没居民区，建筑物被水覆盖，道路被水阻断，周边农田受洪水影响",
+      "report": "洪水灾害致居民区大面积被淹，大量建筑受损，道路阻断，周边农田受波及，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.288161993026733,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_580",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两栋高层建筑被火焰和浓烟包围，处于燃烧状态，周围建筑受波及\",\n  \"report\": \"两栋高层建筑发生严重火灾，火焰与浓烟笼罩，周边建筑受影响，灾情紧急\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 2,
+      "object_relations": "两栋高层建筑被火焰和浓烟包围，处于燃烧状态，周围建筑受波及",
+      "report": "两栋高层建筑发生严重火灾，火焰与浓烟笼罩，周边建筑受影响，灾情紧急",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.2311110496521,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_610",
+    "ground_truth": "other",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"多辆汽车在雨雾笼罩的道路上行驶，道路被积水覆盖，车辆与道路、雨雾环境存在依赖关系\",\n  \"report\": \"道路被积水覆盖，多辆汽车在雨雾中行驶，暂未发现建筑损毁或人员伤亡，属交通受阻类灾害。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "多辆汽车在雨雾笼罩的道路上行驶，道路被积水覆盖，车辆与道路、雨雾环境存在依赖关系",
+      "report": "道路被积水覆盖，多辆汽车在雨雾中行驶，暂未发现建筑损毁或人员伤亡，属交通受阻类灾害。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.961179733276367,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_347",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"街道被洪水淹没，多辆汽车被困于洪水中，两侧为建筑物，树木沿街道分布\",\n  \"report\": \"城市街道遭洪水淹没，多辆汽车被困，暂未发现建筑或人员受损，需关注后续情况\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "街道被洪水淹没，多辆汽车被困于洪水中，两侧为建筑物，树木沿街道分布",
+      "report": "城市街道遭洪水淹没，多辆汽车被困，暂未发现建筑或人员受损，需关注后续情况",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.790858507156372,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_351",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现大面积裂缝，裂缝为道路受损的表现，道路与裂缝存在破坏关系\",\n  \"report\": \"地震致道路严重开裂，基础设施受损，暂未发现建筑或人员伤亡。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因灾害出现大面积裂缝，裂缝为道路受损的表现，道路与裂缝存在破坏关系",
+      "report": "地震致道路严重开裂，基础设施受损，暂未发现建筑或人员伤亡。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 7.93294620513916,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_543",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的多层建筑处于画面中心，周围分布着其他建筑，火焰与浓烟笼罩该建筑，建筑周边有坍塌废墟\",\n  \"report\": \"火灾致一栋多层建筑严重损毁，火焰与浓烟笼罩，周边建筑受波及，灾情紧急\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的多层建筑处于画面中心，周围分布着其他建筑，火焰与浓烟笼罩该建筑，建筑周边有坍塌废墟",
+      "report": "火灾致一栋多层建筑严重损毁，火焰与浓烟笼罩，周边建筑受波及，灾情紧急",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.610507249832153,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_32",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倾斜的多层建筑与周围建筑、街道、施工设备相邻，建筑结构受损，街道有废墟堆积\",\n  \"report\": \"地震致一栋多层建筑严重倾斜损毁，周边建筑及街道受影响，现场有废墟堆积\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "倾斜的多层建筑与周围建筑、街道、施工设备相邻，建筑结构受损，街道有废墟堆积",
+      "report": "地震致一栋多层建筑严重倾斜损毁，周边建筑及街道受影响，现场有废墟堆积",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.847513914108276,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1087",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数百栋）\",\n  \"object_relations\": \"洪水淹没居民区道路，建筑被水浸泡，部分建筑损毁，远处有烟雾升起\",\n  \"report\": \"洪水灾害致居民区大面积被淹，大量建筑损毁，道路积水，远处有烟雾，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数百栋）",
+      "object_relations": "洪水淹没居民区道路，建筑被水浸泡，部分建筑损毁，远处有烟雾升起",
+      "report": "洪水灾害致居民区大面积被淹，大量建筑损毁，道路积水，远处有烟雾，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.457929611206055,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_364",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现大面积裂缝，裂缝贯穿路面，影响道路通行功能，周边植被、路灯等设施未明显受损\",\n  \"report\": \"地震致道路严重开裂，通行受阻，周边设施暂未明显损毁，需尽快修复道路保障通行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因灾害出现大面积裂缝，裂缝贯穿路面，影响道路通行功能，周边植被、路灯等设施未明显受损",
+      "report": "地震致道路严重开裂，通行受阻，周边设施暂未明显损毁，需尽快修复道路保障通行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.251393795013428,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_968",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"木质屋顶框架与瓦片分离，框架暴露，瓦片散落，显示屋顶结构受损\",\n  \"report\": \"风灾致房屋屋顶木质框架暴露、瓦片散落，1栋建筑受损，需紧急修缮。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "木质屋顶框架与瓦片分离，框架暴露，瓦片散落，显示屋顶结构受损",
+      "report": "风灾致房屋屋顶木质框架暴露、瓦片散落，1栋建筑受损，需紧急修缮。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.891342878341675,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_914",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10栋建筑受损\",\n  \"object_relations\": \"建筑物位于洪水淹没区域，通过木栈道与周边水域连接，建筑与水域、栈道形成水上空间，人员在栈道上活动\",\n  \"report\": \"洪水淹没区域，多栋建筑受损，人员在栈道上活动，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约10栋建筑受损",
+      "object_relations": "建筑物位于洪水淹没区域，通过木栈道与周边水域连接，建筑与水域、栈道形成水上空间，人员在栈道上活动",
+      "report": "洪水淹没区域，多栋建筑受损，人员在栈道上活动，灾情严重",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 14.110682249069214,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_548",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物顶部发生火灾，产生大量浓烟，浓烟笼罩建筑上部区域\",\n  \"report\": \"一栋建筑顶部发生火灾，浓烟滚滚，建筑受损，需紧急处置\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物顶部发生火灾，产生大量浓烟，浓烟笼罩建筑上部区域",
+      "report": "一栋建筑顶部发生火灾，浓烟滚滚，建筑受损，需紧急处置",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.494633913040161,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_18",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌建筑与周边建筑相邻，坍塌建筑的结构破坏导致其与周边建筑形成空间上的破坏关联\",\n  \"report\": \"地震致一栋建筑严重坍塌，周边建筑受影响，灾情显著。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "坍塌建筑与周边建筑相邻，坍塌建筑的结构破坏导致其与周边建筑形成空间上的破坏关联",
+      "report": "地震致一栋建筑严重坍塌，周边建筑受影响，灾情显著。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.02186107635498,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_375",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被洪水淹没，墙体坍塌，内部结构暴露，周围散落建筑碎片\",\n  \"report\": \"洪水侵袭导致一栋建筑严重损毁，墙体坍塌，内部结构暴露，周边环境受破坏\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "建筑物被洪水淹没，墙体坍塌，内部结构暴露，周围散落建筑碎片",
+      "report": "洪水侵袭导致一栋建筑严重损毁，墙体坍塌，内部结构暴露，周边环境受破坏",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.297903060913086,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_339",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路出现大裂缝，白色汽车停在道路旁，背景为干旱沙漠环境\",\n  \"report\": \"地震致道路严重开裂，无建筑损毁，汽车停靠旁，沙漠环境显示灾害影响区域\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路出现大裂缝，白色汽车停在道路旁，背景为干旱沙漠环境",
+      "report": "地震致道路严重开裂，无建筑损毁，汽车停靠旁，沙漠环境显示灾害影响区域",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.389126062393188,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_526",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的建筑与浓烟相邻，建筑处于火灾影响范围内\",\n  \"report\": \"火灾致一栋建筑受损，浓烟弥漫，灾情紧急需处置\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的建筑与浓烟相邻，建筑处于火灾影响范围内",
+      "report": "火灾致一栋建筑受损，浓烟弥漫，灾情紧急需处置",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.634811639785767,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_620",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"高层建筑被火焰和浓烟包围，处于燃烧状态，周围有少量观察者\",\n  \"report\": \"高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "高层建筑被火焰和浓烟包围，处于燃烧状态，周围有少量观察者",
+      "report": "高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 10.390997648239136,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_55",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌建筑位于道路旁，周围有其他受损建筑，建筑碎片散落道路及周边区域\",\n  \"report\": \"地震致建筑严重坍塌，道路旁建筑损毁，周边建筑受影响，灾情显著。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "坍塌建筑位于道路旁，周围有其他受损建筑，建筑碎片散落道路及周边区域",
+      "report": "地震致建筑严重坍塌，道路旁建筑损毁，周边建筑受影响，灾情显著。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.015312910079956,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1251",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约5栋建筑受损\",\n  \"object_relations\": \"泥石流携带泥沙、碎石冲毁部分房屋，周边农田与居民区受波及，救援车辆正在现场作业\",\n  \"report\": \"山区发生泥石流，冲毁多栋房屋，周边农田及居民区受影响，救援力量已抵达现场处置。\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约5栋建筑受损",
+      "object_relations": "泥石流携带泥沙、碎石冲毁部分房屋，周边农田与居民区受波及，救援车辆正在现场作业",
+      "report": "山区发生泥石流，冲毁多栋房屋，周边农田及居民区受影响，救援力量已抵达现场处置。",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 10.676180362701416,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1196",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约50人\",\n  \"object_relations\": \"洪水淹没区域，人群分散在水中，船只在洪水中活动，周围有建筑物和植被\",\n  \"report\": \"洪水灾害致区域被淹，约50人涉水，船只在洪水中，周边建筑与植被受影响，需关注救援与灾情。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约50人",
+      "object_relations": "洪水淹没区域，人群分散在水中，船只在洪水中活动，周围有建筑物和植被",
+      "report": "洪水灾害致区域被淹，约50人涉水，船只在洪水中，周边建筑与植被受影响，需关注救援与灾情。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.683212518692017,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_505",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"三角形“洪水”警示牌位于洪水淹没的道路上，背景中有人在涉水，道路被洪水覆盖\",\n  \"report\": \"洪水灾害致道路被淹，警示牌提示危险，暂未发现建筑损毁或人员伤亡\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "三角形“洪水”警示牌位于洪水淹没的道路上，背景中有人在涉水，道路被洪水覆盖",
+      "report": "洪水灾害致道路被淹，警示牌提示危险，暂未发现建筑损毁或人员伤亡",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.770771503448486,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_972",
+    "ground_truth": "flood",
+    "prediction": "other",
+    "raw_output": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": 1,\n  \"object_relations\": \"中国银行（BANCO DA CHINA）建筑前堆放大量杂物，周围有行人、垃圾桶等，杂物与建筑相邻，呈现混乱状态\",\n  \"report\": \"中国银行前区域被杂物堆积，建筑受损，行人清理，灾情混乱\",\n  \"disaster_type_original\": \"other\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "other",
+      "damage_count": 1,
+      "object_relations": "中国银行（BANCO DA CHINA）建筑前堆放大量杂物，周围有行人、垃圾桶等，杂物与建筑相邻，呈现混乱状态",
+      "report": "中国银行前区域被杂物堆积，建筑受损，行人清理，灾情混乱",
+      "disaster_type_original": "other"
+    },
+    "inference_time": 8.925048112869263,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1256",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树横置于道路旁，周围分布着其他树木，部分树木因强风倒伏或折断\",\n  \"report\": \"强风致大树倒伏阻塞道路，周边树木受损，暂未发现建筑或人员损毁。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树横置于道路旁，周围分布着其他树木，部分树木因强风倒伏或折断",
+      "report": "强风致大树倒伏阻塞道路，周边树木受损，暂未发现建筑或人员损毁。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.178808212280273,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_278",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋（约5 - 8栋）建筑受损\",\n  \"object_relations\": \"洪水淹没区域，多栋建筑被洪水浸泡、损毁，建筑与洪水直接接触，周围有植被、温室等附属设施\",\n  \"report\": \"洪水灾害致区域多栋建筑损毁，洪水淹没地面，建筑被浸泡破坏，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋（约5 - 8栋）建筑受损",
+      "object_relations": "洪水淹没区域，多栋建筑被洪水浸泡、损毁，建筑与洪水直接接触，周围有植被、温室等附属设施",
+      "report": "洪水灾害致区域多栋建筑损毁，洪水淹没地面，建筑被浸泡破坏，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.696793794631958,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_712",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"洪水淹没区域，倒伏树木与受损建筑相邻，车辆被洪水及杂物包围\",\n  \"report\": \"洪水灾害致区域被淹，1栋建筑损毁，树木倒伏，车辆受困，灾情严重。\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "洪水淹没区域，倒伏树木与受损建筑相邻，车辆被洪水及杂物包围",
+      "report": "洪水灾害致区域被淹，1栋建筑损毁，树木倒伏，车辆受困，灾情严重。",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 8.360428094863892,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_666",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 2,\n  \"object_relations\": \"山体滑坡导致房屋被掩埋或损毁，滑坡体与房屋相邻，植被分布于滑坡区域及周边\",\n  \"report\": \"山体滑坡致2栋房屋受损，滑坡体掩埋房屋，周边植被受影响，需紧急处置。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 2,
+      "object_relations": "山体滑坡导致房屋被掩埋或损毁，滑坡体与房屋相邻，植被分布于滑坡区域及周边",
+      "report": "山体滑坡致2栋房屋受损，滑坡体掩埋房屋，周边植被受影响，需紧急处置。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.359673500061035,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_755",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多处（约5 - 10人受困，建筑/车辆受损）\",\n  \"object_relations\": \"洪水淹没区域，人员在洪水中活动，卡车、挖掘机等设备被洪水包围，建筑物处于被淹状态\",\n  \"report\": \"洪水灾害致区域被淹，多人员受困，车辆、建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多处（约5 - 10人受困，建筑/车辆受损）",
+      "object_relations": "洪水淹没区域，人员在洪水中活动，卡车、挖掘机等设备被洪水包围，建筑物处于被淹状态",
+      "report": "洪水灾害致区域被淹，多人员受困，车辆、建筑受损，需紧急救援",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.252180337905884,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1206",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋建筑及人员受淹\",\n  \"object_relations\": \"洪水淹没街道，行人、摩托车等在洪水中活动，树木被洪水冲倒\",\n  \"report\": \"洪水灾害致街道被淹，多栋建筑及人员受困，行人、摩托车在洪水中通行，树木被冲倒，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋建筑及人员受淹",
+      "object_relations": "洪水淹没街道，行人、摩托车等在洪水中活动，树木被洪水冲倒",
+      "report": "洪水灾害致街道被淹，多栋建筑及人员受困，行人、摩托车在洪水中通行，树木被冲倒，灾情严重",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.706849098205566,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_577",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"大量（约数十栋建筑损毁，人员伤亡众多）\",\n  \"object_relations\": \"救援人员（穿橙色、黄色等反光衣）在坍塌建筑废墟中开展救援行动，周围散布着建筑碎片与废墟\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中紧急搜救，灾情严重，需全力开展救援工作。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "大量（约数十栋建筑损毁，人员伤亡众多）",
+      "object_relations": "救援人员（穿橙色、黄色等反光衣）在坍塌建筑废墟中开展救援行动，周围散布着建筑碎片与废墟",
+      "report": "地震致建筑坍塌，救援人员在废墟中紧急搜救，灾情严重，需全力开展救援工作。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.946058511734009,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_568",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑严重损毁\",\n  \"object_relations\": \"两名穿橙色制服、戴安全帽的救援人员在坍塌建筑废墟中，周围是建筑碎片与倒塌结构\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中开展搜救，1栋建筑严重损毁，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑严重损毁",
+      "object_relations": "两名穿橙色制服、戴安全帽的救援人员在坍塌建筑废墟中，周围是建筑碎片与倒塌结构",
+      "report": "地震致建筑坍塌，救援人员在废墟中开展搜救，1栋建筑严重损毁，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.824872732162476,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_686",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"1栋建筑\",\n  \"object_relations\": \"救援人员（含消防员、平民）在滑坡区域及受损建筑旁开展救援行动，滑坡土体与建筑相邻，人员协作开展救援\",\n  \"report\": \"滑坡灾害致建筑受损，救援人员现场处置，滑坡土体与建筑相邻，需防范次生风险\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "1栋建筑",
+      "object_relations": "救援人员（含消防员、平民）在滑坡区域及受损建筑旁开展救援行动，滑坡土体与建筑相邻，人员协作开展救援",
+      "report": "滑坡灾害致建筑受损，救援人员现场处置，滑坡土体与建筑相邻，需防范次生风险",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 10.485292911529541,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_358",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"地面出现大面积裂缝，裂缝为地震引发的地表变形表现\",\n  \"report\": \"地震致地面出现大面积裂缝，暂未发现建筑损毁或人员伤亡，需进一步排查。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "地面出现大面积裂缝，裂缝为地震引发的地表变形表现",
+      "report": "地震致地面出现大面积裂缝，暂未发现建筑损毁或人员伤亡，需进一步排查。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 7.670355319976807,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_497",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路被泥石流（或山体滑坡）产生的泥沙、碎石掩埋，周围植被受破坏，道路与灾害体（泥石流/滑坡）直接关联\",\n  \"report\": \"山区道路遭泥石流/山体滑坡掩埋，无建筑损毁，需紧急清理以恢复通行\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路被泥石流（或山体滑坡）产生的泥沙、碎石掩埋，周围植被受破坏，道路与灾害体（泥石流/滑坡）直接关联",
+      "report": "山区道路遭泥石流/山体滑坡掩埋，无建筑损毁，需紧急清理以恢复通行",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 11.07360291481018,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_418",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑严重损毁\",\n  \"object_relations\": \"消防员（救援人员）位于坍塌建筑旁，周围是建筑废墟，建筑处于严重损毁状态\",\n  \"report\": \"地震致建筑坍塌，消防员现场处置，1栋建筑严重损毁，需紧急救援。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑严重损毁",
+      "object_relations": "消防员（救援人员）位于坍塌建筑旁，周围是建筑废墟，建筑处于严重损毁状态",
+      "report": "地震致建筑坍塌，消防员现场处置，1栋建筑严重损毁，需紧急救援。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.916321277618408,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_941",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋屋顶严重损毁，木质结构散落，周围有树木，树木可能与灾害有关\",\n  \"report\": \"风灾致房屋屋顶严重损毁，木质结构散落，周边树木受影响，需紧急评估修复。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "房屋屋顶严重损毁，木质结构散落，周围有树木，树木可能与灾害有关",
+      "report": "风灾致房屋屋顶严重损毁，木质结构散落，周边树木受影响，需紧急评估修复。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 10.707759380340576,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_886",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倒伏的树木压在房屋上，周围停放着车辆，树木与房屋、车辆存在遮挡与受损关系\",\n  \"report\": \"强风致树木倒塌压毁房屋，周边车辆受树木影响，灾情显著。\",\n  \"disaster_type_original\": \"风灾（强风/台风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "倒伏的树木压在房屋上，周围停放着车辆，树木与房屋、车辆存在遮挡与受损关系",
+      "report": "强风致树木倒塌压毁房屋，周边车辆受树木影响，灾情显著。",
+      "disaster_type_original": "风灾（强风/台风）"
+    },
+    "inference_time": 11.779556512832642,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_592",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"消防车正在扑救燃烧的高层建筑，消防员在建筑周边开展救援行动\",\n  \"report\": \"高层建筑突发火灾，消防力量现场扑救，建筑受损，需紧急处置\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "消防车正在扑救燃烧的高层建筑，消防员在建筑周边开展救援行动",
+      "report": "高层建筑突发火灾，消防力量现场扑救，建筑受损，需紧急处置",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.2656409740448,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_316",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震出现多条裂缝，裂缝间填充泥土，道路被划分为不同区域，用蓝线和旗帜隔离，周围有草地和树木\",\n  \"report\": \"地震致道路严重开裂，裂缝遍布，暂未发现建筑或人员受损，需尽快修复道路保障通行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因地震出现多条裂缝，裂缝间填充泥土，道路被划分为不同区域，用蓝线和旗帜隔离，周围有草地和树木",
+      "report": "地震致道路严重开裂，裂缝遍布，暂未发现建筑或人员受损，需尽快修复道路保障通行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.304214000701904,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_586",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"高层建筑被火焰和浓烟包围，处于燃烧状态，周围有其他建筑\",\n  \"report\": \"高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "高层建筑被火焰和浓烟包围，处于燃烧状态，周围有其他建筑",
+      "report": "高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.666723728179932,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_262",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被洪水淹没，水流从建筑外墙喷出，周围积水覆盖区域\",\n  \"report\": \"洪水侵袭沿海建筑，1栋建筑受损，水流从外墙喷出，周边积水严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "建筑物被洪水淹没，水流从建筑外墙喷出，周围积水覆盖区域",
+      "report": "洪水侵袭沿海建筑，1栋建筑受损，水流从外墙喷出，周边积水严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.628273248672485,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_467",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋（约5 - 10栋）\",\n  \"object_relations\": \"洪水淹没街道，两侧房屋被水浸泡，树木倒伏，街道及房屋被积水覆盖\",\n  \"report\": \"洪水灾害致街道及两侧多栋房屋被淹，树木倒伏，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋（约5 - 10栋）",
+      "object_relations": "洪水淹没街道，两侧房屋被水浸泡，树木倒伏，街道及房屋被积水覆盖",
+      "report": "洪水灾害致街道及两侧多栋房屋被淹，树木倒伏，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.688892602920532,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_173",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌的多层建筑为主体，周围有其他未明显受损的建筑，建筑结构因灾害严重损毁\",\n  \"report\": \"地震致一栋多层建筑严重坍塌，结构损毁，周边建筑受影响较小，灾情集中于该建筑。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "坍塌的多层建筑为主体，周围有其他未明显受损的建筑，建筑结构因灾害严重损毁",
+      "report": "地震致一栋多层建筑严重坍塌，结构损毁，周边建筑受影响较小，灾情集中于该建筑。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.43909239768982,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_507",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"滑坡形成的坑洼与周围道路、植被相邻，坑内堆积垃圾，滑坡体破坏道路结构\",\n  \"report\": \"滑坡导致道路损毁，坑内堆积垃圾，周边植被受影响，暂未发现建筑损毁。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "滑坡形成的坑洼与周围道路、植被相邻，坑内堆积垃圾，滑坡体破坏道路结构",
+      "report": "滑坡导致道路损毁，坑内堆积垃圾，周边植被受影响，暂未发现建筑损毁。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.320246458053589,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_323",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"洪水淹没街道，两侧房屋被水围困，车辆浸泡于洪水中，树木分布于街道两侧\",\n  \"report\": \"洪水淹没居民区街道，多栋房屋受淹，车辆浸泡，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "洪水淹没街道，两侧房屋被水围困，车辆浸泡于洪水中，树木分布于街道两侧",
+      "report": "洪水淹没居民区街道，多栋房屋受淹，车辆浸泡，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.702714443206787,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_957",
+    "ground_truth": "other",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火山喷发产生的岩浆与火焰覆盖沿海区域，邻近建筑物被岩浆侵袭，周围植被受波及\",\n  \"report\": \"沿海火山喷发引发岩浆灾害，1栋建筑受损，周边植被与水域受波及，需紧急处置\",\n  \"disaster_type_original\": \"火山喷发（岩浆灾害）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "火山喷发产生的岩浆与火焰覆盖沿海区域，邻近建筑物被岩浆侵袭，周围植被受波及",
+      "report": "沿海火山喷发引发岩浆灾害，1栋建筑受损，周边植被与水域受波及，需紧急处置",
+      "disaster_type_original": "火山喷发（岩浆灾害）"
+    },
+    "inference_time": 9.840806484222412,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_100",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物墙体因灾害出现大面积破损，内部结构暴露，碎片散落于墙体周围\",\n  \"report\": \"地震致建筑墙体严重损毁，内部结构暴露，1栋建筑受损，需紧急评估修复。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "建筑物墙体因灾害出现大面积破损，内部结构暴露，碎片散落于墙体周围",
+      "report": "地震致建筑墙体严重损毁，内部结构暴露，1栋建筑受损，需紧急评估修复。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.114451169967651,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_677",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"1栋建筑受损\",\n  \"object_relations\": \"洪水淹没区域，建筑被水围困，人物在洪水中活动，树木部分浸泡\",\n  \"report\": \"洪水灾害致区域被淹，1栋建筑受损，人物涉水，树木浸泡，灾情严峻。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "1栋建筑受损",
+      "object_relations": "洪水淹没区域，建筑被水围困，人物在洪水中活动，树木部分浸泡",
+      "report": "洪水灾害致区域被淹，1栋建筑受损，人物涉水，树木浸泡，灾情严峻。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.78892707824707,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_713",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"泥石流（洪水）冲刷道路，导致道路被泥浆覆盖，周边树木、房屋受洪水影响\",\n  \"report\": \"洪水引发泥石流，道路被泥浆覆盖，周边建筑受影响，需关注灾情进展\",\n  \"disaster_type_original\": \"洪水（泥石流）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "泥石流（洪水）冲刷道路，导致道路被泥浆覆盖，周边树木、房屋受洪水影响",
+      "report": "洪水引发泥石流，道路被泥浆覆盖，周边建筑受影响，需关注灾情进展",
+      "disaster_type_original": "洪水（泥石流）"
+    },
+    "inference_time": 9.43914532661438,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_267",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员位于画面前景，背景是燃烧的森林，火焰与浓烟笼罩树木，消防员正在应对火灾现场\",\n  \"report\": \"森林火灾爆发，消防员现场处置，火焰与浓烟笼罩树林，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员位于画面前景，背景是燃烧的森林，火焰与浓烟笼罩树木，消防员正在应对火灾现场",
+      "report": "森林火灾爆发，消防员现场处置，火焰与浓烟笼罩树林，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 9.135822534561157,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_507",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"2 - 3栋建筑及多辆车辆受损\",\n  \"object_relations\": \"洪水淹没街道，多辆汽车停于街道，房屋被洪水包围，居民在涉水区域活动\",\n  \"report\": \"洪水侵袭居民区，街道及房屋被淹，多辆汽车受损，居民涉水查看灾情，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "2 - 3栋建筑及多辆车辆受损",
+      "object_relations": "洪水淹没街道，多辆汽车停于街道，房屋被洪水包围，居民在涉水区域活动",
+      "report": "洪水侵袭居民区，街道及房屋被淹，多辆汽车受损，居民涉水查看灾情，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.311950445175171,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_858",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"木质结构（如屋架、阳台）与建筑墙体、屋顶相邻，部分结构因强风出现位移或损坏\",\n  \"report\": \"强风致建筑木质结构受损，1栋建筑受影响，需排查安全隐患。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "木质结构（如屋架、阳台）与建筑墙体、屋顶相邻，部分结构因强风出现位移或损坏",
+      "report": "强风致建筑木质结构受损，1栋建筑受影响，需排查安全隐患。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.043002128601074,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_998",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"燃烧的建筑与周围建筑、植被形成火灾场景，火焰与浓烟笼罩区域，建筑处于被破坏状态\",\n  \"report\": \"火灾致多栋建筑受损，火焰与浓烟笼罩区域，建筑被严重破坏，灾情严重。\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "燃烧的建筑与周围建筑、植被形成火灾场景，火焰与浓烟笼罩区域，建筑处于被破坏状态",
+      "report": "火灾致多栋建筑受损，火焰与浓烟笼罩区域，建筑被严重破坏，灾情严重。",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.198869466781616,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_229",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约20辆车辆受损\",\n  \"object_relations\": \"多辆汽车、共享单车被洪水淹没，交通设施（如交通信号灯、路牌）被水覆盖，人群聚集在积水区域附近\",\n  \"report\": \"城市街道遭洪水侵袭，多辆汽车、共享单车被淹，交通设施受损，人群聚集，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约20辆车辆受损",
+      "object_relations": "多辆汽车、共享单车被洪水淹没，交通设施（如交通信号灯、路牌）被水覆盖，人群聚集在积水区域附近",
+      "report": "城市街道遭洪水侵袭，多辆汽车、共享单车被淹，交通设施受损，人群聚集，灾情严重",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.381778717041016,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_496",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑受损，1人被困\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟中开展搜救，被困人员被埋于废墟中，救援人员使用绳索等装备进行救援\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中搜救被困人员，1栋建筑受损，1人获救\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑受损，1人被困",
+      "object_relations": "救援人员在坍塌建筑废墟中开展搜救，被困人员被埋于废墟中，救援人员使用绳索等装备进行救援",
+      "report": "地震致建筑坍塌，救援人员在废墟中搜救被困人员，1栋建筑受损，1人获救",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.61422848701477,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_585",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，两侧山体与道路相邻，滑坡体破坏道路结构\",\n  \"report\": \"山区道路因山体滑坡坍塌，路面严重损毁，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因山体滑坡坍塌，两侧山体与道路相邻，滑坡体破坏道路结构",
+      "report": "山区道路因山体滑坡坍塌，路面严重损毁，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 8.708608150482178,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_9",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"火焰正在燃烧森林中的树木，树木被火焰包围，周围弥漫着烟雾\",\n  \"report\": \"森林发生火灾，火焰蔓延燃烧树木，烟雾弥漫，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "火焰正在燃烧森林中的树木，树木被火焰包围，周围弥漫着烟雾",
+      "report": "森林发生火灾，火焰蔓延燃烧树木，烟雾弥漫，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 8.061136960983276,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_111",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌建筑与散落的建筑碎片相邻，建筑结构严重损毁，碎片遍布地面\",\n  \"report\": \"地震致一栋建筑严重坍塌，建筑碎片散落，周边环境受影响，需紧急评估救援。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "坍塌建筑与散落的建筑碎片相邻，建筑结构严重损毁，碎片遍布地面",
+      "report": "地震致一栋建筑严重坍塌，建筑碎片散落，周边环境受影响，需紧急评估救援。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.663323402404785,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1260",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约10栋建筑受损\",\n  \"object_relations\": \"救援人员在滑坡后的废墟中开展救援行动，周围分布着受损的房屋与植被，滑坡物质覆盖区域\",\n  \"report\": \"山区发生泥石流，多栋房屋受损，救援人员在废墟中开展救援，灾情严重。\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约10栋建筑受损",
+      "object_relations": "救援人员在滑坡后的废墟中开展救援行动，周围分布着受损的房屋与植被，滑坡物质覆盖区域",
+      "report": "山区发生泥石流，多栋房屋受损，救援人员在废墟中开展救援，灾情严重。",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 10.337221384048462,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_253",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"三名消防员在燃烧的森林中执行灭火任务，周围是被火焰和浓烟笼罩的植被\",\n  \"report\": \"森林火灾现场，三名消防员正在扑救，火焰与浓烟弥漫，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "三名消防员在燃烧的森林中执行灭火任务，周围是被火焰和浓烟笼罩的植被",
+      "report": "森林火灾现场，三名消防员正在扑救，火焰与浓烟弥漫，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 9.368996381759644,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1182",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡导致山体岩石、泥土滑落，与周边森林形成空间上的破坏关系，滑坡区域与道路、建筑物相邻\",\n  \"report\": \"山区发生山体滑坡，滑坡体滑落，周边森林受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡导致山体岩石、泥土滑落，与周边森林形成空间上的破坏关系，滑坡区域与道路、建筑物相邻",
+      "report": "山区发生山体滑坡，滑坡体滑落，周边森林受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 11.216424226760864,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_210",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"红色水桶位于积水区域，积水覆盖地面，周围有建筑结构（柱子、墙壁、窗户等）\",\n  \"report\": \"建筑内发生洪水灾害，地面大面积积水，红色水桶被积水浸泡，暂未发现建筑或人员损毁\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "红色水桶位于积水区域，积水覆盖地面，周围有建筑结构（柱子、墙壁、窗户等）",
+      "report": "建筑内发生洪水灾害，地面大面积积水，红色水桶被积水浸泡，暂未发现建筑或人员损毁",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.657005786895752,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_111",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 10,\n  \"object_relations\": \"洪水淹没区域内，多栋房屋被水围困，树木散布于水域与房屋间，农田被水覆盖\",\n  \"report\": \"洪水灾害致区域被淹，多栋房屋受损，树木与农田被水覆盖，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 10,
+      "object_relations": "洪水淹没区域内，多栋房屋被水围困，树木散布于水域与房屋间，农田被水覆盖",
+      "report": "洪水灾害致区域被淹，多栋房屋受损，树木与农田被水覆盖，灾情严重",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.049262046813965,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1297",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木与背景中的高层建筑相邻，树木因强风倒塌，与建筑形成空间上的影响关系\",\n  \"report\": \"强风致树木倒塌，背景建筑未明显受损，灾情以植被破坏为主\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的树木与背景中的高层建筑相邻，树木因强风倒塌，与建筑形成空间上的影响关系",
+      "report": "强风致树木倒塌，背景建筑未明显受损，灾情以植被破坏为主",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.760016202926636,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_526",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"大量（建筑损毁严重，人员受困）\",\n  \"object_relations\": \"救援人员（含消防、医疗等）协作抬运受伤人员，背景为严重损毁的建筑，体现救援行动与灾情的关联\",\n  \"report\": \"地震致建筑严重损毁，救援人员紧急抬运伤员，灾情紧急需全力处置\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "大量（建筑损毁严重，人员受困）",
+      "object_relations": "救援人员（含消防、医疗等）协作抬运受伤人员，背景为严重损毁的建筑，体现救援行动与灾情的关联",
+      "report": "地震致建筑严重损毁，救援人员紧急抬运伤员，灾情紧急需全力处置",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 11.297645568847656,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1291",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树位于草地，树根裸露，与周围树木形成空间上的遮挡和破坏关系\",\n  \"report\": \"强风致大树倒伏，草地受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树位于草地，树根裸露，与周围树木形成空间上的遮挡和破坏关系",
+      "report": "强风致大树倒伏，草地受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.813007354736328,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_144",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两栋建筑被地震破坏，倒塌的结构与散落的碎片形成破坏后的场景\",\n  \"report\": \"地震致两栋建筑严重损毁，结构倒塌、碎片遍地，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 2,
+      "object_relations": "两栋建筑被地震破坏，倒塌的结构与散落的碎片形成破坏后的场景",
+      "report": "地震致两栋建筑严重损毁，结构倒塌、碎片遍地，灾情严重。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 11.1914644241333,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_770",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"1栋建筑严重损毁\",\n  \"object_relations\": \"穿制服的人员在倒塌建筑旁使用工具测量，周围散落建筑碎片、泥沙，显示建筑坍塌与泥浆环境\",\n  \"report\": \"洪水致建筑倒塌，人员现场测量灾情，周边泥沙、碎片遍布，灾情严重\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "1栋建筑严重损毁",
+      "object_relations": "穿制服的人员在倒塌建筑旁使用工具测量，周围散落建筑碎片、泥沙，显示建筑坍塌与泥浆环境",
+      "report": "洪水致建筑倒塌，人员现场测量灾情，周边泥沙、碎片遍布，灾情严重",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 13.042297840118408,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_634",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的多层建筑处于画面中心，周围分布着坍塌的建筑残骸，火焰与浓烟从建筑内部及外部蔓延\",\n  \"report\": \"火灾致一栋多层建筑严重损毁，火焰与浓烟笼罩，周边建筑残骸散落，灾情严峻\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的多层建筑处于画面中心，周围分布着坍塌的建筑残骸，火焰与浓烟从建筑内部及外部蔓延",
+      "report": "火灾致一栋多层建筑严重损毁，火焰与浓烟笼罩，周边建筑残骸散落，灾情严峻",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 10.670189142227173,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_423",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，警示带与交通锥用于隔离危险区域，周围为山地森林环境\",\n  \"report\": \"山体滑坡导致道路坍塌，警示措施已设置，周边森林受影响，暂未发现建筑或人员受损。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因山体滑坡坍塌，警示带与交通锥用于隔离危险区域，周围为山地森林环境",
+      "report": "山体滑坡导致道路坍塌，警示措施已设置，周边森林受影响，暂未发现建筑或人员受损。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.054869174957275,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_944",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两栋建筑被强风摧毁，周围散落建筑碎片，背景有树木与电线杆，显示灾害发生在居民区\",\n  \"report\": \"风灾致居民区两栋建筑损毁，碎片遍布，背景树木与电线杆受波及，灾情严重。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 2,
+      "object_relations": "两栋建筑被强风摧毁，周围散落建筑碎片，背景有树木与电线杆，显示灾害发生在居民区",
+      "report": "风灾致居民区两栋建筑损毁，碎片遍布，背景树木与电线杆受波及，灾情严重。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.525352478027344,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_69",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"河流在绿色区域（农田、植被）间蜿蜒分布，部分区域被积水覆盖，形成大面积水域，与周边陆地形成水陆交错的景观\",\n  \"report\": \"该区域受洪水影响，河流泛滥导致大面积水域形成，周边农田与植被受淹，暂未发现建筑损毁或人员伤亡。\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "河流在绿色区域（农田、植被）间蜿蜒分布，部分区域被积水覆盖，形成大面积水域，与周边陆地形成水陆交错的景观",
+      "report": "该区域受洪水影响，河流泛滥导致大面积水域形成，周边农田与植被受淹，暂未发现建筑损毁或人员伤亡。",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 10.937457084655762,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_80",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约20栋\",\n  \"object_relations\": \"洪水淹没区域，大量泥沙淤积，建筑物被泥沙掩埋或损毁，洪水与泥沙、建筑物形成破坏关联\",\n  \"report\": \"洪水灾害致区域被泥沙淹没，约20栋建筑损毁，灾情严重。\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约20栋",
+      "object_relations": "洪水淹没区域，大量泥沙淤积，建筑物被泥沙掩埋或损毁，洪水与泥沙、建筑物形成破坏关联",
+      "report": "洪水灾害致区域被泥沙淹没，约20栋建筑损毁，灾情严重。",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 9.563683986663818,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_337",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现大面积裂缝，裂缝导致道路结构破坏，路面出现破损区域\",\n  \"report\": \"地震引发道路严重开裂，路面破损，暂未发现建筑或人员受损，需尽快修复道路保障通行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路表面出现大面积裂缝，裂缝导致道路结构破坏，路面出现破损区域",
+      "report": "地震引发道路严重开裂，路面破损，暂未发现建筑或人员受损，需尽快修复道路保障通行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.67049527168274,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_946",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约5 - 8栋\",\n  \"object_relations\": \"山体滑坡体（泥土、岩石）从山坡滑落，掩埋、损毁下方的多栋房屋，房屋与滑坡体存在被掩埋、破坏的关系\",\n  \"report\": \"山体滑坡致山坡下多栋房屋损毁，滑坡体掩埋破坏建筑，灾情严重。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约5 - 8栋",
+      "object_relations": "山体滑坡体（泥土、岩石）从山坡滑落，掩埋、损毁下方的多栋房屋，房屋与滑坡体存在被掩埋、破坏的关系",
+      "report": "山体滑坡致山坡下多栋房屋损毁，滑坡体掩埋破坏建筑，灾情严重。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 11.132001161575317,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1131",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 1,\n  \"object_relations\": \"山体滑坡产生的土石掩埋道路，道路旁有房屋，房屋与滑坡区域相邻，滑坡体对道路和房屋造成影响\",\n  \"report\": \"山体滑坡致道路损毁，1栋房屋受影响，周边植被受扰动，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 1,
+      "object_relations": "山体滑坡产生的土石掩埋道路，道路旁有房屋，房屋与滑坡区域相邻，滑坡体对道路和房屋造成影响",
+      "report": "山体滑坡致道路损毁，1栋房屋受影响，周边植被受扰动，需关注次生灾害风险。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.837565660476685,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1292",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树横亘于小径，与周围树木形成空间遮挡，影响通行\",\n  \"report\": \"强风致大树倒伏阻塞小径，周边树木受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树横亘于小径，与周围树木形成空间遮挡，影响通行",
+      "report": "强风致大树倒伏阻塞小径，周边树木受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 8.716932535171509,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_261",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"多栋建筑（或车辆）被烧毁\",\n  \"object_relations\": \"消防员使用水带向燃烧的建筑喷水，火焰与浓烟环绕建筑\",\n  \"report\": \"火灾现场，消防员奋力灭火，多栋建筑被烧毁，浓烟滚滚，救援紧张进行。\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "多栋建筑（或车辆）被烧毁",
+      "object_relations": "消防员使用水带向燃烧的建筑喷水，火焰与浓烟环绕建筑",
+      "report": "火灾现场，消防员奋力灭火，多栋建筑被烧毁，浓烟滚滚，救援紧张进行。",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.834169626235962,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1073",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"倒伏的树木、散落的建筑碎片、倒塌的房屋与树木形成破坏关联，显示强风导致建筑与植被大面积损毁\",\n  \"report\": \"强风灾害致区域建筑倒塌、树木倒伏，大量建筑碎片散布，灾情严重。\",\n  \"disaster_type_original\": \"风灾（龙卷风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "倒伏的树木、散落的建筑碎片、倒塌的房屋与树木形成破坏关联，显示强风导致建筑与植被大面积损毁",
+      "report": "强风灾害致区域建筑倒塌、树木倒伏，大量建筑碎片散布，灾情严重。",
+      "disaster_type_original": "风灾（龙卷风）"
+    },
+    "inference_time": 10.399314165115356,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_508",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"2栋建筑严重损毁\",\n  \"object_relations\": \"救援人员（穿防护服、戴安全帽）在坍塌建筑废墟中开展救援作业，周围是倒塌的建筑结构\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中作业，2栋建筑严重损毁，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "2栋建筑严重损毁",
+      "object_relations": "救援人员（穿防护服、戴安全帽）在坍塌建筑废墟中开展救援作业，周围是倒塌的建筑结构",
+      "report": "地震致建筑坍塌，救援人员在废墟中作业，2栋建筑严重损毁，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.689141273498535,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_276",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现大裂缝，裂缝为地震引发的地表变形所致\",\n  \"report\": \"地震致道路严重开裂，暂未发现建筑损毁或人员伤亡，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路表面出现大裂缝，裂缝为地震引发的地表变形所致",
+      "report": "地震致道路严重开裂，暂未发现建筑损毁或人员伤亡，需关注次生灾害风险。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 7.9470014572143555,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_438",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"多栋（约3 - 5栋）建筑受损\",\n  \"object_relations\": \"两名穿防护服的人员在坍塌建筑废墟上操作梯子，背景为受损房屋，废墟中散布建筑碎片\",\n  \"report\": \"台风引发建筑坍塌，多栋房屋受损，救援人员在废墟中开展搜救工作，灾情严重。\",\n  \"disaster_type_original\": \"台风（强风）灾害\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": "多栋（约3 - 5栋）建筑受损",
+      "object_relations": "两名穿防护服的人员在坍塌建筑废墟上操作梯子，背景为受损房屋，废墟中散布建筑碎片",
+      "report": "台风引发建筑坍塌，多栋房屋受损，救援人员在废墟中开展搜救工作，灾情严重。",
+      "disaster_type_original": "台风（强风）灾害"
+    },
+    "inference_time": 11.131771802902222,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_527",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡产生的岩石、泥土与树木滑落至道路，阻塞道路，周围有树木、路牌等设施\",\n  \"report\": \"山体滑坡导致大量岩石泥土滑落阻塞道路，周边树木受影响，暂未发现建筑或人员损毁。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡产生的岩石、泥土与树木滑落至道路，阻塞道路，周围有树木、路牌等设施",
+      "report": "山体滑坡导致大量岩石泥土滑落阻塞道路，周边树木受影响，暂未发现建筑或人员损毁。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.522429943084717,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_504",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被火焰和浓烟包围，周围有树木，火焰从建筑顶部和窗户蔓延\",\n  \"report\": \"夜间一栋建筑突发严重火灾，火焰与浓烟笼罩建筑，周边树木可见，建筑受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物被火焰和浓烟包围，周围有树木，火焰从建筑顶部和窗户蔓延",
+      "report": "夜间一栋建筑突发严重火灾，火焰与浓烟笼罩建筑，周边树木可见，建筑受损严重",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.554129123687744,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_463",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"2 - 3栋建筑及多辆车辆受损\",\n  \"object_relations\": \"街道被洪水淹没，多辆汽车浸泡在洪水中，两侧建筑物处于洪水包围状态，车辆与洪水、建筑物均受洪水影响\",\n  \"report\": \"洪水淹没街道，多辆汽车及两侧建筑受损，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "2 - 3栋建筑及多辆车辆受损",
+      "object_relations": "街道被洪水淹没，多辆汽车浸泡在洪水中，两侧建筑物处于洪水包围状态，车辆与洪水、建筑物均受洪水影响",
+      "report": "洪水淹没街道，多辆汽车及两侧建筑受损，灾情严重，需紧急救援",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 13.701809406280518,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_895",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"多栋建筑受损，人员受困\",\n  \"object_relations\": \"军人在滑坡现场开展救援行动，滑坡掩埋建筑，建筑与滑坡体相邻，军人与救援任务相关\",\n  \"report\": \"滑坡灾害致建筑受损、人员受困，军人现场救援，灾情紧急需处置\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "多栋建筑受损，人员受困",
+      "object_relations": "军人在滑坡现场开展救援行动，滑坡掩埋建筑，建筑与滑坡体相邻，军人与救援任务相关",
+      "report": "滑坡灾害致建筑受损、人员受困，军人现场救援，灾情紧急需处置",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 13.802214860916138,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_899",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"岩石、树木与警示带相邻，警示带用于隔离危险区域，岩石可能为滑坡体\",\n  \"report\": \"山区发生滑坡，岩石堆积，警示带隔离危险区，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "岩石、树木与警示带相邻，警示带用于隔离危险区域，岩石可能为滑坡体",
+      "report": "山区发生滑坡，岩石堆积，警示带隔离危险区，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.281993627548218,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_711",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两人在风雨中，分别使用花卉图案和格子图案的雨伞，处于被风雨侵袭的状态\",\n  \"report\": \"强风暴雨致两人在风雨中避雨，暂未发现建筑损毁或人员伤亡，灾情以个人防护为主。\",\n  \"disaster_type_original\": \"风灾（暴雨）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "两人在风雨中，分别使用花卉图案和格子图案的雨伞，处于被风雨侵袭的状态",
+      "report": "强风暴雨致两人在风雨中避雨，暂未发现建筑损毁或人员伤亡，灾情以个人防护为主。",
+      "disaster_type_original": "风灾（暴雨）"
+    },
+    "inference_time": 10.975314617156982,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_802",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，滑坡体与道路分离，道路旁设有交通锥警示\",\n  \"report\": \"山体滑坡导致道路坍塌，交通受阻，需尽快开展抢修工作。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因山体滑坡坍塌，滑坡体与道路分离，道路旁设有交通锥警示",
+      "report": "山体滑坡导致道路坍塌，交通受阻，需尽快开展抢修工作。",
+      "disaster_type_original": "山体滑坡"
+    },
+    "inference_time": 9.350936889648438,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_615",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被火焰和浓烟包围，处于燃烧状态，周围有飞溅的火星\",\n  \"report\": \"一栋建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物被火焰和浓烟包围，处于燃烧状态，周围有飞溅的火星",
+      "report": "一栋建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.010600090026855,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_992",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋建筑损毁）\",\n  \"object_relations\": \"建筑物、船只等被洪水淹没，建筑与洪水直接接触，船只漂浮于洪水中\",\n  \"report\": \"该区域遭洪水侵袭，大量建筑损毁，船只被洪水淹没，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋建筑损毁）",
+      "object_relations": "建筑物、船只等被洪水淹没，建筑与洪水直接接触，船只漂浮于洪水中",
+      "report": "该区域遭洪水侵袭，大量建筑损毁，船只被洪水淹没，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 12.745348453521729,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_103",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约20栋建筑\",\n  \"object_relations\": \"洪水淹没区域内，房屋、树木与水域相邻，部分房屋被水浸泡，树木分布于水域周边\",\n  \"report\": \"洪水灾害致区域被淹，约20栋房屋受损，树木与水域交织，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约20栋建筑",
+      "object_relations": "洪水淹没区域内，房屋、树木与水域相邻，部分房屋被水浸泡，树木分布于水域周边",
+      "report": "洪水灾害致区域被淹，约20栋房屋受损，树木与水域交织，灾情严重",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 11.558034181594849,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1281",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约5 - 10栋建筑受损\",\n  \"object_relations\": \"山体滑坡体（泥土、植被）从山坡滑落，掩埋或破坏下方建筑，周边农田与居民区受波及\",\n  \"report\": \"山体滑坡发生，滑坡体掩埋建筑，周边农田及居民区受损，需紧急处置。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约5 - 10栋建筑受损",
+      "object_relations": "山体滑坡体（泥土、植被）从山坡滑落，掩埋或破坏下方建筑，周边农田与居民区受波及",
+      "report": "山体滑坡发生，滑坡体掩埋建筑，周边农田及居民区受损，需紧急处置。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 10.205167531967163,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1021",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约20栋建筑受损\",\n  \"object_relations\": \"泥石流（泥沙、碎石）冲刷、掩埋村庄中的房屋，房屋与泥石流路径存在被掩埋或破坏的关系\",\n  \"report\": \"泥石流灾害致村庄多栋房屋被掩埋损毁，泥沙碎石冲刷破坏建筑，灾情严重。\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约20栋建筑受损",
+      "object_relations": "泥石流（泥沙、碎石）冲刷、掩埋村庄中的房屋，房屋与泥石流路径存在被掩埋或破坏的关系",
+      "report": "泥石流灾害致村庄多栋房屋被掩埋损毁，泥沙碎石冲刷破坏建筑，灾情严重。",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 10.452661037445068,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_550",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡导致道路被阻断，交通锥警示危险，路标指示限速40，树木与滑坡体相邻\",\n  \"report\": \"山体滑坡阻断道路，交通锥警示，暂无建筑或人员受损，需尽快清理隐患恢复通行\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡导致道路被阻断，交通锥警示危险，路标指示限速40，树木与滑坡体相邻",
+      "report": "山体滑坡阻断道路，交通锥警示，暂无建筑或人员受损，需尽快清理隐患恢复通行",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.79696273803711,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1187",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倒伏的大树压在房屋上，树根裸露，周围有其他树木和房屋\",\n  \"report\": \"强风致大树倒伏压毁房屋，周边树木受损，灾情明显。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "倒伏的大树压在房屋上，树根裸露，周围有其他树木和房屋",
+      "report": "强风致大树倒伏压毁房屋，周边树木受损，灾情明显。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 8.452907800674438,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_289",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"白色汽车被洪水淹没，位于街道中，周围有树木、建筑物等，街道积水严重\",\n  \"report\": \"洪水致街道积水，一辆汽车被淹，暂未发现建筑或人员受损，需关注后续情况\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "白色汽车被洪水淹没，位于街道中，周围有树木、建筑物等，街道积水严重",
+      "report": "洪水致街道积水，一辆汽车被淹，暂未发现建筑或人员受损，需关注后续情况",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.800592184066772,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_873",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倒伏的棕榈树压在房屋上，周围散落树枝，房屋受树木影响\",\n  \"report\": \"强风致棕榈树倒塌压毁房屋，周边环境受损，需排查安全隐患\",\n  \"disaster_type_original\": \"风灾（台风/飓风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "倒伏的棕榈树压在房屋上，周围散落树枝，房屋受树木影响",
+      "report": "强风致棕榈树倒塌压毁房屋，周边环境受损，需排查安全隐患",
+      "disaster_type_original": "风灾（台风/飓风）"
+    },
+    "inference_time": 9.439536333084106,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_828",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡导致道路坍塌，车辆停靠在坍塌道路旁，人员在坍塌区域附近活动\",\n  \"report\": \"山体滑坡引发道路坍塌，车辆停靠旁，人员现场查看，暂未发现建筑损毁或人员伤亡。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡导致道路坍塌，车辆停靠在坍塌道路旁，人员在坍塌区域附近活动",
+      "report": "山体滑坡引发道路坍塌，车辆停靠旁，人员现场查看，暂未发现建筑损毁或人员伤亡。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.409409761428833,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_347",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现多条裂缝，裂缝为地震导致路面结构破坏的表现\",\n  \"report\": \"地震引发道路严重开裂，暂未发现建筑或人员受损，需尽快修复道路保障通行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路表面出现多条裂缝，裂缝为地震导致路面结构破坏的表现",
+      "report": "地震引发道路严重开裂，暂未发现建筑或人员受损，需尽快修复道路保障通行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 7.822586297988892,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1044",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约10栋\",\n  \"object_relations\": \"泥石流从山坡倾泻，冲向下方村庄，摧毁多栋房屋\",\n  \"report\": \"泥石流从山坡冲向村庄，摧毁约10栋建筑，灾情紧急。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约10栋",
+      "object_relations": "泥石流从山坡倾泻，冲向下方村庄，摧毁多栋房屋",
+      "report": "泥石流从山坡冲向村庄，摧毁约10栋建筑，灾情紧急。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 8.219940423965454,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_292",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋）\",\n  \"object_relations\": \"建筑物被洪水淹没，屋顶与周边积水形成水位差，树木分布于建筑间，洪水覆盖建筑底部区域\",\n  \"report\": \"该区域遭洪水侵袭，大量建筑被淹，屋顶与周边积水，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋）",
+      "object_relations": "建筑物被洪水淹没，屋顶与周边积水形成水位差，树木分布于建筑间，洪水覆盖建筑底部区域",
+      "report": "该区域遭洪水侵袭，大量建筑被淹，屋顶与周边积水，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.202095985412598,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_22",
+    "ground_truth": "other",
+    "prediction": "other",
+    "raw_output": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物发生坍塌，周围有水泥车、人员等，人员处于坍塌建筑旁\",\n  \"report\": \"一栋建筑发生坍塌，周围有水泥车、人员，灾情明显，需关注救援与后续评估\",\n  \"disaster_type_original\": \"建筑坍塌\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "other",
+      "damage_count": 1,
+      "object_relations": "建筑物发生坍塌，周围有水泥车、人员等，人员处于坍塌建筑旁",
+      "report": "一栋建筑发生坍塌，周围有水泥车、人员，灾情明显，需关注救援与后续评估",
+      "disaster_type_original": "建筑坍塌"
+    },
+    "inference_time": 8.33156442642212,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_544",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋建筑\",\n  \"object_relations\": \"燃烧的建筑与周边车辆、道路相邻，浓烟笼罩区域，建筑处于火灾中心\",\n  \"report\": \"一栋建筑发生严重火灾，火焰与浓烟笼罩，周边车辆受波及，建筑受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "1栋建筑",
+      "object_relations": "燃烧的建筑与周边车辆、道路相邻，浓烟笼罩区域，建筑处于火灾中心",
+      "report": "一栋建筑发生严重火灾，火焰与浓烟笼罩，周边车辆受波及，建筑受损严重",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.236092329025269,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_324",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没区域，桥梁被洪水冲毁，铁路线被洪水阻断，周边区域被水覆盖\",\n  \"report\": \"洪水灾害致区域被淹，桥梁损毁、铁路阻断，周边建筑暂未明显受损，需关注后续影响\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "洪水淹没区域，桥梁被洪水冲毁，铁路线被洪水阻断，周边区域被水覆盖",
+      "report": "洪水灾害致区域被淹，桥梁损毁、铁路阻断，周边建筑暂未明显受损，需关注后续影响",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.066708326339722,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1309",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树与周围植被（如灌木、其他树木）相邻，树干横跨于植被间，根系裸露，显示其因强风力量折断\",\n  \"report\": \"风灾致大树倒伏，周边植被受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树与周围植被（如灌木、其他树木）相邻，树干横跨于植被间，根系裸露，显示其因强风力量折断",
+      "report": "风灾致大树倒伏，周边植被受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 10.075527667999268,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_505",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"消防员使用水带扑灭燃烧的建筑，火焰与浓烟笼罩周边区域\",\n  \"report\": \"火灾致多栋建筑燃烧，消防员现场全力灭火，浓烟弥漫，灾情紧急\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "消防员使用水带扑灭燃烧的建筑，火焰与浓烟笼罩周边区域",
+      "report": "火灾致多栋建筑燃烧，消防员现场全力灭火，浓烟弥漫，灾情紧急",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.30641508102417,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_785",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，两侧山体滑坡体与道路分离，道路护栏暴露在滑坡体旁\",\n  \"report\": \"山体滑坡导致道路严重坍塌，路面断裂，周边山体滑坡体破坏道路结构，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "道路因山体滑坡坍塌，两侧山体滑坡体与道路分离，道路护栏暴露在滑坡体旁",
+      "report": "山体滑坡导致道路严重坍塌，路面断裂，周边山体滑坡体破坏道路结构，暂未发现建筑或人员受损",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 9.867443323135376,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1124",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"多栋建筑及车辆受损\",\n  \"object_relations\": \"救援人员乘坐橡皮艇在洪水中执行任务，周围是被洪水淹没的建筑、车辆及树木，洪水覆盖区域包含居民区与车辆\",\n  \"report\": \"洪水灾害致区域被淹，救援人员乘橡皮艇巡查，多栋建筑及车辆受损，灾情紧急\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "多栋建筑及车辆受损",
+      "object_relations": "救援人员乘坐橡皮艇在洪水中执行任务，周围是被洪水淹没的建筑、车辆及树木，洪水覆盖区域包含居民区与车辆",
+      "report": "洪水灾害致区域被淹，救援人员乘橡皮艇巡查，多栋建筑及车辆受损，灾情紧急",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 14.906964302062988,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_123",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"河流（洪水）泛滥，两岸树木（植被）被洪水淹没，河流与两岸植被形成洪水淹没关系\",\n  \"report\": \"河流发生洪水，两岸植被被淹，暂未发现建筑损毁或人员伤亡，需关注后续影响\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "河流（洪水）泛滥，两岸树木（植被）被洪水淹没，河流与两岸植被形成洪水淹没关系",
+      "report": "河流发生洪水，两岸植被被淹，暂未发现建筑损毁或人员伤亡，需关注后续影响",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 12.860120058059692,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_60",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋建筑受损）\",\n  \"object_relations\": \"洪水淹没沿海区域，棕榈树与建筑物被洪水包围，建筑物处于被淹状态\",\n  \"report\": \"沿海区域遭洪水侵袭，大量建筑被淹，棕榈树与建筑物被洪水包围，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋建筑受损）",
+      "object_relations": "洪水淹没沿海区域，棕榈树与建筑物被洪水包围，建筑物处于被淹状态",
+      "report": "沿海区域遭洪水侵袭，大量建筑被淹，棕榈树与建筑物被洪水包围，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.725166082382202,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_607",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的建筑处于坍塌状态，周围散落着烧毁的碎片，火焰在建筑内部和外部蔓延\",\n  \"report\": \"火灾致一栋建筑严重损毁，建筑坍塌，周围散落烧毁碎片，灾情严重\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "燃烧的建筑处于坍塌状态，周围散落着烧毁的碎片，火焰在建筑内部和外部蔓延",
+      "report": "火灾致一栋建筑严重损毁，建筑坍塌，周围散落烧毁碎片，灾情严重",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.92868971824646,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_692",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"黄色卡车、穿反光衣的工作人员、交通锥等在泥泞街道上开展清理作业，背景为居民住宅区，街道被积水和泥浆覆盖\",\n  \"report\": \"该区域遭洪水侵袭，街道被泥浆覆盖，工作人员正清理现场，暂未发现建筑或人员严重损毁\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "黄色卡车、穿反光衣的工作人员、交通锥等在泥泞街道上开展清理作业，背景为居民住宅区，街道被积水和泥浆覆盖",
+      "report": "该区域遭洪水侵袭，街道被泥浆覆盖，工作人员正清理现场，暂未发现建筑或人员严重损毁",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 12.051638126373291,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_306",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭燃烧的森林火灾，火焰在树林中蔓延，消防员与火灾形成对抗关系\",\n  \"report\": \"森林火灾肆虐，消防员奋力灭火，暂未发现建筑损毁或人员伤亡，火势正在蔓延\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员正在扑灭燃烧的森林火灾，火焰在树林中蔓延，消防员与火灾形成对抗关系",
+      "report": "森林火灾肆虐，消防员奋力灭火，暂未发现建筑损毁或人员伤亡，火势正在蔓延",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 12.710501194000244,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1157",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树横跨在道路，与周围树木形成空间上的遮挡关系，树根裸露，显示其受强风影响后根系暴露\",\n  \"report\": \"强风致大树倒伏阻塞道路，周边树木受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 0,
+      "object_relations": "倒伏的大树横跨在道路，与周围树木形成空间上的遮挡关系，树根裸露，显示其受强风影响后根系暴露",
+      "report": "强风致大树倒伏阻塞道路，周边树木受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 12.574350118637085,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_112",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"河流（洪水）与道路相邻，洪水沿河道流动，道路位于河流一侧，两者受洪水影响存在空间关联\",\n  \"report\": \"山区河流发生洪水，洪水沿河道流动，道路位于一侧，暂未发现建筑或人员受损，需关注周边安全\",\n  \"disaster_type_original\": \"洪水\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "河流（洪水）与道路相邻，洪水沿河道流动，道路位于河流一侧，两者受洪水影响存在空间关联",
+      "report": "山区河流发生洪水，洪水沿河道流动，道路位于一侧，暂未发现建筑或人员受损，需关注周边安全",
+      "disaster_type_original": "洪水"
+    },
+    "inference_time": 10.26572871208191,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_439",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没街道，杂物（塑料瓶、玻璃等）漂浮于水面，建筑物沿街道分布，洪水与杂物、街道、建筑物形成被淹没的场景\",\n  \"report\": \"洪水淹没街道，杂物漂浮，建筑物周边积水，暂未发现建筑或人员损毁，灾情以积水与漂浮物为主\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "洪水淹没街道，杂物（塑料瓶、玻璃等）漂浮于水面，建筑物沿街道分布，洪水与杂物、街道、建筑物形成被淹没的场景",
+      "report": "洪水淹没街道，杂物漂浮，建筑物周边积水，暂未发现建筑或人员损毁，灾情以积水与漂浮物为主",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.543658018112183,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_494",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"城市街道被洪水淹没，多辆汽车、公交车在积水中行驶，交通受阻，行人可能在路边活动\",\n  \"report\": \"城市街道遭洪水淹没，多辆车辆在积水中行驶，交通受阻，暂未发现建筑或人员严重损毁。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "城市街道被洪水淹没，多辆汽车、公交车在积水中行驶，交通受阻，行人可能在路边活动",
+      "report": "城市街道遭洪水淹没，多辆车辆在积水中行驶，交通受阻，暂未发现建筑或人员严重损毁。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.444934368133545,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_272",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"约20人\",\n  \"object_relations\": \"消防员正在扑灭燃烧的植被，火焰与浓烟是灾害源，消防员为救援主体\",\n  \"report\": \"森林火灾现场，消防员奋力灭火，火焰与浓烟笼罩区域，约20人参与救援，灾情紧急\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "约20人",
+      "object_relations": "消防员正在扑灭燃烧的植被，火焰与浓烟是灾害源，消防员为救援主体",
+      "report": "森林火灾现场，消防员奋力灭火，火焰与浓烟笼罩区域，约20人参与救援，灾情紧急",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 9.688716411590576,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_474",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没道路，倒伏树木位于道路旁，周围有围栏和植被\",\n  \"report\": \"暴雨引发洪水，道路被淹，倒伏树木旁积水，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "洪水淹没道路，倒伏树木位于道路旁，周围有围栏和植被",
+      "report": "暴雨引发洪水，道路被淹，倒伏树木旁积水，暂未发现建筑或人员受损",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.716174840927124,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_959",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋屋顶被大量棕榈叶等杂物覆盖，杂物随风猛烈摆动，与房屋形成损毁关联\",\n  \"report\": \"强风致房屋屋顶被棕榈叶等杂物损毁，灾情明显，需关注建筑安全\",\n  \"disaster_type_original\": \"风灾（台风/飓风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "房屋屋顶被大量棕榈叶等杂物覆盖，杂物随风猛烈摆动，与房屋形成损毁关联",
+      "report": "强风致房屋屋顶被棕榈叶等杂物损毁，灾情明显，需关注建筑安全",
+      "disaster_type_original": "风灾（台风/飓风）"
+    },
+    "inference_time": 11.163070678710938,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_559",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被火焰和浓烟包围，窗户透出火光，建筑处于燃烧状态\",\n  \"report\": \"一栋多层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物被火焰和浓烟包围，窗户透出火光，建筑处于燃烧状态",
+      "report": "一栋多层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 7.974952220916748,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_397",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路出现大面积裂缝，两侧混凝土护栏有破损，道路与护栏均受地震影响\",\n  \"report\": \"地震致道路严重开裂、护栏破损，暂未发现建筑或人员受损，需尽快修复道路保障通行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路出现大面积裂缝，两侧混凝土护栏有破损，道路与护栏均受地震影响",
+      "report": "地震致道路严重开裂、护栏破损，暂未发现建筑或人员受损，需尽快修复道路保障通行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.385185718536377,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_196",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋）\",\n  \"object_relations\": \"洪水淹没居民区，房屋、道路、树木被水覆盖，建筑与洪水形成被淹没关系\",\n  \"report\": \"该区域遭洪水侵袭，大量房屋被淹，道路积水，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋）",
+      "object_relations": "洪水淹没居民区，房屋、道路、树木被水覆盖，建筑与洪水形成被淹没关系",
+      "report": "该区域遭洪水侵袭，大量房屋被淹，道路积水，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.7373046875,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_539",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"多栋建筑受损\",\n  \"object_relations\": \"火焰从上方猛烈吞噬中央建筑，两侧建筑受波及，周围有人员（如穿黑衣者）处于危险区域\",\n  \"report\": \"火灾致宏伟建筑群被大火吞噬，多栋建筑受损，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": "多栋建筑受损",
+      "object_relations": "火焰从上方猛烈吞噬中央建筑，两侧建筑受波及，周围有人员（如穿黑衣者）处于危险区域",
+      "report": "火灾致宏伟建筑群被大火吞噬，多栋建筑受损，灾情严重，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.124168634414673,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_359",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现大面积裂缝，裂缝导致道路结构破坏，周边植被与道路相邻，道路作为交通设施受破坏\",\n  \"report\": \"地震引发道路严重开裂，交通中断，周边环境受影响，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因灾害出现大面积裂缝，裂缝导致道路结构破坏，周边植被与道路相邻，道路作为交通设施受破坏",
+      "report": "地震引发道路严重开裂，交通中断，周边环境受影响，暂未发现建筑或人员受损",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.85809326171875,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_818",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损房屋屋顶坍塌、结构破坏，周围树木受风影响，房屋与周边环境存在灾害关联\",\n  \"report\": \"强风致房屋屋顶严重损毁，周边树木受风影响，1栋建筑受损，需关注灾情后续发展\",\n  \"disaster_type_original\": \"风灾（台风/飓风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "受损房屋屋顶坍塌、结构破坏，周围树木受风影响，房屋与周边环境存在灾害关联",
+      "report": "强风致房屋屋顶严重损毁，周边树木受风影响，1栋建筑受损，需关注灾情后续发展",
+      "disaster_type_original": "风灾（台风/飓风）"
+    },
+    "inference_time": 9.974514961242676,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_395",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员使用水管扑灭森林火灾，消防车在背景中协助，树木处于燃烧状态\",\n  \"report\": \"森林火灾现场，消防员正用水管灭火，暂未发现建筑或人员受损，灾情以森林植被燃烧为主。\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员使用水管扑灭森林火灾，消防车在背景中协助，树木处于燃烧状态",
+      "report": "森林火灾现场，消防员正用水管灭火，暂未发现建筑或人员受损，灾情以森林植被燃烧为主。",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 8.825084447860718,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_462",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没街道，汽车在洪水中行驶，两侧房屋被洪水包围，电线杆立于洪水中\",\n  \"report\": \"洪水淹没街道，汽车在洪水中行驶，两侧房屋被洪水包围，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "洪水淹没街道，汽车在洪水中行驶，两侧房屋被洪水包围，电线杆立于洪水中",
+      "report": "洪水淹没街道，汽车在洪水中行驶，两侧房屋被洪水包围，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.4933340549469,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_1036",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倾覆的船只位于沙滩上，周围有棕榈树，船只结构严重损毁，与沙滩、棕榈树形成灾害影响场景\",\n  \"report\": \"台风致沿海船只倾覆损毁，沙滩上1艘船只严重受损，周边棕榈树环绕，灾情明显。\",\n  \"disaster_type_original\": \"台风（风灾）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "倾覆的船只位于沙滩上，周围有棕榈树，船只结构严重损毁，与沙滩、棕榈树形成灾害影响场景",
+      "report": "台风致沿海船只倾覆损毁，沙滩上1艘船只严重受损，周边棕榈树环绕，灾情明显。",
+      "disaster_type_original": "台风（风灾）"
+    },
+    "inference_time": 10.487962484359741,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_209",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 2,\n  \"object_relations\": \"强风导致多棵棕榈树剧烈摇晃，部分树木倒伏，洪水淹没街道，房屋周边环境受强风影响\",\n  \"report\": \"台风（飓风）来袭，街道被洪水淹没，多棵棕榈树被吹倒，部分房屋受损，灾情严重。\",\n  \"disaster_type_original\": \"台风（飓风）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 2,
+      "object_relations": "强风导致多棵棕榈树剧烈摇晃，部分树木倒伏，洪水淹没街道，房屋周边环境受强风影响",
+      "report": "台风（飓风）来袭，街道被洪水淹没，多棵棕榈树被吹倒，部分房屋受损，灾情严重。",
+      "disaster_type_original": "台风（飓风）"
+    },
+    "inference_time": 10.405994653701782,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_57",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损建筑被洪水淹没，周围植被浸泡，积水覆盖区域\",\n  \"report\": \"洪水灾害致区域被淹，1栋建筑受损，积水覆盖周边环境，需关注灾情进展。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 1,
+      "object_relations": "受损建筑被洪水淹没，周围植被浸泡，积水覆盖区域",
+      "report": "洪水灾害致区域被淹，1栋建筑受损，积水覆盖周边环境，需关注灾情进展。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.393801212310791,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_700",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 1,\n  \"object_relations\": \"泥石流（泥沙、碎石）掩埋并摧毁房屋，周围有植被、土坡等环境元素\",\n  \"report\": \"泥石流灾害致1栋房屋被掩埋损毁，周围泥沙碎石堆积，灾情明显。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 1,
+      "object_relations": "泥石流（泥沙、碎石）掩埋并摧毁房屋，周围有植被、土坡等环境元素",
+      "report": "泥石流灾害致1栋房屋被掩埋损毁，周围泥沙碎石堆积，灾情明显。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 13.127620697021484,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1283",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡体（红色区域）位于山谷，与下方道路、农田、建筑物相邻，滑坡体覆盖部分区域，影响周边环境\",\n  \"report\": \"山谷发生山体滑坡，滑坡体覆盖道路与农田，暂未发现建筑损毁，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡体（红色区域）位于山谷，与下方道路、农田、建筑物相邻，滑坡体覆盖部分区域，影响周边环境",
+      "report": "山谷发生山体滑坡，滑坡体覆盖道路与农田，暂未发现建筑损毁，需关注次生灾害风险。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 14.144225358963013,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_921",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"屋顶瓦片因强风作用出现大面积破损、翘起，部分瓦片脱落，与建筑屋顶结构直接关联\",\n  \"report\": \"风灾致建筑屋顶瓦片严重损毁，需尽快修复以保障建筑安全。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "屋顶瓦片因强风作用出现大面积破损、翘起，部分瓦片脱落，与建筑屋顶结构直接关联",
+      "report": "风灾致建筑屋顶瓦片严重损毁，需尽快修复以保障建筑安全。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 9.461823225021362,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_262",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现大面积裂缝，裂缝为地震引发的地表变形所致，道路与裂缝存在破坏关系\",\n  \"report\": \"地震致道路严重开裂，暂未发现建筑损毁，需关注道路通行安全\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路表面出现大面积裂缝，裂缝为地震引发的地表变形所致，道路与裂缝存在破坏关系",
+      "report": "地震致道路严重开裂，暂未发现建筑损毁，需关注道路通行安全",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.592299461364746,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_102",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋）\",\n  \"object_relations\": \"建筑物被洪水淹没，周围积水，建筑与洪水存在淹没关系\",\n  \"report\": \"洪水灾害致区域建筑大量损毁，建筑物被淹，灾情严重。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋）",
+      "object_relations": "建筑物被洪水淹没，周围积水，建筑与洪水存在淹没关系",
+      "report": "洪水灾害致区域建筑大量损毁，建筑物被淹，灾情严重。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.709745645523071,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_976",
+    "ground_truth": "other",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10栋建筑受损\",\n  \"object_relations\": \"洪水淹没区域内的建筑，建筑与洪水形成被淹没关系，洪水为灾害主体，建筑为受灾对象\",\n  \"report\": \"洪水灾害致区域内约10栋建筑被淹，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约10栋建筑受损",
+      "object_relations": "洪水淹没区域内的建筑，建筑与洪水形成被淹没关系，洪水为灾害主体，建筑为受灾对象",
+      "report": "洪水灾害致区域内约10栋建筑被淹，灾情严重，需紧急救援",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 12.284946203231812,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_397",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"街道被洪水淹没，积水覆盖路面，行人涉水通行，车辆停放在路边，周围有建筑物和围栏\",\n  \"report\": \"街道遭洪水侵袭，积水漫溢，路面受损，行人涉水，车辆受淹，暂未发现建筑或人员严重损毁\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "街道被洪水淹没，积水覆盖路面，行人涉水通行，车辆停放在路边，周围有建筑物和围栏",
+      "report": "街道遭洪水侵袭，积水漫溢，路面受损，行人涉水，车辆受淹，暂未发现建筑或人员严重损毁",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 13.686728477478027,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_452",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"城市街道被积水淹没，两侧高楼与树木环绕，积水倒映建筑影像\",\n  \"report\": \"城市街道遭洪水淹没，两侧高楼、树木环绕，暂未发现建筑或人员损毁，积水覆盖路面\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "城市街道被积水淹没，两侧高楼与树木环绕，积水倒映建筑影像",
+      "report": "城市街道遭洪水淹没，两侧高楼、树木环绕，暂未发现建筑或人员损毁，积水覆盖路面",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.066130638122559,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_460",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑损毁\",\n  \"object_relations\": \"坍塌建筑形成废墟，救援人员在废墟中开展搜救工作，挖掘机等设备用于清理或救援\",\n  \"report\": \"地震致建筑坍塌，废墟遍地，救援人员与设备正在现场搜救，多栋建筑损毁，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋建筑损毁",
+      "object_relations": "坍塌建筑形成废墟，救援人员在废墟中开展搜救工作，挖掘机等设备用于清理或救援",
+      "report": "地震致建筑坍塌，废墟遍地，救援人员与设备正在现场搜救，多栋建筑损毁，灾情严重。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.79105544090271,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_62",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约15栋\",\n  \"object_relations\": \"滑坡产生的泥沙掩埋、冲毁村庄内的房屋，房屋与滑坡体形成被掩埋/冲毁的关系\",\n  \"report\": \"山区村庄遭泥石流侵袭，大量房屋被掩埋冲毁，灾情严重。\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约15栋",
+      "object_relations": "滑坡产生的泥沙掩埋、冲毁村庄内的房屋，房屋与滑坡体形成被掩埋/冲毁的关系",
+      "report": "山区村庄遭泥石流侵袭，大量房屋被掩埋冲毁，灾情严重。",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 9.364306926727295,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_444",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑\",\n  \"object_relations\": \"救援人员在坍塌建筑的废墟中开展搜救作业，建筑结构严重损毁，救援人员与废墟形成作业场景\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中搜救，1栋建筑损毁，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑",
+      "object_relations": "救援人员在坍塌建筑的废墟中开展搜救作业，建筑结构严重损毁，救援人员与废墟形成作业场景",
+      "report": "地震致建筑坍塌，救援人员在废墟中搜救，1栋建筑损毁，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.543525457382202,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_480",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑（或1名幸存者）\",\n  \"object_relations\": \"救援人员（穿橙色制服、戴安全帽）正在救助被埋的幸存者，周围是坍塌的建筑废墟\",\n  \"report\": \"地震致建筑坍塌，救援人员正救助幸存者，现场废墟遍布，灾情紧急。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑（或1名幸存者）",
+      "object_relations": "救援人员（穿橙色制服、戴安全帽）正在救助被埋的幸存者，周围是坍塌的建筑废墟",
+      "report": "地震致建筑坍塌，救援人员正救助幸存者，现场废墟遍布，灾情紧急。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 11.405785083770752,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_37",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十栋）\",\n  \"object_relations\": \"洪水淹没居民区，房屋与树木被水覆盖，建筑与植被处于被水浸泡状态\",\n  \"report\": \"该区域遭受洪水侵袭，大量房屋被淹，灾情严重，需紧急救援。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "大量（约数十栋）",
+      "object_relations": "洪水淹没居民区，房屋与树木被水覆盖，建筑与植被处于被水浸泡状态",
+      "report": "该区域遭受洪水侵袭，大量房屋被淹，灾情严重，需紧急救援。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 9.64701247215271,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_153",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路两侧被洪水淹没，植被（树木）位于道路边缘，洪水覆盖道路两侧区域\",\n  \"report\": \"洪水灾害致道路两侧被淹，植被环绕，暂未发现建筑或人员受损，需关注后续影响\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "道路两侧被洪水淹没，植被（树木）位于道路边缘，洪水覆盖道路两侧区域",
+      "report": "洪水灾害致道路两侧被淹，植被环绕，暂未发现建筑或人员受损，需关注后续影响",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.6085524559021,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_383",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"汽车被困于洪水淹没的道路中，周围被积水覆盖，两侧有植被和围栏\",\n  \"report\": \"洪水致道路被淹，汽车被困，周边积水严重，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "汽车被困于洪水淹没的道路中，周围被积水覆盖，两侧有植被和围栏",
+      "report": "洪水致道路被淹，汽车被困，周边积水严重，暂未发现建筑或人员受损",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.1780526638031,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_793",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物屋顶瓦片大面积破损、坍塌，周围有树木，天空有云\",\n  \"report\": \"风灾致建筑屋顶严重损毁，需尽快开展修缮工作。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "建筑物屋顶瓦片大面积破损、坍塌，周围有树木，天空有云",
+      "report": "风灾致建筑屋顶严重损毁，需尽快开展修缮工作。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 7.791483640670776,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_259",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭森林火灾，周围是燃烧的植被和树木，消防员与火灾形成对抗关系\",\n  \"report\": \"森林火灾现场，消防员全力扑救，暂未发现建筑或人员受损，火势正在蔓延中\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "消防员正在扑灭森林火灾，周围是燃烧的植被和树木，消防员与火灾形成对抗关系",
+      "report": "森林火灾现场，消防员全力扑救，暂未发现建筑或人员受损，火势正在蔓延中",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 8.562553405761719,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_154",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"河流流经区域与周边居民区、道路相邻，河流可能引发周边区域的洪涝灾害，影响居民区建筑及道路\",\n  \"report\": \"该区域受河流泛滥影响，周边居民区可能受洪涝威胁，暂未发现建筑损毁或人员伤亡，需关注后续灾情。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": 0,
+      "object_relations": "河流流经区域与周边居民区、道路相邻，河流可能引发周边区域的洪涝灾害，影响居民区建筑及道路",
+      "report": "该区域受河流泛滥影响，周边居民区可能受洪涝威胁，暂未发现建筑损毁或人员伤亡，需关注后续灾情。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 10.177652359008789,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_917",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"大量（约数十栋建筑损毁）\",\n  \"object_relations\": \"建筑物大面积坍塌，废墟中散布着幸存者，背景可见部分未完全损毁的建筑\",\n  \"report\": \"地震致城市建筑大规模坍塌，废墟遍地，幸存者在废墟中活动，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "大量（约数十栋建筑损毁）",
+      "object_relations": "建筑物大面积坍塌，废墟中散布着幸存者，背景可见部分未完全损毁的建筑",
+      "report": "地震致城市建筑大规模坍塌，废墟遍地，幸存者在废墟中活动，灾情严重。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.871057033538818,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_508",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"高层建筑被火焰和浓烟包围，建筑结构严重损毁，处于燃烧状态\",\n  \"report\": \"高层建筑发生严重火灾，建筑被大火吞噬，浓烟弥漫，结构损毁严重，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "高层建筑被火焰和浓烟包围，建筑结构严重损毁，处于燃烧状态",
+      "report": "高层建筑发生严重火灾，建筑被大火吞噬，浓烟弥漫，结构损毁严重，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 8.355474948883057,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1120",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡导致山体岩石裸露，道路沿山体延伸，滑坡体靠近海岸线，与海洋相邻\",\n  \"report\": \"山体滑坡发生，山体岩石裸露，道路受影响，海岸线附近区域受威胁，暂未发现建筑损毁或人员伤亡。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡导致山体岩石裸露，道路沿山体延伸，滑坡体靠近海岸线，与海洋相邻",
+      "report": "山体滑坡发生，山体岩石裸露，道路受影响，海岸线附近区域受威胁，暂未发现建筑损毁或人员伤亡。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 10.072359323501587,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_805",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋屋顶瓦片大面积破损，与房屋主体结构关联，显示屋顶结构受损\",\n  \"report\": \"风灾致房屋屋顶瓦片大面积破损，1栋建筑受损，需紧急修缮。\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "房屋屋顶瓦片大面积破损，与房屋主体结构关联，显示屋顶结构受损",
+      "report": "风灾致房屋屋顶瓦片大面积破损，1栋建筑受损，需紧急修缮。",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 8.213196992874146,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_421",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名消防员在燃烧的森林中，周围是火焰和烟雾，正在开展灭火作业\",\n  \"report\": \"森林火灾现场，两名消防员在火焰与烟雾中灭火，暂未发现建筑或人员受损\",\n  \"disaster_type_original\": \"fire\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 0,
+      "object_relations": "两名消防员在燃烧的森林中，周围是火焰和烟雾，正在开展灭火作业",
+      "report": "森林火灾现场，两名消防员在火焰与烟雾中灭火，暂未发现建筑或人员受损",
+      "disaster_type_original": "fire"
+    },
+    "inference_time": 8.282028198242188,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_801",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡导致道路被泥土、倒伏树木阻断，周边植被受破坏，山体与道路、树木存在滑坡破坏关联\",\n  \"report\": \"山区发生山体滑坡，道路被泥土和倒树阻断，周边植被受损，暂未发现建筑或人员伤亡。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡导致道路被泥土、倒伏树木阻断，周边植被受破坏，山体与道路、树木存在滑坡破坏关联",
+      "report": "山区发生山体滑坡，道路被泥土和倒树阻断，周边植被受损，暂未发现建筑或人员伤亡。",
+      "disaster_type_original": "山体滑坡"
+    },
+    "inference_time": 12.592424154281616,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_2",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两栋多层建筑严重坍塌，建筑碎片散落四周，部分建筑结构暴露，呈现破坏后的空间关系\",\n  \"report\": \"地震致两栋多层建筑严重坍塌，建筑碎片遍布，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 2,
+      "object_relations": "两栋多层建筑严重坍塌，建筑碎片散落四周，部分建筑结构暴露，呈现破坏后的空间关系",
+      "report": "地震致两栋多层建筑严重坍塌，建筑碎片遍布，灾情严重。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 12.717523336410522,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_969",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10栋建筑受损\",\n  \"object_relations\": \"洪水淹没区域，建筑物被水围困，地形因洪水发生显著变化\",\n  \"report\": \"洪水灾害致区域被淹，约10栋建筑受损，地形受洪水影响，需紧急救援\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约10栋建筑受损",
+      "object_relations": "洪水淹没区域，建筑物被水围困，地形因洪水发生显著变化",
+      "report": "洪水灾害致区域被淹，约10栋建筑受损，地形受洪水影响，需紧急救援",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 11.845632553100586,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_575",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 1,\n  \"object_relations\": \"道路因山体滑坡坍塌，车辆停靠在滑坡区域旁，滑坡体与道路、植被相邻，滑坡体破坏道路结构\",\n  \"report\": \"山体滑坡致道路坍塌，1处建筑受损，车辆受阻，需尽快开展道路抢修工作。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 1,
+      "object_relations": "道路因山体滑坡坍塌，车辆停靠在滑坡区域旁，滑坡体与道路、植被相邻，滑坡体破坏道路结构",
+      "report": "山体滑坡致道路坍塌，1处建筑受损，车辆受阻，需尽快开展道路抢修工作。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 11.410095930099487,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_558",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物被火焰和浓烟包围，处于燃烧状态，火焰从建筑结构中蔓延\",\n  \"report\": \"一栋多层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "建筑物被火焰和浓烟包围，处于燃烧状态，火焰从建筑结构中蔓延",
+      "report": "一栋多层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 9.160838842391968,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_448",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"救援人员使用工具操作倒塌建筑，建筑碎片散落周围，人员处于受损建筑附近\",\n  \"report\": \"地震致建筑倒塌，救援人员现场处置，1栋建筑损毁，需关注人员安全\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "救援人员使用工具操作倒塌建筑，建筑碎片散落周围，人员处于受损建筑附近",
+      "report": "地震致建筑倒塌，救援人员现场处置，1栋建筑损毁，需关注人员安全",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 9.232050657272339,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_211",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震发生严重开裂，裂缝贯穿路面，周围分布电线杆、植被及山脉，道路与周边环境受地震影响\",\n  \"report\": \"地震致道路严重开裂，周边环境受影响，暂未发现建筑或人员损毁。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 0,
+      "object_relations": "道路因地震发生严重开裂，裂缝贯穿路面，周围分布电线杆、植被及山脉，道路与周边环境受地震影响",
+      "report": "地震致道路严重开裂，周边环境受影响，暂未发现建筑或人员损毁。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 12.544511318206787,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_1130",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡产生的泥石流（含泥土、岩石、植被）从山体滑落，冲刷下方森林区域，与周围山体、植被形成破坏关系\",\n  \"report\": \"山区发生山体滑坡，大量泥石流冲刷森林，暂未发现建筑或人员受损，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"landslide\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": 0,
+      "object_relations": "山体滑坡产生的泥石流（含泥土、岩石、植被）从山体滑落，冲刷下方森林区域，与周围山体、植被形成破坏关系",
+      "report": "山区发生山体滑坡，大量泥石流冲刷森林，暂未发现建筑或人员受损，需关注次生灾害风险。",
+      "disaster_type_original": "landslide"
+    },
+    "inference_time": 14.336099624633789,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_922",
+    "ground_truth": "other",
+    "prediction": "other",
+    "raw_output": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": \"大量（约数十栋建筑损毁，人员伤亡未明确）\",\n  \"object_relations\": \"建筑物大面积坍塌、瓦砾堆积，人群在废墟中活动，建筑与废墟、人群形成损毁与救援/观察的关联\",\n  \"report\": \"城市区域遭严重破坏，多栋建筑坍塌，人群在废墟中活动，灾情严重。\",\n  \"disaster_type_original\": \"灾害类型为：其他（如战争、爆炸等导致的建筑损毁）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "other",
+      "damage_count": "大量（约数十栋建筑损毁，人员伤亡未明确）",
+      "object_relations": "建筑物大面积坍塌、瓦砾堆积，人群在废墟中活动，建筑与废墟、人群形成损毁与救援/观察的关联",
+      "report": "城市区域遭严重破坏，多栋建筑坍塌，人群在废墟中活动，灾情严重。",
+      "disaster_type_original": "灾害类型为：其他（如战争、爆炸等导致的建筑损毁）"
+    },
+    "inference_time": 12.241406440734863,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_423",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑严重损毁\",\n  \"object_relations\": \"救援人员在坍塌建筑废墟中开展搜救作业，建筑残骸与救援装备（如水桶、背包）分布于废墟区域\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中搜救，1栋建筑严重损毁，现场救援工作紧张进行。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "1栋建筑严重损毁",
+      "object_relations": "救援人员在坍塌建筑废墟中开展搜救作业，建筑残骸与救援装备（如水桶、背包）分布于废墟区域",
+      "report": "地震致建筑坍塌，救援人员在废墟中搜救，1栋建筑严重损毁，现场救援工作紧张进行。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.223166227340698,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "landslide_滑坡_737",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "raw_output": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约15栋建筑受损\",\n  \"object_relations\": \"建筑物被洪水淹没，洪水覆盖建筑屋顶与周边区域，建筑间被积水连接\",\n  \"report\": \"该区域遭洪水侵袭，多栋建筑被淹，灾情严重，需紧急救援。\",\n  \"disaster_type_original\": \"flood\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "flood",
+      "damage_count": "约15栋建筑受损",
+      "object_relations": "建筑物被洪水淹没，洪水覆盖建筑屋顶与周边区域，建筑间被积水连接",
+      "report": "该区域遭洪水侵袭，多栋建筑被淹，灾情严重，需紧急救援。",
+      "disaster_type_original": "flood"
+    },
+    "inference_time": 8.480757713317871,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_966",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损建筑位于道路旁，建筑结构坍塌，周围散落建筑碎片，邻近其他未受损建筑\",\n  \"report\": \"风灾致建筑严重损毁，结构坍塌，周边散落碎片，邻近建筑受影响较小\",\n  \"disaster_type_original\": \"风灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "受损建筑位于道路旁，建筑结构坍塌，周围散落建筑碎片，邻近其他未受损建筑",
+      "report": "风灾致建筑严重损毁，结构坍塌，周边散落碎片，邻近建筑受影响较小",
+      "disaster_type_original": "风灾"
+    },
+    "inference_time": 10.108564376831055,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_80",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋（约10栋）建筑受损\",\n  \"object_relations\": \"街道因灾害严重损毁，两侧建筑倒塌或严重损毁，碎片散布于街道，远处可见烟雾\",\n  \"report\": \"地震致街道严重损毁，两侧多栋建筑倒塌，碎片遍布，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": "多栋（约10栋）建筑受损",
+      "object_relations": "街道因灾害严重损毁，两侧建筑倒塌或严重损毁，碎片散布于街道，远处可见烟雾",
+      "report": "地震致街道严重损毁，两侧多栋建筑倒塌，碎片遍布，灾情严重。",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 10.591691255569458,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_520",
+    "ground_truth": "earthquake",
+    "prediction": "other",
+    "raw_output": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物主体结构坍塌，内部空间暴露，周围有植被分布\",\n  \"report\": \"某区域发生灾害，一栋建筑严重损毁，结构坍塌，周围环境受影响\",\n  \"disaster_type_original\": \"other\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "other",
+      "damage_count": 1,
+      "object_relations": "建筑物主体结构坍塌，内部空间暴露，周围有植被分布",
+      "report": "某区域发生灾害，一栋建筑严重损毁，结构坍塌，周围环境受影响",
+      "disaster_type_original": "other"
+    },
+    "inference_time": 7.795161008834839,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "fire_火灾_608",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "raw_output": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"高层建筑被火焰和浓烟包围，处于燃烧状态，建筑结构受损\",\n  \"report\": \"高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "fire",
+      "damage_count": 1,
+      "object_relations": "高层建筑被火焰和浓烟包围，处于燃烧状态，建筑结构受损",
+      "report": "高层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损，需紧急救援",
+      "disaster_type_original": "火灾"
+    },
+    "inference_time": 7.592443227767944,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "flood_洪涝_142",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "raw_output": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约15栋\",\n  \"object_relations\": \"泥石流携带泥沙、碎石冲刷村庄，导致房屋损毁，周边山体受侵蚀\",\n  \"report\": \"山区村庄遭泥石流侵袭，大量房屋损毁，泥沙碎石冲刷破坏建筑，灾情严重。\",\n  \"disaster_type_original\": \"泥石流\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "landslide",
+      "damage_count": "约15栋",
+      "object_relations": "泥石流携带泥沙、碎石冲刷村庄，导致房屋损毁，周边山体受侵蚀",
+      "report": "山区村庄遭泥石流侵袭，大量房屋损毁，泥沙碎石冲刷破坏建筑，灾情严重。",
+      "disaster_type_original": "泥石流"
+    },
+    "inference_time": 9.51392650604248,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "typhoon_台风_970",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "raw_output": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋被洪水淹没，室内物品（家具、杂物）浸泡在水中，建筑处于被水浸泡的状态\",\n  \"report\": \"台风引发洪水，房屋被淹，室内物品浸泡，建筑受损，需紧急救援。\",\n  \"disaster_type_original\": \"台风（风灾）\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "windstorm_or_typhoon",
+      "damage_count": 1,
+      "object_relations": "房屋被洪水淹没，室内物品（家具、杂物）浸泡在水中，建筑处于被水浸泡的状态",
+      "report": "台风引发洪水，房屋被淹，室内物品浸泡，建筑受损，需紧急救援。",
+      "disaster_type_original": "台风（风灾）"
+    },
+    "inference_time": 8.894248008728027,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  },
+  {
+    "id": "earthquake_地震_194",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "raw_output": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌建筑位于街道旁，周围有其他建筑，建筑结构因灾害严重损毁，碎片散落街道\",\n  \"report\": \"地震致一栋建筑严重坍塌，结构损毁，碎片散落街道，周边建筑受影响\",\n  \"disaster_type_original\": \"地震\"\n}",
+    "valid_json": true,
+    "parsed_json": {
+      "disaster_type": "earthquake",
+      "damage_count": 1,
+      "object_relations": "坍塌建筑位于街道旁，周围有其他建筑，建筑结构因灾害严重损毁，碎片散落街道",
+      "report": "地震致一栋建筑严重坍塌，结构损毁，碎片散落街道，周边建筑受影响",
+      "disaster_type_original": "地震"
+    },
+    "inference_time": 8.565666675567627,
+    "peak_memory_gb": 4.2226176261901855,
+    "error": null
+  }
+]

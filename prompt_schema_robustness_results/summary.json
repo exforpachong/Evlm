@@ -1,0 +1,76 @@
+{
+  "generated_on": "2026-05-20",
+  "test_data": "data/dataset_test_canonical_clean.json",
+  "limit": null,
+  "modes": [
+    "zeroshot",
+    "finetuned"
+  ],
+  "prompt_variants": [
+    "current_zh",
+    "schema_en"
+  ],
+  "note": "Strict metrics keep every canonical-ground-truth sample in the denominator. Invalid JSON, missing predictions, and non-canonical predictions count as wrong.",
+  "rows": [
+    {
+      "prompt_variant": "current_zh",
+      "mode": "zeroshot",
+      "total": 211,
+      "strict_correct": 187,
+      "strict_accuracy": 0.8862559241706162,
+      "macro_f1": 0.7599398519688126,
+      "weighted_f1": 0.8921346232263859,
+      "valid_json_rate": 1.0,
+      "valid_subset_count": 209,
+      "valid_subset_accuracy": 0.8947368421052632,
+      "source_metrics_path": "prompt_schema_robustness_results\\current_zh\\zeroshot_metrics.json",
+      "delta_strict_accuracy_vs_current_zh": null,
+      "delta_valid_json_rate_vs_current_zh": null
+    },
+    {
+      "prompt_variant": "current_zh",
+      "mode": "finetuned",
+      "total": 211,
+      "strict_correct": 195,
+      "strict_accuracy": 0.9241706161137441,
+      "macro_f1": 0.7829216916591212,
+      "weighted_f1": 0.9179049142184175,
+      "valid_json_rate": 1.0,
+      "valid_subset_count": 210,
+      "valid_subset_accuracy": 0.9285714285714286,
+      "source_metrics_path": "prompt_schema_robustness_results\\current_zh\\finetuned_metrics.json",
+      "delta_strict_accuracy_vs_current_zh": null,
+      "delta_valid_json_rate_vs_current_zh": null
+    },
+    {
+      "prompt_variant": "schema_en",
+      "mode": "zeroshot",
+      "total": 211,
+      "strict_correct": 182,
+      "strict_accuracy": 0.8625592417061612,
+      "macro_f1": 0.745589308520343,
+      "weighted_f1": 0.8722058796825916,
+      "valid_json_rate": 0.957345971563981,
+      "valid_subset_count": 202,
+      "valid_subset_accuracy": 0.900990099009901,
+      "source_metrics_path": "prompt_schema_robustness_results\\schema_en\\zeroshot_metrics.json",
+      "delta_strict_accuracy_vs_current_zh": -0.023696682464455,
+      "delta_valid_json_rate_vs_current_zh": -0.042654028436018954
+    },
+    {
+      "prompt_variant": "schema_en",
+      "mode": "finetuned",
+      "total": 211,
+      "strict_correct": 195,
+      "strict_accuracy": 0.9241706161137441,
+      "macro_f1": 0.7838966779760886,
+      "weighted_f1": 0.9176743085100776,
+      "valid_json_rate": 0.995260663507109,
+      "valid_subset_count": 210,
+      "valid_subset_accuracy": 0.9285714285714286,
+      "source_metrics_path": "prompt_schema_robustness_results\\schema_en\\finetuned_metrics.json",
+      "delta_strict_accuracy_vs_current_zh": 0.0,
+      "delta_valid_json_rate_vs_current_zh": -0.004739336492891044
+    }
+  ]
+}

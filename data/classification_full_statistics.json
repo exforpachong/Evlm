@@ -1,0 +1,806 @@
+{
+  "train": {
+    "total": 2453,
+    "labels": {
+      "flood": 471,
+      "landslide": 633,
+      "windstorm_or_typhoon": 425,
+      "earthquake": 493,
+      "fire": 387,
+      "other": 44
+    },
+    "label_sources": {
+      "canonical": 1714,
+      "filename_fallback": 739
+    },
+    "low_confidence_count": 739,
+    "low_confidence_samples": [
+      {
+        "id": "landslide_滑坡_970",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_290",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1010",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_134",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1188",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_410",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_584",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_431",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_684",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1230",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_472",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1164",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_594",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_291",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_266",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_374",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_8",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1199",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1098",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_437",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_909",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1089",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_267",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_310",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_611",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_583",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_273",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1346",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_65",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_190",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_3",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_550",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_439",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_241",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_251",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_721",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_180",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_444",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_796",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_429",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_407",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_468",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1251",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1263",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_321",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_432",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_144",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_587",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1168",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_223",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      }
+    ]
+  },
+  "val": {
+    "total": 306,
+    "labels": {
+      "flood": 60,
+      "fire": 54,
+      "earthquake": 59,
+      "landslide": 86,
+      "windstorm_or_typhoon": 43,
+      "other": 4
+    },
+    "label_sources": {
+      "canonical": 216,
+      "filename_fallback": 90
+    },
+    "low_confidence_count": 90,
+    "low_confidence_samples": [
+      {
+        "id": "landslide_滑坡_1203",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_140",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_640",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_450",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1035",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1214",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1271",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_787",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_408",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_502",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1037",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1267",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_192",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_364",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_444",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1213",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_316",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1126",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_748",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1124",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_573",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_269",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_346",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1168",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_471",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_709",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1188",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1189",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1248",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1181",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_883",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_423",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_418",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_392",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_424",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_501",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_193",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1090",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1273",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_467",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_473",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1162",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_767",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_490",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_738",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_809",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1153",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1211",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1112",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_359",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      }
+    ]
+  },
+  "test": {
+    "total": 305,
+    "labels": {
+      "landslide": 70,
+      "earthquake": 67,
+      "flood": 55,
+      "fire": 52,
+      "windstorm_or_typhoon": 56,
+      "other": 5
+    },
+    "label_sources": {
+      "filename_fallback": 94,
+      "canonical": 211
+    },
+    "low_confidence_count": 94,
+    "low_confidence_samples": [
+      {
+        "id": "landslide_滑坡_1000",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_106",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_280",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_319",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1043",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_482",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_496",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1066",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1174",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1217",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_400",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_358",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1239",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1050",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_326",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_418",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1085",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_435",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_843",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_484",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_495",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1245",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1335",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_217",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_127",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_913",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1035",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_430",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1330",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_474",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_1135",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_988",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "flood_洪涝_105",
+        "disaster_type": "flood",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_282",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_453",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_516",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_974",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_827",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1120",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1064",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_338",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_556",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_998",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_960",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "typhoon_台风_1128",
+        "disaster_type": "windstorm_or_typhoon",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_703",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_672",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "fire_火灾_231",
+        "disaster_type": "fire",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "landslide_滑坡_593",
+        "disaster_type": "landslide",
+        "label_source": "filename_fallback"
+      },
+      {
+        "id": "earthquake_地震_76",
+        "disaster_type": "earthquake",
+        "label_source": "filename_fallback"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "majority_baseline": {
+    "predicted_class": "landslide",
+    "correct": 40,
+    "total": 211,
+    "accuracy": 0.1895734597156398
+  },
+  "random_baseline": {
+    "classes": [
+      "flood",
+      "landslide",
+      "windstorm_or_typhoon",
+      "earthquake",
+      "fire",
+      "other"
+    ],
+    "weights": [
+      0.20945157526254377,
+      0.22228704784130687,
+      0.15635939323220538,
+      0.2147024504084014,
+      0.17152858809801633,
+      0.025670945157526253
+    ],
+    "correct": 44,
+    "total": 211,
+    "accuracy": 0.20853080568720378
+  },
+  "training_distribution": {
+    "flood": 359,
+    "landslide": 381,
+    "windstorm_or_typhoon": 268,
+    "earthquake": 368,
+    "fire": 294,
+    "other": 44
+  },
+  "test_distribution": {
+    "flood": 52,
+    "landslide": 40,
+    "fire": 35,
+    "earthquake": 49,
+    "windstorm_or_typhoon": 30,
+    "other": 5
+  },
+  "config": {
+    "train_file": "C:\\Users\\34791\\Desktop\\数据集\\data\\dataset_train_canonical_clean.json",
+    "test_file": "C:\\Users\\34791\\Desktop\\数据集\\data\\dataset_test_canonical_clean.json",
+    "seed": 42
+  }
+}

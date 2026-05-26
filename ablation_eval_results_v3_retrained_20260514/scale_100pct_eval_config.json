@@ -1,0 +1,16 @@
+{
+  "model_path": "C:\\Users\\34791\\Desktop\\数据集\\models\\Qwen3-VL-2B-Instruct",
+  "adapter_path": "ablation_adapters_retrained_20260514\\scale_100pct",
+  "test_data_path": "C:\\Users\\34791\\Desktop\\数据集\\data\\dataset_test_canonical_clean.json",
+  "images_dir": "C:\\Users\\34791\\Desktop\\数据集\\sample_images",
+  "output_dir": "ablation_eval_results_v3_retrained_20260514",
+  "torch_dtype": "bfloat16",
+  "device_map": "auto",
+  "max_pixels": 262144,
+  "max_new_tokens": 512,
+  "temperature": 0.0,
+  "do_sample": false,
+  "seed": 42,
+  "bootstrap_samples": 1000,
+  "confidence_level": 0.95
+}

@@ -1,0 +1,29 @@
+# Large or private local artifacts
+models/
+sample_images/
+finetune_output_v2/
+run_logs/
+manuscript/
+paper_figures/
+
+# Submission-stage or private notes
+PROJECT_MASTER.md
+论文作者和基金.txt
+论文写作方法.txt
+docs/journal_submission_strategy.md
+docs/paper_experiment_analysis.md
+docs/next_experiment_plan.md
+docs/cleanup_report_20260514.md
+
+# Credentials and local environment
+.env
+*.key
+*.pem
+*password*
+*secret*
+
+# Python/cache artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+

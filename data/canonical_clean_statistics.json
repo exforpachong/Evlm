@@ -1,0 +1,296 @@
+{
+  "train": {
+    "total": 2453,
+    "valid": 1714,
+    "labels": {
+      "flood": 359,
+      "landslide": 381,
+      "windstorm_or_typhoon": 268,
+      "earthquake": 368,
+      "fire": 294,
+      "other": 44
+    },
+    "errors": {
+      "json_parse_error": 348,
+      "empty_assistant_message": 391
+    },
+    "error_samples": [
+      {
+        "id": "landslide_滑坡_970",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "fire_火灾_290",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1010",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "earthquake_地震_134",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "typhoon_台风_1188",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_410",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_584",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_431",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_684",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "typhoon_台风_1230",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_472",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1164",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_594",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_291",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "fire_火灾_266",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_374",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_8",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "typhoon_台风_1199",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1098",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "fire_火灾_437",
+        "reason": "json_parse_error"
+      }
+    ]
+  },
+  "val": {
+    "total": 306,
+    "valid": 216,
+    "labels": {
+      "flood": 42,
+      "fire": 45,
+      "earthquake": 49,
+      "landslide": 47,
+      "windstorm_or_typhoon": 29,
+      "other": 4
+    },
+    "errors": {
+      "json_parse_error": 40,
+      "empty_assistant_message": 50
+    },
+    "error_samples": [
+      {
+        "id": "landslide_滑坡_1203",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "flood_洪涝_140",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_640",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_450",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "typhoon_台风_1035",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1214",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_1271",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_787",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_408",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "fire_火灾_502",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1037",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_1267",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "earthquake_地震_192",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_364",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_444",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_1213",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_316",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "typhoon_台风_1126",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_748",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_1124",
+        "reason": "empty_assistant_message"
+      }
+    ]
+  },
+  "test": {
+    "total": 305,
+    "valid": 211,
+    "labels": {
+      "flood": 52,
+      "landslide": 40,
+      "fire": 35,
+      "earthquake": 49,
+      "windstorm_or_typhoon": 30,
+      "other": 5
+    },
+    "errors": {
+      "empty_assistant_message": 43,
+      "json_parse_error": 51
+    },
+    "error_samples": [
+      {
+        "id": "landslide_滑坡_1000",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_106",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "fire_火灾_280",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_319",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1043",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "fire_火灾_482",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_496",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1066",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "typhoon_台风_1174",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1217",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_400",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "fire_火灾_358",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1239",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_1050",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "earthquake_地震_326",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "landslide_滑坡_418",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_1085",
+        "reason": "empty_assistant_message"
+      },
+      {
+        "id": "flood_洪涝_435",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "landslide_滑坡_843",
+        "reason": "json_parse_error"
+      },
+      {
+        "id": "fire_火灾_484",
+        "reason": "json_parse_error"
+      }
+    ]
+  }
+}

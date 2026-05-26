@@ -1,0 +1,15 @@
+{
+  "note": "5 core disaster types (removed other)",
+  "zero_shot": {
+    "total": 206,
+    "accuracy": 0.9077669902912622,
+    "valid_json_rate": 1.0,
+    "macro_f1": 0.9232703798560513
+  },
+  "fine_tuned": {
+    "total": 206,
+    "accuracy": 0.9368932038834952,
+    "valid_json_rate": 0.9902912621359223,
+    "macro_f1": 0.9437005851291567
+  }
+}

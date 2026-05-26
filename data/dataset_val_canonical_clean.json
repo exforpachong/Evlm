@@ -1,0 +1,3458 @@
+[
+  {
+    "id": "flood_洪涝_307",
+    "images": [
+      "sample_images\\flood_洪涝_307.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10栋建筑物受损\",\n  \"object_relations\": \"洪水淹没街道与周边房屋，树木、电线杆浸泡在洪水中，建筑与道路被水覆盖\",\n  \"report\": \"洪水灾害致居民区街道及房屋被淹，约10栋建筑受损，树木与电线杆浸泡于水中，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_367",
+    "images": [
+      "sample_images\\flood_洪涝_367.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"若干（街道两侧建筑均受淹）\",\n  \"object_relations\": \"街道被洪水淹没，两侧建筑物被水浸泡，水位高于街道地面\",\n  \"report\": \"洪水淹没街道，两侧建筑受水浸泡，灾情严重，需紧急应对。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_13",
+    "images": [
+      "sample_images\\flood_洪涝_13.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没河道及两岸树木，树木部分被水浸泡\",\n  \"report\": \"洪水灾害导致区域被淹，河道及两岸树木受洪水侵袭，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_566",
+    "images": [
+      "sample_images\\fire_火灾_566.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋建筑物严重受损\",\n  \"object_relations\": \"火焰正在猛烈燃烧建筑物，建筑物结构因高温出现破损、坍塌，伴随大量烟雾产生\",\n  \"report\": \"建筑发生严重火灾，火焰吞噬结构，烟雾弥漫，1栋建筑物受损，需紧急救援与评估\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_182",
+    "images": [
+      "sample_images\\flood_洪涝_182.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损车辆约10 - 15辆\",\n  \"object_relations\": \"洪水淹没道路及周围区域，车辆停留在道路上，直升机在空中执行任务，树木与农田被洪水覆盖\",\n  \"report\": \"洪水淹没道路及周边，车辆受困，直升机空中巡查，树木农田被淹，灾情严重\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_389",
+    "images": [
+      "sample_images\\earthquake_地震_389.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路路面出现大面积裂缝、隆起变形，黄色标线断裂错位，路面结构受损\",\n  \"report\": \"地震引发道路严重损毁，路面大面积裂缝、变形，黄色标线断裂，交通设施破坏。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_585",
+    "images": [
+      "sample_images\\fire_火灾_585.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的高层建筑为主要对象，建筑外有树木，建筑内部和外部被火焰吞噬，浓烟从建筑顶部和窗户涌出\",\n  \"report\": \"一栋高层建筑发生严重火灾，火焰与浓烟笼罩建筑，周边树木可见，建筑物受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_491",
+    "images": [
+      "sample_images\\landslide_滑坡_491.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"道路严重损毁，周围大量碎石堆积，无可见车辆，估计受损道路1条\",\n  \"object_relations\": \"道路因山体崩塌被碎石覆盖，路面出现大面积开裂，两侧山体碎石滑落至路面\",\n  \"report\": \"山区道路遭山体崩塌损毁，路面开裂、碎石堆积，交通受阻，需紧急抢修。\",\n  \"disaster_type_original\": \"山体崩塌\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_150",
+    "images": [
+      "sample_images\\flood_洪涝_150.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约50 - 100栋建筑物）\",\n  \"object_relations\": \"河流水位上涨，淹没沿岸居民区、建筑物及部分道路，洪水与被淹区域形成空间上的覆盖关系\",\n  \"report\": \"洪水灾害致河流沿岸大量居民区、建筑物被淹，水位上涨淹没区域广泛，灾情较为严重。\",\n  \"disaster_type_original\": \"洪水（Flooding）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_617",
+    "images": [
+      "sample_images\\fire_火灾_617.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"一栋多层建筑被火焰和浓烟包围，处于燃烧状态，建筑结构受火灾侵袭\",\n  \"report\": \"一栋多层建筑发生严重火灾，火焰与浓烟笼罩，建筑受损严重，需紧急救援。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_666",
+    "images": [
+      "sample_images\\fire_火灾_666.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的建筑物为主体，火焰与烟雾从建筑内部及窗户大量涌出，建筑处于被大火吞噬的状态\",\n  \"report\": \"夜间一栋建筑突发严重火灾，火焰从建筑顶部和窗户猛烈喷出，建筑受损，现场可见消防相关元素\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1245",
+    "images": [
+      "sample_images\\landslide_滑坡_1245.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"图片中主要对象为土坡，土体呈现分层、坍塌的失稳状态，显示出滑坡灾害的特征\",\n  \"report\": \"图片显示土坡发生滑坡，无建筑物或车辆受损，土体因失稳呈现坍塌、侵蚀形态，属于地质灾害。\",\n  \"disaster_type_original\": \"滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_257",
+    "images": [
+      "sample_images\\fire_火灾_257.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员使用水管扑灭森林大火，火焰正在燃烧树木，树木处于被火焰侵袭的状态\",\n  \"report\": \"森林火灾肆虐，消防员奋力灭火，树木被大火吞噬，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1228",
+    "images": [
+      "sample_images\\landslide_滑坡_1228.JPG"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物约3 - 5栋，车辆1 - 2辆\",\n  \"object_relations\": \"救援人员（穿橙色、红色制服，戴安全帽）在滑坡废墟中开展救援作业，周围有倒塌建筑、碎石和植被\",\n  \"report\": \"山体滑坡致建筑受损，救援人员正在废墟中作业，需关注被困人员与次生灾害\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1149",
+    "images": [
+      "sample_images\\landslide_滑坡_1149.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量建筑物及车辆被洪水淹没，难以精确计数\",\n  \"object_relations\": \"穿黄色制服的救援人员（在直升机上）观察被洪水广泛覆盖的陆地与植被区域\",\n  \"report\": \"洪水灾害致大面积区域被淹，救援人员乘直升机侦察灾情，大量建筑与车辆受损，灾情严重需紧急处置\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_573",
+    "images": [
+      "sample_images\\landslide_滑坡_573.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约5 - 10辆\",\n  \"object_relations\": \"山体滑坡体覆盖部分道路，多辆车辆被掩埋或损毁，现场有起重机等救援设备作业\",\n  \"report\": \"山体滑坡掩埋道路，多辆车辆受损，救援力量已到现场处置\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_299",
+    "images": [
+      "sample_images\\flood_洪涝_299.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约12辆车辆受损\",\n  \"object_relations\": \"建筑物周边区域被洪水淹没，多辆汽车浸泡在洪水中，植被受洪水侵袭\",\n  \"report\": \"洪水侵袭导致区域被淹，多辆汽车受损，建筑物周边积水严重，灾情明显\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_942",
+    "images": [
+      "sample_images\\landslide_滑坡_942.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 60,\n  \"object_relations\": \"滑坡灾害导致房屋损毁，影响家庭，人员现场查看灾情，涉及Bandarawela、Poonagala、Haldummulla等地\",\n  \"report\": \"3月19日Bandarawela地区因强降雨引发滑坡，60栋房屋损毁，72220人受影响，人员现场查看灾情\",\n  \"disaster_type_original\": \"landslide\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_793",
+    "images": [
+      "sample_images\\landslide_滑坡_793.png"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"估计受损车辆约3 - 5辆，道路设施严重受损\",\n  \"object_relations\": \"山体滑坡掩埋部分公路，多辆车辆（含卡车、工程车）受困，救援设备在滑坡区域作业\",\n  \"report\": \"山体滑坡阻断公路，多辆车辆受困，救援设备正在作业，道路设施严重受损。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1242",
+    "images": [
+      "sample_images\\typhoon_台风_1242.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木阻塞道路，骑行者在道路上绕行，树木与道路、骑行者形成空间阻碍关系\",\n  \"report\": \"强风致树木倒伏阻塞道路，骑行者绕行，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_409",
+    "images": [
+      "sample_images\\landslide_滑坡_409.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡体掩埋、破坏公路，导致道路断裂，交通设施受损\",\n  \"report\": \"山体滑坡致公路严重坍塌断裂，交通设施受损，现场设警示设施，需紧急抢修\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_596",
+    "images": [
+      "sample_images\\earthquake_地震_596.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑物\",\n  \"object_relations\": \"救援人员围绕坍塌的混凝土块开展救援，与坍塌建筑残骸形成互动关系\",\n  \"report\": \"地震致建筑坍塌，救援人员围绕坍塌残骸展开搜救，受损建筑约1栋，现场救援紧张有序。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_551",
+    "images": [
+      "sample_images\\earthquake_地震_551.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 1,\n  \"object_relations\": \"穿橙色制服的救援人员使用设备检测破损的混凝土结构，周围为岩石坍塌区域\",\n  \"report\": \"地质灾害致混凝土结构损毁，救援人员现场检测评估，受损建筑1处，需进一步排查隐患\",\n  \"disaster_type_original\": \"地质灾害（坍塌/滑坡）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_625",
+    "images": [
+      "sample_images\\fire_火灾_625.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火焰正在猛烈燃烧建筑物，建筑物处于被火焰吞噬的状态\",\n  \"report\": \"发生火灾，一栋多层建筑被熊熊大火吞噬，受损严重，需紧急处置。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1246",
+    "images": [
+      "sample_images\\typhoon_台风_1246.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木根系裸露，与周围草地、其他树木形成破坏性关联，树木被强风摧毁后倒伏在地，破坏区域植被结构\",\n  \"report\": \"强风致多棵树木倒伏、根系裸露，地面受损，暂未发现建筑物或车辆损毁。\",\n  \"disaster_type_original\": \"强风灾害\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_626",
+    "images": [
+      "sample_images\\landslide_滑坡_626.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 4,\n  \"object_relations\": \"滑坡体（泥土、碎石）掩埋或摧毁部分房屋，房屋分布于山坡，周围有植被与山体\",\n  \"report\": \"山区发生滑坡，多栋房屋受损，滑坡体掩埋建筑，灾情严重\",\n  \"disaster_type_original\": \"滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_327",
+    "images": [
+      "sample_images\\fire_火灾_327.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员在山林中扑救正在蔓延的森林火灾，火灾燃烧着树木和植被\",\n  \"report\": \"森林火灾肆虐，消防员现场扑救，植被受火灾威胁，暂未发现建筑物或车辆损毁。\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1143",
+    "images": [
+      "sample_images\\landslide_滑坡_1143.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约15栋\",\n  \"object_relations\": \"山体滑坡体覆盖部分区域，威胁下方居民区房屋，房屋与滑坡体相邻，道路位于居民区旁\",\n  \"report\": \"山体滑坡灾害致滑坡体威胁下方居民区，约15栋房屋受损，道路受影响，需紧急处置。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_497",
+    "images": [
+      "sample_images\\earthquake_地震_497.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 1,\n  \"object_relations\": \"救援人员使用探测设备，传感器（1、2、3号）用于定位坍塌结构下方的被困人员，传感器与被困人员位置关联，救援人员操作设备进行探测\",\n  \"report\": \"坍塌灾害致结构损毁，救援人员通过传感器定位被困人员，现场探测设备显示信号变化，需紧急施救\",\n  \"disaster_type_original\": \"坍塌\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_120",
+    "images": [
+      "sample_images\\earthquake_地震_120.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"2栋（或更多，图中主要可见2栋严重受损建筑）\",\n  \"object_relations\": \"坍塌的多层建筑与散落的建筑废墟构成破坏场景，废墟为建筑结构坍塌后的残留物，周围存在部分未完全坍塌的建筑结构\",\n  \"report\": \"地震引发建筑严重坍塌，至少2栋建筑物损毁，废墟遍地，灾情严峻\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_209",
+    "images": [
+      "sample_images\\fire_火灾_209.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名消防员正在扑救燃烧的森林火灾，火焰在森林中蔓延，消防员处于火场环境中\",\n  \"report\": \"森林突发火灾，两名消防员现场扑救，目前未发现建筑物或车辆受损，火势正在蔓延中。\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_604",
+    "images": [
+      "sample_images\\fire_火灾_604.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋建筑物\",\n  \"object_relations\": \"图片中一栋多层建筑物被大火猛烈燃烧，火焰与浓烟从建筑内部和外部升腾，建筑物结构已出现明显损毁，周围可见起重机等工业设施，水面反射火光\",\n  \"report\": \"夜间一栋建筑物突发严重火灾，火焰与浓烟笼罩建筑，周边设施受波及，灾情紧急需立即处置。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_530",
+    "images": [
+      "sample_images\\landslide_滑坡_530.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因滑坡坍塌，泥土、碎石覆盖路面，周边为植被，远处有人站立观察\",\n  \"report\": \"道路因滑坡坍塌，路面断裂、泥土堆积，周边植被环绕，灾情影响交通，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"滑坡（道路坍塌）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_77",
+    "images": [
+      "sample_images\\flood_洪涝_77.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"数十栋建筑物及部分车辆受损\",\n  \"object_relations\": \"洪水淹没城镇区域，建筑物、树木等被洪水覆盖，形成大面积积水区\",\n  \"report\": \"洪水侵袭城镇，大量建筑物被淹，积水覆盖区域广，灾情严重。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_403",
+    "images": [
+      "sample_images\\fire_火灾_403.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员身着防护装备，手持水带，正在扑灭蔓延的火焰，与火焰形成对抗关系\",\n  \"report\": \"发生野火灾害，消防员现场扑救，暂未发现建筑物或车辆受损，火势正在蔓延。\",\n  \"disaster_type_original\": \"野火\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_862",
+    "images": [
+      "sample_images\\landslide_滑坡_862.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"1栋建筑物严重受损\",\n  \"object_relations\": \"救援人员（穿黄色制服、佩戴防护装备）在倒塌建筑残骸旁开展作业，周围堆积大量泥土与建筑碎片，背景可见未完全损毁的建筑物及机械设备\",\n  \"report\": \"泥石流引发建筑倒塌，救援人员现场处置，1栋建筑受损，需进一步核查损失并开展救援工作。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1099",
+    "images": [
+      "sample_images\\landslide_滑坡_1099.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 15,\n  \"object_relations\": \"山体滑坡位于村庄上方，滑坡体覆盖部分区域并阻断道路，对下方村庄建筑构成直接威胁\",\n  \"report\": \"山体滑坡突发，滑坡体阻断道路，威胁下方村庄，约15栋建筑受损，需紧急开展救援与隐患排查。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_371",
+    "images": [
+      "sample_images\\earthquake_地震_371.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震发生严重开裂，两侧山体、植被及电线杆受地面变形影响，道路与周边环境呈现灾害破坏后的关联状态\",\n  \"report\": \"地震导致道路严重开裂，基础设施受损，暂未发现建筑物或车辆损毁，需关注道路通行安全。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_795",
+    "images": [
+      "sample_images\\typhoon_台风_795.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损建筑周围停有车辆（红色轿车、黑色轿车），地面散落大量建筑碎片，背景为居民区\",\n  \"report\": \"强风致一栋建筑屋顶坍塌，周边车辆受影响，地面散落碎片，居民区遭波及。\",\n  \"disaster_type_original\": \"强风灾害（如飓风/龙卷风）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_904",
+    "images": [
+      "sample_images\\typhoon_台风_904.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"受损建筑物约12栋，受损车辆约5辆\",\n  \"object_relations\": \"住宅区内建筑物周边散落大量建筑碎片，车辆停放在房屋附近，部分车辆可能因灾害受损，道路被碎片部分阻塞\",\n  \"report\": \"飓风侵袭导致居民区建筑受损、碎片遍地，约12栋建筑及5辆车辆受影响，需紧急开展救援与清理工作。\",\n  \"disaster_type_original\": \"飓风（强风灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_273",
+    "images": [
+      "sample_images\\earthquake_地震_273.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现巨大裂缝，裂缝两侧路面分离，散落碎石\",\n  \"report\": \"地震引发地面开裂，道路严重损毁，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_208",
+    "images": [
+      "sample_images\\fire_火灾_208.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭燃烧的森林火灾，火焰与烟雾笼罩植被，消防员使用水管进行灭火作业\",\n  \"report\": \"森林火灾发生，消防员现场扑救，火焰与烟雾笼罩植被区域，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_422",
+    "images": [
+      "sample_images\\fire_火灾_422.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名消防员在野火现场，观察火情并准备开展灭火工作\",\n  \"report\": \"野火肆虐，浓烟弥漫，两名消防员现场处置，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"野火\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1345",
+    "images": [
+      "sample_images\\typhoon_台风_1345.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木、植物残骸及散落物因风暴破坏堆积，呈现杂乱分布\",\n  \"report\": \"风暴致区域树木倒伏、植被破坏，无明显建筑物或车辆受损， debris 杂乱堆积，需关注生态恢复\",\n  \"disaster_type_original\": \"风暴（或台风）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_273",
+    "images": [
+      "sample_images\\flood_洪涝_273.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 2,\n  \"object_relations\": \"泥石流携带大量石块冲刷，导致建筑物受损，石块堆积在建筑前方，水流湍急\",\n  \"report\": \"泥石流灾害致区域建筑受损，大量石块堆积，湍急泥水冲刷周边环境，造成严重破坏\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_568",
+    "images": [
+      "sample_images\\fire_火灾_568.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"受损建筑物1栋，车辆约2辆\",\n  \"object_relations\": \"起火的多层建筑，其周围停放车辆，建筑燃烧产生火焰与浓烟，车辆可能受火灾波及\",\n  \"report\": \"城市一栋多层建筑突发严重火灾，火焰与浓烟弥漫，周边停放车辆受影响，灾情紧急需救援\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_989",
+    "images": [
+      "sample_images\\typhoon_台风_989.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": {\n    \"buildings\": 1,\n    \"vehicles\": 0\n  },\n  \"object_relations\": \"多层建筑的外墙及窗户遭受严重破坏，内部物品因窗户破损暴露，建筑结构受冲击影响\",\n  \"report\": \"爆炸导致多层建筑窗户大面积破损，内部物品暴露，建筑受损严重，需紧急评估结构安全\",\n  \"disaster_type_original\": \"爆炸\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_616",
+    "images": [
+      "sample_images\\landslide_滑坡_616.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"湍急水流携带泥沙、石块，冲刷形成沟壑，周围为山地与森林环境\",\n  \"report\": \"山区发生泥石流，水流裹挟泥沙石块冲刷地表，未发现建筑物或车辆受损，灾情主要表现为地形破坏\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_175",
+    "images": [
+      "sample_images\\flood_洪涝_175.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约5 - 10处建筑物受损，车辆难以辨识\",\n  \"object_relations\": \"洪水淹没大面积农田、零星分布的树木及部分建筑物，建筑物与农田被洪水包围，处于淹没状态\",\n  \"report\": \"洪水灾害致区域大面积农田、部分建筑物被淹，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_415",
+    "images": [
+      "sample_images\\earthquake_地震_415.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"大量建筑物坍塌（无法精确计数，场景显示严重损毁）\",\n  \"object_relations\": \"救援人员（佩戴安全帽、防护装备）在坍塌建筑废墟中协作抬运被救者（裹银色保温毯），周围有围观或记录的人员\",\n  \"report\": \"地震引发建筑严重坍塌，救援队伍在废墟中紧急施救被困人员，现场损毁建筑密集，救援工作紧张有序。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_301",
+    "images": [
+      "sample_images\\fire_火灾_301.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"火焰正在燃烧森林中的树木和地面植被，树木被火焰包围，地面散布燃烧残骸，火焰呈蔓延状态\",\n  \"report\": \"森林发生野火，火焰蔓延燃烧树木与植被，暂未发现建筑物或车辆受损，灾情严重。\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_599",
+    "images": [
+      "sample_images\\landslide_滑坡_599.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"泥石流（泥浆、碎石）沿河道流动，冲刷河道两岸山体植被及电线杆，河道被淤积物覆盖\",\n  \"report\": \"泥石流灾害致河道淤积，周边山体植被受损，暂未发现建筑物或车辆损毁，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1270",
+    "images": [
+      "sample_images\\typhoon_台风_1270.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木压覆下方植被，周围树木呈现倾斜状态，显示风力对森林植被的破坏关系\",\n  \"report\": \"该区域遭强风侵袭，多棵树木倒伏压覆植被，无建筑物或车辆受损，需关注森林生态后续影响。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1147",
+    "images": [
+      "sample_images\\typhoon_台风_1147.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"大量（约50 - 100栋建筑及多辆车辆）\",\n  \"object_relations\": \"建筑物被严重损毁，碎片散落，树木倒伏并与建筑 debris 混杂，呈现灾后混乱场景\",\n  \"report\": \"飓风过境致区域建筑大面积损毁，碎片遍地、树木倒伏，灾情严重。\",\n  \"disaster_type_original\": \"飓风（热带气旋）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_410",
+    "images": [
+      "sample_images\\landslide_滑坡_410.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物1栋，道路及护栏严重损毁\",\n  \"object_relations\": \"山体滑坡导致道路坍塌、护栏损毁，附近建筑物处于滑坡边缘，人员现场查看灾情\",\n  \"report\": \"山体滑坡致道路坍塌、护栏损毁，附近1栋建筑受威胁，人员现场查看灾情。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_790",
+    "images": [
+      "sample_images\\typhoon_台风_790.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损屋顶的金属板、框架等结构因强风作用发生移位、损坏，部件间相互分离\",\n  \"report\": \"风灾致建筑屋顶严重损毁，金属板与框架移位、掀翻，结构破坏明显，需紧急评估损失。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_880",
+    "images": [
+      "sample_images\\landslide_滑坡_880.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损车辆约5 - 8辆\",\n  \"object_relations\": \"三轮车（载有广告牌）与摩托车在积水中行驶，背景多辆汽车、行人处于积水街道，各对象均受洪水影响\",\n  \"report\": \"城市内涝致街道积水严重，三轮车、摩托车等车辆在积水中通行，交通受阻，需关注灾情后续影响\",\n  \"disaster_type_original\": \"洪水（城市内涝）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1133",
+    "images": [
+      "sample_images\\typhoon_台风_1133.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"老人处于被洪水淹没的室内环境中，周围家具、物品被泥沙浸泡或损毁，呈现灾后清理场景\",\n  \"report\": \"洪水侵袭导致住宅被淹，内部物品损毁严重，老人正在清理灾后现场，灾情影响显著。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_187",
+    "images": [
+      "sample_images\\flood_洪涝_187.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"河流蜿蜒穿过森林与草地，两岸土地受水体影响（如积水、侵蚀）\",\n  \"report\": \"洪水导致河道及周边土地受淹，无明显建筑物或车辆损毁，灾情以自然景观受影响为主。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_249",
+    "images": [
+      "sample_images\\flood_洪涝_249.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"洪水淹没房屋，房屋旁有树木，湍急水流冲刷周围区域\",\n  \"report\": \"洪涝灾害致房屋被淹，水流湍急，周边环境受洪水侵袭，需紧急救援\",\n  \"disaster_type_original\": \"洪水（洪涝灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_10",
+    "images": [
+      "sample_images\\earthquake_地震_10.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋\",\n  \"object_relations\": \"坍塌的混凝土构件、钢筋等相互堆叠、断裂，构成建筑废墟\",\n  \"report\": \"地震致建筑严重坍塌，混凝土块与钢筋交错，受损建筑1栋，灾情严重\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1065",
+    "images": [
+      "sample_images\\landslide_滑坡_1065.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑物严重受损\",\n  \"object_relations\": \"建筑物部分坍塌，碎石堆积于周围，挖掘机位于坍塌建筑旁进行清理作业，树木位于建筑后方\",\n  \"report\": \"地震致建筑物严重坍塌，碎石遍地，挖掘机正清理废墟，周边环境受波及\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_238",
+    "images": [
+      "sample_images\\flood_洪涝_238.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物约6栋，车辆约3辆\",\n  \"object_relations\": \"洪水携带泥沙淹没区域，建筑物被泥沙掩埋，车辆浸泡在积水中，人群在灾害现场活动\",\n  \"report\": \"山洪泥石流致区域被泥沙淹没，约6栋建筑、3辆车辆受损，人群在灾害现场活动，灾情严重。\",\n  \"disaster_type_original\": \"山洪泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_836",
+    "images": [
+      "sample_images\\landslide_滑坡_836.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约10 - 15处（建筑物与车辆）\",\n  \"object_relations\": \"泥石流冲毁建筑物和车辆，人群在灾害现场活动\",\n  \"report\": \"中国西安发生致命泥石流，泥石流冲毁多栋建筑与车辆，现场有人员查看灾情，灾害造成严重破坏\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1023",
+    "images": [
+      "sample_images\\typhoon_台风_1023.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"受损建筑物约1栋，车辆约1辆\",\n  \"object_relations\": \"倒塌树木压迫房屋与车辆，碎片散落地面，树木与建筑、车辆存在物理压迫关系\",\n  \"report\": \"风暴引发树木倒塌，压损房屋与车辆，地面散落大量碎片，灾情显著。\",\n  \"disaster_type_original\": \"风暴（强风）灾害\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_319",
+    "images": [
+      "sample_images\\fire_火灾_319.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"直升机在浓烟笼罩的空中飞行，下方为树木，直升机疑似执行灭火任务，与浓烟、树木形成救援与灾害现场的关系\",\n  \"report\": \"森林火灾致浓烟弥漫，直升机正在现场灭火，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1266",
+    "images": [
+      "sample_images\\typhoon_台风_1266.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏树木（根系裸露、枝干散落）位于草地，附近有路灯，背景为高层建筑，树木与周边植被、设施存在空间关联\",\n  \"report\": \"强风致树木倒伏，根系裸露，周边草地及设施受影响，背景建筑暂未明显受损，灾情以植被破坏为主\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_393",
+    "images": [
+      "sample_images\\fire_火灾_393.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员与消防车位于森林火灾现场，消防员站立于消防车旁，面对燃烧的林木\",\n  \"report\": \"森林火灾肆虐，消防员与消防车在火场边缘应对，周围林木被大火吞噬，灾情紧急\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_774",
+    "images": [
+      "sample_images\\landslide_滑坡_774.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"建筑物1栋，车辆1辆\",\n  \"object_relations\": \"房屋因滑坡发生倾斜，下方车辆被压损，救援人员与挖掘机械正在现场开展救援作业\",\n  \"report\": \"滑坡灾害致房屋倾斜、车辆受损，救援人员携机械紧急处置，现场救援工作有序开展\",\n  \"disaster_type_original\": \"滑坡（山体滑坡）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_219",
+    "images": [
+      "sample_images\\flood_洪涝_219.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"至少1辆车辆、1栋建筑物受损\",\n  \"object_relations\": \"洪水淹没街道，轿车被浸泡在水中，白色两层楼房屋被水围困，周围有杂物漂浮\",\n  \"report\": \"洪水淹没街道，致轿车浸泡、房屋被围困，周边杂物漂浮，灾情明显\",\n  \"disaster_type_original\": \"flooding\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1049",
+    "images": [
+      "sample_images\\landslide_滑坡_1049.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋（约5栋）建筑物严重受损\",\n  \"object_relations\": \"建筑物因地震坍塌，碎石散落覆盖街道，周边设施（如电线杆、围栏）受损\",\n  \"report\": \"地震导致该区域多栋建筑物严重坍塌，碎石遍布街道，周边设施受损，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_331",
+    "images": [
+      "sample_images\\flood_洪涝_331.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10栋\",\n  \"object_relations\": \"洪水淹没街道，多栋建筑物及部分电线杆被水覆盖\",\n  \"report\": \"洪水灾害侵袭区域，街道与多栋建筑物被淹，灾情严重，需紧急应对。\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1074",
+    "images": [
+      "sample_images\\landslide_滑坡_1074.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"约3 - 5栋建筑物受损\",\n  \"object_relations\": \"道路严重断裂，周边建筑物出现裂缝、坍塌，碎石散落，显示地震引发地面变形，建筑物受地面运动影响受损\",\n  \"report\": \"地震导致道路严重损毁，周边建筑物出现裂缝、坍塌，碎石遍布，灾情严重。\",\n  \"disaster_type_original\": \"earthquake\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_583",
+    "images": [
+      "sample_images\\landslide_滑坡_583.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡发生坍塌，滑坡体掩埋部分路面，交通锥用于警示\",\n  \"report\": \"山区道路受山体滑坡影响坍塌，路面损毁，无建筑物或车辆受损，需尽快开展抢修工作。\",\n  \"disaster_type_original\": \"山体滑坡（地质灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_236",
+    "images": [
+      "sample_images\\flood_洪涝_236.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损建筑位于河流旁，建筑结构因灾害严重破坏，周围有石墙、植被，河流可能为灾害诱因\",\n  \"report\": \"洪水致河边建筑严重损毁，结构坍塌，需排查周边区域灾情。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_563",
+    "images": [
+      "sample_images\\earthquake_地震_563.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"至少3栋\",\n  \"object_relations\": \"两名穿橙色制服、戴安全帽的救援人员行走在建筑废墟间，周围是坍塌的建筑物与散落的碎石\",\n  \"report\": \"地震导致建筑严重坍塌，救援人员在废墟中勘察，受损建筑至少3栋，现场满目疮痍。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_286",
+    "images": [
+      "sample_images\\flood_洪涝_286.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"受损车辆1辆，道路严重损毁\",\n  \"object_relations\": \"道路因洪水冲刷出现塌陷，积水覆盖路面，行人、卡车与损毁道路处于同一场景，周围植被和房屋受洪水影响\",\n  \"report\": \"暴雨引发洪涝致道路塌陷、积水，1辆卡车受损，行人现场查看，灾情影响区域交通与周边环境。\",\n  \"disaster_type_original\": \"洪涝（暴雨引发）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_360",
+    "images": [
+      "sample_images\\earthquake_地震_360.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"地面出现裂缝，裂缝为地面因灾害产生的破损结构\",\n  \"report\": \"地震引发地面出现明显裂缝，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_414",
+    "images": [
+      "sample_images\\fire_火灾_414.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员身着防护装备、手持水带，正面对燃烧的火焰，火焰吞噬植被，消防员处于灭火行动中\",\n  \"report\": \"野火肆虐，消防员全力扑救，目前未发现建筑物或车辆受损，灾情集中在植被燃烧区域\",\n  \"disaster_type_original\": \"野火\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_634",
+    "images": [
+      "sample_images\\landslide_滑坡_634.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物约3栋，车辆1辆\",\n  \"object_relations\": \"泥石流携带泥沙碎石冲毁建筑物，部分车辆被掩埋或损坏，道路被阻断\",\n  \"report\": \"泥石流灾害致区域建筑损毁、道路阻断，需紧急开展救援与灾后评估工作。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_104",
+    "images": [
+      "sample_images\\earthquake_地震_104.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"受损建筑物1栋\",\n  \"object_relations\": \"倒塌建筑物与废墟相邻，救援人员、机械设备在废墟区域开展救援作业\",\n  \"report\": \"地震致一栋建筑严重倾斜倒塌，救援人员携设备在废墟中紧急搜救，现场秩序井然。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_266",
+    "images": [
+      "sample_images\\earthquake_地震_266.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"沥青路面出现大范围裂缝，裂缝贯穿道路并破坏路面标线，周围植被与电线杆未直接受损但道路通行功能受严重影响\",\n  \"report\": \"地震导致道路严重开裂，路面标线损毁，暂未发现建筑物或车辆受损，交通通行受阻。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_648",
+    "images": [
+      "sample_images\\fire_火灾_648.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"消防员正在扑救燃烧的多层建筑，消防车在旁提供支援，建筑被大火吞噬，浓烟弥漫\",\n  \"report\": \"火灾致一栋多层建筑受损，消防员现场扑救，浓烟滚滚，紧急救援中\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_386",
+    "images": [
+      "sample_images\\fire_火灾_386.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"大量\",\n  \"object_relations\": \"消防员使用水管灭火，直升机在空中作业，火焰沿山坡蔓延\",\n  \"report\": \"山火肆虐山坡，消防员持水管奋力灭火，直升机空中支援，火势威胁周边区域，需紧急处置\",\n  \"disaster_type_original\": \"山火\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_866",
+    "images": [
+      "sample_images\\landslide_滑坡_866.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"估计受损建筑物约1 - 2处，车辆1辆\",\n  \"object_relations\": \"道路被泥浆淹没，树木、交通标志、远处车辆及背景建筑受泥石流影响，泥石流堆积物阻塞部分区域\",\n  \"report\": \"该区域遭泥石流侵袭，道路被泥浆淹没，背景建筑与远处车辆受损，需紧急清理与救援。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_81",
+    "images": [
+      "sample_images\\flood_洪涝_81.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"大量（约数十至数百栋）\",\n  \"object_relations\": \"建筑物被洪水淹没，周围积水， debris散落，建筑与洪水、碎片相互影响\",\n  \"report\": \"区域遭洪水侵袭，大量建筑物被淹没损毁，积水与碎片遍布，灾情严重。\",\n  \"disaster_type_original\": \"洪水（洪涝灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_53",
+    "images": [
+      "sample_images\\earthquake_地震_53.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": 1,\n  \"object_relations\": \"救援人员（穿反光背心、安全帽）在坍塌建筑周边作业，脚手架与坍塌建筑相邻，人员协作开展救援或清理工作\",\n  \"report\": \"建筑坍塌灾害致1栋建筑损毁，救援人员现场作业开展搜救清理，坍塌结构与脚手架相邻，现场秩序井然。\",\n  \"disaster_type_original\": \"建筑坍塌\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_6",
+    "images": [
+      "sample_images\\landslide_滑坡_6.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因山体滑坡坍塌，坍塌区域边缘设置黄色警戒线，周围有植被覆盖\",\n  \"report\": \"道路因山体滑坡坍塌，无车辆或建筑物受损，现场设警戒线警示，需紧急修复道路保障通行。\",\n  \"disaster_type_original\": \"道路坍塌（山体滑坡引发）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_987",
+    "images": [
+      "sample_images\\landslide_滑坡_987.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"穿制服、戴安全帽的工作人员在滑坡现场勘察，周围分布滑坡产生的碎石、泥土，道路被阻断，植被受损\",\n  \"report\": \"山体滑坡致道路阻断，工作人员现场勘察，无建筑物/车辆明显受损，需尽快清理恢复交通\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_402",
+    "images": [
+      "sample_images\\flood_洪涝_402.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 2,\n  \"object_relations\": \"轿车与货车在积水的道路上行驶，积水覆盖道路，车辆受洪水影响\",\n  \"report\": \"洪水致街道积水，多辆车辆在积水中行驶，道路通行受阻，需关注灾情发展\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_947",
+    "images": [
+      "sample_images\\landslide_滑坡_947.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"1栋建筑物\",\n  \"object_relations\": \"倒塌的房屋被泥石流冲毁，周围散落大量碎石、泥土，背景为植被覆盖的山地\",\n  \"report\": \"泥石流灾害导致房屋倒塌，周围堆积碎石泥土，灾情严重，需紧急开展救援与评估工作。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_503",
+    "images": [
+      "sample_images\\earthquake_地震_503.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 2,\n  \"object_relations\": \"两名救援人员站在坍塌建筑废墟前，观察灾情\",\n  \"report\": \"地震致两栋建筑坍塌，救援人员现场评估灾情，废墟遍地，灾情严重\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_243",
+    "images": [
+      "sample_images\\earthquake_地震_243.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"农田中出现大型裂缝，裂缝贯穿农田，破坏土地完整性\",\n  \"report\": \"农田发生地裂灾害，大面积土地出现深裂缝，暂未发现建筑物或车辆受损，需关注土地稳定性。\",\n  \"disaster_type_original\": \"地裂（地质灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_930",
+    "images": [
+      "sample_images\\typhoon_台风_930.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"受损建筑物1，车辆0\",\n  \"object_relations\": \"建筑物屋顶瓦片大面积脱落，露出 underlying 木板结构，强风破坏屋顶覆盖层\",\n  \"report\": \"强风致建筑物屋顶瓦片大面积脱落，损毁建筑1处，需紧急修缮。\",\n  \"disaster_type_original\": \"风灾（强风）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_828",
+    "images": [
+      "sample_images\\typhoon_台风_828.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏树木阻塞道路，部分电线杆倾斜，道路标志位于右侧，周围散落树木残枝\",\n  \"report\": \"强风致道路两侧树木大量倒伏、电线杆倾斜，道路受阻，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"强风灾害\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_674",
+    "images": [
+      "sample_images\\fire_火灾_674.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"2栋建筑物，若干车辆/残骸\",\n  \"object_relations\": \"两栋严重损毁的高层建筑旁有燃烧的火焰与浓烟，地面散布建筑残骸，火焰从建筑或残骸中升起，烟雾笼罩区域\",\n  \"report\": \"发生火灾，两栋高层建筑严重损毁，火焰与浓烟笼罩现场，地面散布残骸，灾情严重。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1279",
+    "images": [
+      "sample_images\\typhoon_台风_1279.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的树木倒在道路旁，树枝散落，与周边未倒伏树木形成受损与完好的对比，道路被树枝部分占据\",\n  \"report\": \"强风导致树木倒伏，道路旁堆积大量树枝，暂未发现建筑物或车辆受损，灾情主要影响植被及道路通行\",\n  \"disaster_type_original\": \"强风灾害\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_203",
+    "images": [
+      "sample_images\\earthquake_地震_203.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物坍塌，碎石散落在其周围\",\n  \"report\": \"地震导致建筑严重坍塌，碎石遍布，受损建筑1栋，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_35",
+    "images": [
+      "sample_images\\flood_洪涝_35.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"洪水淹没大面积土地，树木散布于洪水中，洪水与树木、土地形成淹没关系\",\n  \"report\": \"该区域遭受洪水灾害，大面积土地和树木被洪水淹没，灾情严重，需关注后续影响\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_855",
+    "images": [
+      "sample_images\\typhoon_台风_855.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"屋顶瓦片中部分瓦片因灾害掀起，与其他瓦片形成损坏关联\",\n  \"report\": \"强风致屋顶瓦片损坏，至少1处建筑屋顶受损，需排查后续隐患。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1038",
+    "images": [
+      "sample_images\\landslide_滑坡_1038.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山坡地形因灾害发生土壤与植被滑动，破坏了原有地貌，植被与土壤呈现扰动状态\",\n  \"report\": \"山区发生滑坡，土壤与植被滑动破坏地貌，暂未发现建筑物或车辆受损，需关注后续隐患\",\n  \"disaster_type_original\": \"滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_592",
+    "images": [
+      "sample_images\\landslide_滑坡_592.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"建筑物1栋，车辆1辆\",\n  \"object_relations\": \"泥石流携带的碎石、树木掩埋或冲击房屋与车辆，房屋旁有倒塌树木，车辆周围有泥石堆积\",\n  \"report\": \"泥石流灾害致1栋房屋、1辆车辆受损，碎石与倒塌树木堆积周边，灾情明显\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_158",
+    "images": [
+      "sample_images\\flood_洪涝_158.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约20栋建筑物受损\",\n  \"object_relations\": \"泥石流携带泥沙、碎石冲刷村庄，导致房屋被掩埋或冲毁，周围植被受泥沙覆盖\",\n  \"report\": \"山区村庄遭泥石流侵袭，大量房屋被泥沙掩埋或冲毁，灾情严重，需紧急开展救援与灾后评估。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_932",
+    "images": [
+      "sample_images\\typhoon_台风_932.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"图片中主要对象为受损建筑物的屋顶，其木梁、瓦片等结构因灾害被破坏，背景可见其他建筑但未明显受损\",\n  \"report\": \"风灾致建筑物屋顶严重损毁，木梁暴露、瓦片大面积脱落，初步估计1栋建筑受损，需进一步排查周边区域。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_156",
+    "images": [
+      "sample_images\\flood_洪涝_156.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约3 - 4栋建筑物\",\n  \"object_relations\": \"洪水淹没区域，建筑物、树木、道路等被水体覆盖，形成淹没关系\",\n  \"report\": \"该区域遭遇洪水灾害，多处建筑物被淹，树木与道路被水覆盖，灾情显著。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_339",
+    "images": [
+      "sample_images\\flood_洪涝_339.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10辆\",\n  \"object_relations\": \"街道被洪水淹没，多辆汽车在积水中行驶，路边分布着商铺、建筑物及电线杆等设施\",\n  \"report\": \"洪水致街道严重积水，多辆汽车受困，周边商铺和设施受影响，交通受阻\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1033",
+    "images": [
+      "sample_images\\landslide_滑坡_1033.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"至少1栋建筑物严重受损\",\n  \"object_relations\": \"男子站在坍塌的建筑废墟中，周围是碎石、木梁等建筑残骸，人与坍塌建筑形成空间上的包含关系\",\n  \"report\": \"地震引发建筑坍塌，男子身处废墟，至少1栋建筑受损，灾情严峻。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_399",
+    "images": [
+      "sample_images\\fire_火灾_399.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在使用水带扑灭燃烧的森林火焰，火焰正在吞噬森林植被\",\n  \"report\": \"森林发生火灾，消防员现场扑救，目前未发现建筑物或车辆受损，火灾正在蔓延\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_189",
+    "images": [
+      "sample_images\\earthquake_地震_189.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"受损建筑物1栋\",\n  \"object_relations\": \"倒塌的建筑物与周围的工程机械（如卡特彼勒、小松挖掘机等）处于救援/清理作业关系，人员围绕开展相关工作\",\n  \"report\": \"地震致建筑严重倒塌，现场多台工程机械投入救援清理，人员协同作业\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_519",
+    "images": [
+      "sample_images\\fire_火灾_519.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋高层建筑\",\n  \"object_relations\": \"高层建筑被火焰与浓烟包围，火焰从窗户及外墙蔓延，周围环境受火势波及\",\n  \"report\": \"高层建筑突发火灾，火焰与浓烟笼罩建筑，受损严重，周边环境受波及\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_538",
+    "images": [
+      "sample_images\\fire_火灾_538.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋建筑物\",\n  \"object_relations\": \"一栋高层建筑发生严重燃烧，火焰与浓烟笼罩建筑，周围可见其他建筑物\",\n  \"report\": \"夜间一栋高层建筑突发严重火灾，建筑被火焰与浓烟吞噬，灾情紧急，需立即救援\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_254",
+    "images": [
+      "sample_images\\flood_洪涝_254.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损车辆2辆\",\n  \"object_relations\": \"洪水淹没街道，车辆在积水中行驶，两侧建筑物被洪水环绕\",\n  \"report\": \"街道被洪水淹没，多辆车辆受困，两侧建筑物遭水围困，灾情严峻\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_517",
+    "images": [
+      "sample_images\\fire_火灾_517.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火焰围绕并燃烧建筑物，建筑物处于被火焰侵袭的状态\",\n  \"report\": \"发生火灾，一栋建筑物被火焰包围燃烧，灾情紧急需立即处置。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_433",
+    "images": [
+      "sample_images\\landslide_滑坡_433.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"0（无明显受损建筑物/车辆）\",\n  \"object_relations\": \"洪水淹没农田，道路旁分布房屋，农田与道路相邻，洪水覆盖农田及部分道路区域，房屋位于道路旁绿地中\",\n  \"report\": \"洪水淹没农田与道路，周边房屋未明显受损，灾情主要影响农业与交通，需关注后续影响\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_245",
+    "images": [
+      "sample_images\\earthquake_地震_245.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"开裂的路面与散落的碎石、杂草相互交织，显示地面因灾害发生结构性破坏\",\n  \"report\": \"地震引发地面严重开裂，路面破损，暂未发现建筑物或车辆受损，需关注次生灾害风险。\",\n  \"disaster_type_original\": \"地震（地面破坏）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_71",
+    "images": [
+      "sample_images\\flood_洪涝_71.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路被洪水淹没，树木位于道路旁的积水区域，农田大面积被水覆盖，三者均受洪水影响\",\n  \"report\": \"洪水侵袭导致农田及道路被淹，树木孤立于积水之中，暂未发现建筑物或车辆损毁。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_258",
+    "images": [
+      "sample_images\\fire_火灾_258.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员作为救援人员正面对并处置火灾灾害，处于扑救状态\",\n  \"report\": \"火灾发生，消防员现场扑救，暂未发现建筑物或车辆受损，灾情以野外植被燃烧为主\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_839",
+    "images": [
+      "sample_images\\typhoon_台风_839.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋屋顶的瓦片因灾害出现大面积缺失，属于房屋建筑结构的损坏\",\n  \"report\": \"风灾致单栋房屋屋顶瓦片大面积脱落，建筑结构受损，需关注后续安全\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_621",
+    "images": [
+      "sample_images\\fire_火灾_621.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的多层建筑处于火灾中，火焰从窗户、屋顶等部位猛烈喷出，建筑结构受火势严重破坏\",\n  \"report\": \"一栋多层建筑突发严重火灾，火焰从窗户和屋顶猛烈燃烧，建筑受损严重，需紧急开展救援与灭火工作\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1088",
+    "images": [
+      "sample_images\\landslide_滑坡_1088.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约3栋建筑物\",\n  \"object_relations\": \"山体滑坡引发建筑物坍塌，建筑碎片与泥土混合散落\",\n  \"report\": \"滑坡灾害致山体坍塌，约3栋建筑物受损，建筑碎片与泥土混杂，灾情严重。\",\n  \"disaster_type_original\": \"滑坡（山体滑坡）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_353",
+    "images": [
+      "sample_images\\flood_洪涝_353.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"土路因洪水冲刷出现破损，路边形成积水坑，周围分布荒漠植被，远处可见山脉与指示牌\",\n  \"report\": \"洪水导致土路损毁，路面出现坑洼与积水，周边环境受影响，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"洪水（洪涝灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_341",
+    "images": [
+      "sample_images\\fire_火灾_341.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"Burnt trees and charred ground are the main objects, with trees damaged by fire and ground covered in ash and debris.\",\n  \"report\": \"该区域遭受森林火灾，大量树木被烧毁，地面残留灰烬，无建筑物或车辆受损。\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_332",
+    "images": [
+      "sample_images\\fire_火灾_332.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员身处森林火灾现场，正面对熊熊火焰，与燃烧的植被、火焰形成对抗关系，进行灭火作业\",\n  \"report\": \"森林火灾肆虐，消防员冒火奋战，现场植被被烧，暂未发现建筑物或车辆受损，灾情紧急需全力扑救\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_271",
+    "images": [
+      "sample_images\\fire_火灾_271.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名穿黄色制服的人员（疑似救援人员）行走在烧毁森林旁的道路上，道路旁铺设白色水管（可能用于灭火作业）\",\n  \"report\": \"森林火灾致周边森林烧毁，两名救援人员在现场道路巡查，暂未发现建筑物或车辆受损，灾情以植被破坏为主\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_575",
+    "images": [
+      "sample_images\\fire_火灾_575.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"燃烧的商铺建筑处于剧烈燃烧状态，火焰覆盖建筑外立面，街道上有行人\",\n  \"report\": \"商铺建筑突发严重火灾，火焰猛烈吞噬建筑，建筑受损，街道有行人围观\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_238",
+    "images": [
+      "sample_images\\fire_火灾_238.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名消防员正使用水带扑灭草地上的火灾，火焰与浓烟为火灾现象，消防员与火灾处于扑救关系\",\n  \"report\": \"发生草地火灾，两名消防员正在紧急扑救，暂未发现建筑物或车辆受损，火势正在被控制\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1045",
+    "images": [
+      "sample_images\\typhoon_台风_1045.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"大量（约数百栋建筑物损毁）\",\n  \"object_relations\": \"倒塌的建筑物、散落的建筑碎片与人物（幸存者）构成废墟场景，人物在损毁的建筑残骸中活动\",\n  \"report\": \"台风引发强风暴雨，导致区域建筑大量损毁，废墟遍地，幸存者在残骸中活动，灾情严重。\",\n  \"disaster_type_original\": \"台风（风暴灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_797",
+    "images": [
+      "sample_images\\landslide_滑坡_797.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"山体滑坡产生的岩石、泥土等物质滑落至公路，阻塞道路，植被覆盖的山体与公路相邻\",\n  \"report\": \"山体滑坡致岩石泥土滑落阻塞公路，道路通行受阻，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_432",
+    "images": [
+      "sample_images\\flood_洪涝_432.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"至少10辆车辆受损\",\n  \"object_relations\": \"街道被洪水淹没，多辆汽车被积水浸泡，两侧建筑物处于积水边缘\",\n  \"report\": \"城市街道遭洪水侵袭，大量车辆被积水浸泡，灾情严重，需紧急处置。\",\n  \"disaster_type_original\": \"洪水（城市内涝）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_483",
+    "images": [
+      "sample_images\\earthquake_地震_483.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑物受损\",\n  \"object_relations\": \"救援人员在坍塌建筑物的废墟上开展搜救工作，周围有建筑残骸\",\n  \"report\": \"地震致建筑物坍塌，救援人员在废墟中搜救，现场1栋建筑物受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_627",
+    "images": [
+      "sample_images\\fire_火灾_627.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火焰正在猛烈燃烧建筑物，火星从燃烧区域四溅，建筑处于严重受损状态\",\n  \"report\": \"建筑发生严重火灾，火焰从窗户喷出、火星四溅，建筑物受损严重，需紧急救援\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_448",
+    "images": [
+      "sample_images\\flood_洪涝_448.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 1,\n  \"object_relations\": \"房屋被洪水淹没，路灯、黑色平台等物体浸泡在洪水中，周围树木环绕\",\n  \"report\": \"洪水淹没区域，房屋、路灯及平台被水浸泡，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"洪水（flooding）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_25",
+    "images": [
+      "sample_images\\earthquake_地震_25.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": 1,\n  \"object_relations\": \"救援人员在坍塌建筑周边开展救援行动，建筑坍塌形成废墟，救援人员与废墟构成救援场景\",\n  \"report\": \"建筑坍塌灾害致1栋建筑严重损毁，救援人员现场搜救，灾情紧急。\",\n  \"disaster_type_original\": \"建筑坍塌\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_265",
+    "images": [
+      "sample_images\\flood_洪涝_265.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 5,\n  \"object_relations\": \"建筑物被洪水冲刷，周围堆积泥沙与碎片，部分房屋屋顶坍塌、结构受损，环境被泥浆覆盖\",\n  \"report\": \"洪水灾害致区域建筑受损，泥沙淤积，多栋房屋屋顶坍塌、结构破坏，灾情严重\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_257",
+    "images": [
+      "sample_images\\earthquake_地震_257.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"沥青路面与下方土壤因地质活动（如地震）发生断裂、位移，导致路面出现大面积裂缝与塌陷\",\n  \"report\": \"道路因地震出现大面积裂缝与塌陷，基础设施受损，暂未发现建筑物或车辆损毁。\",\n  \"disaster_type_original\": \"earthquake\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_574",
+    "images": [
+      "sample_images\\earthquake_地震_574.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"救援人员（含穿橙色制服、迷彩服等）在倒塌建筑形成的废墟中开展救援行动，多方人员协作配合\",\n  \"report\": \"地震致建筑倒塌，救援人员在废墟紧急施救，受损建筑约1栋，现场多方力量协同开展救援工作。\",\n  \"disaster_type_original\": \"earthquake\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_211",
+    "images": [
+      "sample_images\\fire_火灾_211.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"暂未发现明显建筑物/车辆损毁，大量植被受火灾威胁\",\n  \"object_relations\": \"消防员正在扑救，火焰吞噬树木，消防员与火焰、植被形成对抗关系\",\n  \"report\": \"森林火灾爆发，消防员全力扑救，大量植被受威胁，暂未发现建筑物/车辆损毁。\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_890",
+    "images": [
+      "sample_images\\landslide_滑坡_890.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"2 - 3（建筑物）\",\n  \"object_relations\": \"救援人员（橙色、黄色装备）在滑坡现场开展救援行动，建筑物被滑坡破坏，倒塌树木阻塞区域\",\n  \"report\": \"山体滑坡致建筑物受损，救援人员现场处置，需关注灾情后续发展。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_235",
+    "images": [
+      "sample_images\\earthquake_地震_235.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现巨大裂缝，裂缝破坏了道路的完整性\",\n  \"report\": \"地震引发地面开裂，道路严重损毁，暂未发现建筑物或车辆损毁。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_215",
+    "images": [
+      "sample_images\\fire_火灾_215.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员在野外环境中对抗燃烧的火焰与浓烟，试图控制森林火灾的蔓延\",\n  \"report\": \"森林火灾现场，消防员奋力灭火，浓烟与火焰笼罩区域，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1284",
+    "images": [
+      "sample_images\\typhoon_台风_1284.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树位于草地，背景有建筑物，大树与建筑物相邻，可能对周边设施造成潜在威胁\",\n  \"report\": \"强风致大树倒伏，周边建筑物暂无明显损坏，需关注树木对设施的影响\",\n  \"disaster_type_original\": \"风灾（强风）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_137",
+    "images": [
+      "sample_images\\earthquake_地震_137.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 2,\n  \"object_relations\": \"建筑物严重坍塌，碎石散布于地面，建筑结构破损，部分楼层坍塌，碎石与建筑主体形成破坏后的场景\",\n  \"report\": \"地震导致建筑严重损毁，多栋建筑坍塌，碎石遍布，灾情严峻\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_800",
+    "images": [
+      "sample_images\\landslide_滑坡_800.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 2,\n  \"object_relations\": \"泥石流冲刷导致房屋受损，泥沙覆盖庭院及道路，植被与建筑被泥沙掩埋\",\n  \"report\": \"泥石流灾害致2栋房屋受损，泥沙冲毁庭院并掩埋周边区域，需紧急处置。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_763",
+    "images": [
+      "sample_images\\landslide_滑坡_763.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物约7处，车辆约7辆\",\n  \"object_relations\": \"泥石流冲刷导致道路、建筑、车辆被掩埋或损毁，现场有人员活动\",\n  \"report\": \"泥石流灾害致区域道路、建筑、车辆受损，现场人员正在查看灾情，需紧急救援与评估\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_817",
+    "images": [
+      "sample_images\\typhoon_台风_817.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"水上平台（码头）支撑着受损建筑物，建筑物屋顶部分坍塌，整体位于水面\",\n  \"report\": \"风暴致水上建筑物屋顶严重损毁，1处建筑受影响，需排查结构安全风险\",\n  \"disaster_type_original\": \"风暴（强风灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_677",
+    "images": [
+      "sample_images\\fire_火灾_677.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"消防员使用消防设备扑灭燃烧的多层建筑火灾，建筑处于严重燃烧状态\",\n  \"report\": \"发生火灾，一栋多层建筑被烧毁，消防员正在紧急扑救，灾情严重\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_586",
+    "images": [
+      "sample_images\\earthquake_地震_586.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"1栋建筑物严重受损\",\n  \"object_relations\": \"两名USAR救援人员在坍塌废墟中使用破拆工具作业，被困人员位于坍塌物旁\",\n  \"report\": \"地震引发建筑物坍塌，两名救援人员在废墟中破拆施救，1栋建筑受损，被困人员待援。\",\n  \"disaster_type_original\": \"地震（建筑物坍塌）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1307",
+    "images": [
+      "sample_images\\typhoon_台风_1307.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"倒伏的大树压在房屋屋顶，树根裸露于草坪，周围有相邻房屋及植被\",\n  \"report\": \"强风致大树倒塌压损房屋，造成建筑受损，需关注结构安全\",\n  \"disaster_type_original\": \"风灾（强风致树木倒塌）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_443",
+    "images": [
+      "sample_images\\earthquake_地震_443.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"other\",\n  \"damage_count\": \"至少1栋建筑物严重受损\",\n  \"object_relations\": \"起重机在坍塌建筑废墟上方作业，救援人员在废墟中开展救援行动，灯光照亮坍塌区域以辅助作业\",\n  \"report\": \"夜间建筑坍塌现场，起重机与救援人员协同作业，至少1栋建筑严重受损，正开展救援与清理工作\",\n  \"disaster_type_original\": \"建筑坍塌\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_290",
+    "images": [
+      "sample_images\\earthquake_地震_290.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震出现大面积裂缝，两侧山体受地质灾害影响，植被分布于道路两侧及山体边缘\",\n  \"report\": \"地震导致道路严重开裂，基础设施受损，周围山体及植被受影响，需关注道路修复与地质稳定性。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_633",
+    "images": [
+      "sample_images\\fire_火灾_633.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"起火的高层建筑为主要受损对象，旁边有另一栋建筑，消防水柱正对起火建筑进行扑救\",\n  \"report\": \"高层建筑突发火灾，火焰与浓烟笼罩，消防正在扑救，建筑受损严重\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_811",
+    "images": [
+      "sample_images\\typhoon_台风_811.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"强风将棕榈叶等杂物吹覆于房屋屋顶，棕榈树受强风影响\",\n  \"report\": \"台风过境致强风，房屋屋顶被棕榈叶等杂物覆盖，1栋建筑受损，需关注后续风险。\",\n  \"disaster_type_original\": \"台风（强风灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_100",
+    "images": [
+      "sample_images\\flood_洪涝_100.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约10 - 15栋建筑物受损\",\n  \"object_relations\": \"洪水淹没区域内建筑物、道路及植被，建筑物与洪水直接接触处于被淹状态\",\n  \"report\": \"洪水侵袭导致区域内多栋建筑物、道路被淹，灾情显著，需关注受灾区域救援与安置。\",\n  \"disaster_type_original\": \"flooding\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_168",
+    "images": [
+      "sample_images\\flood_洪涝_168.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"1栋建筑物、1辆车辆\",\n  \"object_relations\": \"洪水淹没房屋及停放在房屋旁的车辆，房屋周边被洪水包围\",\n  \"report\": \"洪涝灾害致房屋、车辆被淹，灾情严重，需紧急处置。\",\n  \"disaster_type_original\": \"洪涝\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_132",
+    "images": [
+      "sample_images\\flood_洪涝_132.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 3,\n  \"object_relations\": \"洪水淹没区域，建筑物被水包围，树木散布于洪水中\",\n  \"report\": \"洪水灾害致区域被淹，多栋建筑物受损，周围树木浸泡在浑浊洪水中，灾情严重\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_845",
+    "images": [
+      "sample_images\\typhoon_台风_845.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 1,\n  \"object_relations\": \"受损房屋主体与周围散落的建筑碎片（木板、窗户、植物残骸等）呈现破坏后碎片散落的关联，房屋结构坍塌，外部构件散落四周\",\n  \"report\": \"飓风致房屋严重损毁，屋顶坍塌，建筑碎片散落四周，周边植被受损，灾情显著。\",\n  \"disaster_type_original\": \"飓风\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_499",
+    "images": [
+      "sample_images\\earthquake_地震_499.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"多栋建筑物受损\",\n  \"object_relations\": \"推土机处于坍塌建筑废墟中，两名人员在其旁，建筑废墟遍布四周\",\n  \"report\": \"地震导致多栋建筑坍塌，推土机与人员正在废墟中开展作业，灾情较为严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_529",
+    "images": [
+      "sample_images\\earthquake_地震_529.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"两名中国救援人员在建筑废墟中开展搜救作业，与坍塌的建筑物形成救援与被救援的关系\",\n  \"report\": \"地震引发建筑坍塌，救援人员在废墟中紧急搜救，灾情严重，需尽快开展救援行动。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_61",
+    "images": [
+      "sample_images\\earthquake_地震_61.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物坍塌，碎石、钢筋等散落，建筑结构严重损毁\",\n  \"report\": \"地震导致建筑坍塌，1栋建筑物受损，碎石与钢筋散落，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_486",
+    "images": [
+      "sample_images\\earthquake_地震_486.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"至少2栋建筑物受损\",\n  \"object_relations\": \"两名救援人员（身着反光背心、佩戴安全帽）行走在地震后的废墟中，周围是倒塌的建筑物\",\n  \"report\": \"地震引发建筑坍塌，救援人员于废墟中开展灾情评估，现场至少2栋建筑受损，灾情严峻。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_232",
+    "images": [
+      "sample_images\\flood_洪涝_232.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 20,\n  \"object_relations\": \"建筑物被洪水淹没，周围区域被水覆盖，树木与农田亦受洪水影响\",\n  \"report\": \"该区域遭遇严重洪水，大量建筑物被淹，农田和树木受波及，灾情紧急需救援。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_130",
+    "images": [
+      "sample_images\\earthquake_地震_130.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌建筑物的梁、砖块、混凝土等结构相互堆叠，部分结构倾斜，形成废墟\",\n  \"report\": \"地震致一栋建筑物严重坍塌，结构破碎，废墟堆积，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_671",
+    "images": [
+      "sample_images\\landslide_滑坡_671.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"受损建筑物约2 - 3栋，车辆1辆\",\n  \"object_relations\": \"洪水（泥石流）冲刷导致地面泥泞、树木倒伏，建筑物周边被泥沙杂物覆盖，远处车辆受影响\",\n  \"report\": \"山洪（泥石流）致区域泥泞、树木倒伏，2 - 3栋建筑及1辆车辆受损，地面被泥沙杂物覆盖，灾情明显。\",\n  \"disaster_type_original\": \"洪水（或泥石流）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1181",
+    "images": [
+      "sample_images\\typhoon_台风_1181.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树主体位于草地，树根裸露且树枝散落，与围栏、周围植被形成空间上的覆盖和遮挡关系，破坏了原有植被结构\",\n  \"report\": \"风灾致大树连根拔起，草地、围栏受影响，暂未发现建筑物或车辆损毁，需警惕次生灾害。\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1007",
+    "images": [
+      "sample_images\\typhoon_台风_1007.JPG"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"约12栋建筑物及部分车辆受损\",\n  \"object_relations\": \"建筑物紧邻水体（河流/海湾），飓风导致建筑物损毁，碎片广泛散布于建筑周边及地面，码头与船只亦受波及\",\n  \"report\": \"飓风侵袭沿海区域，多栋建筑物被摧毁，大量碎片散落，码头及船只受损，灾情严重。\",\n  \"disaster_type_original\": \"飓风\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_244",
+    "images": [
+      "sample_images\\flood_洪涝_244.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损建筑物3栋\",\n  \"object_relations\": \"洪水淹没街道及建筑物，树木分布于建筑周边，建筑与洪水直接接触\",\n  \"report\": \"该区域遭洪水侵袭，多栋建筑被淹，积水覆盖街道，灾情严重\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_729",
+    "images": [
+      "sample_images\\landslide_滑坡_729.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路被泥沙、倒伏树木阻断，树木散落在道路两侧，泥沙覆盖路面\",\n  \"report\": \"山区发生泥石流，道路被泥沙和倒伏树木阻断，周边森林受破坏，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_252",
+    "images": [
+      "sample_images\\fire_火灾_252.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑救燃烧的山火，火势在山坡上蔓延，浓烟笼罩周围区域\",\n  \"report\": \"山火在山坡蔓延，消防员紧急扑救，火势猛烈，目前未发现建筑物或车辆受损，需尽快控制火情。\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_18",
+    "images": [
+      "sample_images\\flood_洪涝_18.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损建筑物约3 - 5栋，车辆因被淹难以清晰计数，暂估少量\",\n  \"object_relations\": \"洪水淹没农田、道路及部分建筑物，道路与农田被水覆盖，建筑物孤立于积水区域\",\n  \"report\": \"该区域遭受洪水侵袭，大面积农田、道路被淹，部分建筑物受损，灾情严重，需紧急救援\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_491",
+    "images": [
+      "sample_images\\flood_洪涝_491.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损车辆约5 - 8辆\",\n  \"object_relations\": \"洪水淹没街道，公交车、轿车等车辆在积水中行驶或停滞，行人在积水中活动，街道两旁建筑处于洪水影响范围\",\n  \"report\": \"街道被洪水淹没，多辆车辆受困积水中，行人艰难通行，周边建筑受洪水威胁，灾情严峻\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_605",
+    "images": [
+      "sample_images\\fire_火灾_605.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火焰正在猛烈燃烧建筑物，周围树木环绕，建筑物处于被火焰破坏的状态\",\n  \"report\": \"火灾现场，一栋建筑物被熊熊大火吞噬，浓烟弥漫，周围树木环绕，灾情严重\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_356",
+    "images": [
+      "sample_images\\earthquake_地震_356.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现多条大裂缝，路面板块分离，碎石散落，与远处模糊的植被环境形成对比，显示道路受严重破坏\",\n  \"report\": \"地震引发地面开裂，道路严重损毁，暂未发现建筑物或车辆受损，需紧急抢修道路以恢复通行。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_415",
+    "images": [
+      "sample_images\\flood_洪涝_415.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约6栋建筑物及1辆车辆受损\",\n  \"object_relations\": \"洪水淹没区域内建筑物与车辆，建筑物被水覆盖，车辆浸泡于水中\",\n  \"report\": \"该区域遭受洪水侵袭，约6栋建筑物及1辆车辆被淹，灾情严重，需紧急开展救援与评估工作。\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1303",
+    "images": [
+      "sample_images\\typhoon_台风_1303.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": {\n    \"buildings\": 1,\n    \"vehicles\": 0\n  },\n  \"object_relations\": \"倒伏的树木位于房屋前方，与房屋空间邻近，可能对房屋造成威胁或已造成损坏\",\n  \"report\": \"风灾致大树倒塌，1栋建筑物受影响，需关注房屋结构安全。\",\n  \"disaster_type_original\": \"风灾（树木倒塌）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_809",
+    "images": [
+      "sample_images\\landslide_滑坡_809.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现大面积裂缝，两侧山体碎石堆积阻断道路\",\n  \"report\": \"山区道路受地震影响，路面严重开裂，碎石阻断通行，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1047",
+    "images": [
+      "sample_images\\typhoon_台风_1047.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"约3 - 5栋建筑物受损\",\n  \"object_relations\": \"一名女性在洪水中行走，周围是倒塌的移动房屋与棕榈树，建筑物被洪水淹没或摧毁，棕榈树受洪水环境影响\",\n  \"report\": \"洪水侵袭区域，多栋移动房屋受损，一名女性涉水而行，灾情严峻。\",\n  \"disaster_type_original\": \"洪水\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1279",
+    "images": [
+      "sample_images\\landslide_滑坡_1279.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"数十至数百处\",\n  \"object_relations\": \"红色受损区域分布于山地及河流周边，与地形、水系存在空间关联，显示灾害对地表及基础设施的破坏\",\n  \"report\": \"山区发生滑坡灾害，多处地表及可能的基础设施受损，河流附近破坏集中，需及时开展救援与评估。\",\n  \"disaster_type_original\": \"滑坡（山体滑坡）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_136",
+    "images": [
+      "sample_images\\earthquake_地震_136.jpeg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 1,\n  \"object_relations\": \"坍塌的建筑主体与飞散的碎片存在空间分离关系，建筑结构因灾害发生断裂、坍塌\",\n  \"report\": \"地震致一栋建筑严重坍塌，结构断裂且碎片飞散，灾情显著。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_370",
+    "images": [
+      "sample_images\\earthquake_地震_370.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害严重损毁，路面出现大范围裂缝与塌陷，周边植被、电线杆等未直接受损但道路中断影响通行\",\n  \"report\": \"地震致道路严重损毁，路面大面积裂缝塌陷，交通中断，周边环境受影响\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1218",
+    "images": [
+      "sample_images\\typhoon_台风_1218.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树位于草地，周围有其他树木，大树因灾害倒伏，与草地、周边树木形成受灾害影响的场景\",\n  \"report\": \"该区域受强风影响，一棵大树倒伏于草地，未发现建筑物或车辆受损，灾情主要表现为树木破坏。\",\n  \"disaster_type_original\": \"风灾（强风导致树木倒伏）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_234",
+    "images": [
+      "sample_images\\flood_洪涝_234.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"数十栋建筑物及部分车辆受损\",\n  \"object_relations\": \"洪水淹没城市区域，建筑物因灾倒塌，碎片漂浮于水面，建筑物与洪水呈现被淹没、损毁的关联\",\n  \"report\": \"城市遭洪涝侵袭，大面积区域被洪水淹没，数十栋建筑物倒塌损毁，碎片漂浮水中，灾情严重。\",\n  \"disaster_type_original\": \"洪涝灾害\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_587",
+    "images": [
+      "sample_images\\earthquake_地震_587.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"至少1栋建筑物严重受损\",\n  \"object_relations\": \"两名救援人员（身着防护装备）在坍塌建筑的废墟中行动，周围散布着坍塌的墙体、碎石等建筑残骸\",\n  \"report\": \"地震引发建筑坍塌，救援人员在废墟中开展搜救，现场可见多处损毁建筑，灾情较为严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1022",
+    "images": [
+      "sample_images\\landslide_滑坡_1022.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"大量（约数十栋建筑物受损）\",\n  \"object_relations\": \"画面中大量建筑物倒塌形成废墟，背景可见部分未完全损毁的建筑，远处有山脉与村庄，整体呈现地震后的破坏场景\",\n  \"report\": \"地震导致区域建筑大量倒塌，废墟遍地，背景山脉与村庄凸显灾情范围，需紧急救援与评估\",\n  \"disaster_type_original\": \"earthquake\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_583",
+    "images": [
+      "sample_images\\fire_火灾_583.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"建筑物发生火灾，火焰与浓烟从其顶部及窗户处蔓延\",\n  \"report\": \"建筑物遭遇火灾，火焰与浓烟从顶部及窗户蔓延，1栋建筑受损，灾情紧急\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_287",
+    "images": [
+      "sample_images\\flood_洪涝_287.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": \"估计受损车辆约3 - 5辆\",\n  \"object_relations\": \"救援人员乘充气艇在洪水淹没的街道中执行救援任务，旁有市民涉水行动，背景可见被淹车辆与城市建筑\",\n  \"report\": \"城市遭遇洪水灾害，街道积水严重，救援人员乘充气艇开展救援，部分车辆被淹，灾情需重点关注\",\n  \"disaster_type_original\": \"flood\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_868",
+    "images": [
+      "sample_images\\typhoon_台风_868.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"受损建筑物约5 - 6栋，车辆至少2辆\",\n  \"object_relations\": \"房屋因强风严重损毁，碎片散布于草坪、道路及周边区域，车辆亦受波及\",\n  \"report\": \"飓风过境致居民区多栋房屋损毁，碎片遍布，车辆受影响，灾情严重\",\n  \"disaster_type_original\": \"飓风（强风灾害）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1119",
+    "images": [
+      "sample_images\\landslide_滑坡_1119.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"约3 - 5栋\",\n  \"object_relations\": \"山体滑坡产生的土石流覆盖下方农田，周边建筑物处于滑坡影响范围，受土石流威胁\",\n  \"report\": \"山体滑坡致土石流覆盖农田，周边约3 - 5栋建筑物受损，灾情紧急需关注\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_404",
+    "images": [
+      "sample_images\\earthquake_地震_404.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"病房内，戴头巾的女性在病床旁陪伴患者，患者躺在病床上接受照料\",\n  \"report\": \"地震灾害后，医院病房中患者接受陪护，图中未显示建筑物或车辆受损，呈现医疗救助场景。\",\n  \"disaster_type_original\": \"earthquake\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_876",
+    "images": [
+      "sample_images\\landslide_滑坡_876.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"flood\",\n  \"damage_count\": 0,\n  \"object_relations\": \"多辆汽车、货车在暴雨笼罩的高速公路上行驶，因降水导致路面湿滑、能见度降低，车辆间保持行驶状态但受天气影响\",\n  \"report\": \"暴雨致高速公路能见度低，车辆缓慢行驶，交通受影响，暂未发现严重损坏\",\n  \"disaster_type_original\": \"暴雨\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_613",
+    "images": [
+      "sample_images\\fire_火灾_613.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"1栋建筑物（及部分车辆）\",\n  \"object_relations\": \"消防员正在扑救燃烧的建筑物，消防车协同开展灭火作业\",\n  \"report\": \"发生火灾，一栋建筑物被烧毁，消防员现场紧急救援，浓烟弥漫，正全力扑救。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_546",
+    "images": [
+      "sample_images\\earthquake_地震_546.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"至少1栋建筑物严重受损\",\n  \"object_relations\": \"救援人员（身着橙色制服、佩戴红色头盔）在地震废墟中，使用锯子等工具开展救援作业，周围散落碎石\",\n  \"report\": \"地震致建筑坍塌，救援人员在废墟中紧急作业，以锯子等工具破拆，全力搜救被困人员。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1055",
+    "images": [
+      "sample_images\\landslide_滑坡_1055.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"估计受损建筑物数量约3 - 5栋\",\n  \"object_relations\": \"山体滑坡体位于山坡上部，下方分布着村庄与农田，滑坡对下方建筑物构成威胁或已造成破坏\",\n  \"report\": \"山体滑坡发生于山坡，滑坡体威胁下方村庄，估计3 - 5栋建筑物受损，需关注灾情发展\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_569",
+    "images": [
+      "sample_images\\fire_火灾_569.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 1,\n  \"object_relations\": \"火焰从建筑窗户猛烈喷出，伴随大量浓烟，建筑外墙及窗户受损\",\n  \"report\": \"火灾致一栋建筑受损，火焰从窗户喷出并伴随浓烟，需紧急处置。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_353",
+    "images": [
+      "sample_images\\earthquake_地震_353.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地质灾害（地震）产生大面积裂缝，路面结构严重损毁\",\n  \"report\": \"地震引发地面开裂，道路出现大裂缝，路面损毁严重，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_941",
+    "images": [
+      "sample_images\\landslide_滑坡_941.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": \"约3栋建筑物受损，无可见车辆损坏\",\n  \"object_relations\": \"倒塌的建筑物形成瓦砾堆，树木位于坍塌区域旁，建筑残骸散落地面，周围环境被破坏\",\n  \"report\": \"地震致区域建筑坍塌，约3栋建筑受损，瓦砾遍地，树木旁建筑残骸明显，灾情严重。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_355",
+    "images": [
+      "sample_images\\earthquake_地震_355.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"地面出现裂缝，裂缝是地面受灾害影响的损伤表现\",\n  \"report\": \"地震引发地面开裂，暂未发现建筑物或车辆受损，需关注周边隐患\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_368",
+    "images": [
+      "sample_images\\fire_火灾_368.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": \"受损建筑物约5 - 8栋，车辆若干\",\n  \"object_relations\": \"消防车在燃烧区域附近执行灭火作业，火焰与烟雾笼罩多处建筑物，建筑物结构损毁严重，部分车辆可能受波及\",\n  \"report\": \"火灾现场浓烟弥漫，多栋建筑燃烧，消防车全力灭火，灾情严重需紧急救援处置。\",\n  \"disaster_type_original\": \"火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_399",
+    "images": [
+      "sample_images\\earthquake_地震_399.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路出现大面积裂缝，护栏局部受影响，道路与周边山体因地震引发地质变化产生关联性破坏\",\n  \"report\": \"地震致道路严重损毁，裂缝遍布路面，周边山体与道路受地质变化影响，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_586",
+    "images": [
+      "sample_images\\landslide_滑坡_586.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"滑坡体覆盖区域，树木被冲倒、掩埋，地表泥土裸露，森林区域受严重破坏\",\n  \"report\": \"山体滑坡导致山坡树木大量倾倒、地表裸露，森林区域破坏严重，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_311",
+    "images": [
+      "sample_images\\earthquake_地震_311.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"损毁的道路与周围植被（树木、草地）相邻，道路因灾害出现大面积开裂、塌陷，周围环境相对完整但道路受损严重\",\n  \"report\": \"地震引发道路严重损毁，路面开裂塌陷，周边无建筑物或车辆受损，基础设施破坏显著\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_250",
+    "images": [
+      "sample_images\\fire_火灾_250.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员（救援人员）正面对燃烧的森林火灾，周围树木被大火吞噬\",\n  \"report\": \"森林火灾肆虐，消防员现场处置，周围植被受损严重，火势仍在蔓延\",\n  \"disaster_type_original\": \"森林火灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_680",
+    "images": [
+      "sample_images\\landslide_滑坡_680.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"滑坡体（泥土、倒伏树木）阻塞道路，周围为茂密植被，滑坡物质覆盖路面\",\n  \"report\": \"山区发生泥石流，滑坡体阻塞道路，未见建筑物或车辆受损，需关注交通中断及次生灾害。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_459",
+    "images": [
+      "sample_images\\landslide_滑坡_459.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"受损建筑物约12栋\",\n  \"object_relations\": \"泥石流冲刷导致道路损毁，周边建筑物受滑坡威胁，泥沙淤积阻断道路，房屋与滑坡体相邻\",\n  \"report\": \"泥石流灾害致道路损毁、多栋房屋受威胁，泥沙淤积严重，需紧急疏散与救援。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_288",
+    "images": [
+      "sample_images\\earthquake_地震_288.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因灾害出现大范围断裂，两侧山坡、积雪及电线杆与道路相邻，道路损毁影响通行\",\n  \"report\": \"地震引发地面开裂，道路严重损毁，路面出现大裂缝，周边山坡、积雪及电线杆与道路相邻，通行受阻。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_313",
+    "images": [
+      "sample_images\\earthquake_地震_313.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路表面出现多条裂缝，裂缝破坏道路结构，导致道路损毁\",\n  \"report\": \"地震引发道路严重损毁，出现大面积裂缝，影响通行，暂未发现建筑物或车辆受损\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_327",
+    "images": [
+      "sample_images\\earthquake_地震_327.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震发生严重开裂，裂缝交错分布，路面出现大面积断裂，是地震引发的地面变形结果\",\n  \"report\": \"地震导致道路严重开裂，裂缝交错，暂未发现建筑物或车辆受损，道路通行受阻\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_877",
+    "images": [
+      "sample_images\\landslide_滑坡_877.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"暴雨引发山体滑坡，形成携带泥沙、石块的泥石流，水流沿山谷冲刷\",\n  \"report\": \"暴雨引发山体滑坡形成泥石流，携带泥沙石块沿山谷冲刷，暂未发现明显建筑物或车辆受损。\",\n  \"disaster_type_original\": \"泥石流\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "earthquake_地震_318",
+    "images": [
+      "sample_images\\earthquake_地震_318.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"earthquake\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路因地震出现大裂缝，交通锥放置于裂缝旁以警示通行\",\n  \"report\": \"地震引发道路严重开裂，交通锥警示通行，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"地震\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_384",
+    "images": [
+      "sample_images\\fire_火灾_384.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"消防员正在扑灭燃烧的森林植被，火焰与烟雾环绕，背景为受火灾影响的树木\",\n  \"report\": \"森林火灾发生，消防员奋力灭火，植被燃烧、烟雾弥漫，暂未发现建筑物或车辆受损。\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "fire_火灾_239",
+    "images": [
+      "sample_images\\fire_火灾_239.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"fire\",\n  \"damage_count\": 0,\n  \"object_relations\": \"两名消防员在森林中面对正在燃烧的火灾，消防员之间为同伴关系，消防员与火灾（森林）形成扑救关系\",\n  \"report\": \"发生森林火灾，两名消防员正在现场扑救，暂未发现建筑物或车辆受损，火灾正在蔓延燃烧森林区域。\",\n  \"disaster_type_original\": \"wildfire\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_5",
+    "images": [
+      "sample_images\\landslide_滑坡_5.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"道路被山体滑落的泥土覆盖，两侧山体与道路形成阻断关系，道路因灾害受损\",\n  \"report\": \"山区道路遭山体滑坡掩埋，路面泥泞阻断通行，暂未发现建筑物或车辆损毁\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "typhoon_台风_1216",
+    "images": [
+      "sample_images\\typhoon_台风_1216.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": 0,\n  \"object_relations\": \"倒伏的大树横亘在道路旁，周围树木未明显受损，道路被树枝部分阻塞\",\n  \"report\": \"强风致大树倒伏阻塞道路，周边环境受影响，暂未发现建筑物或车辆损毁\",\n  \"disaster_type_original\": \"风灾\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_780",
+    "images": [
+      "sample_images\\landslide_滑坡_780.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 4,\n  \"object_relations\": \"山体滑坡体掩埋道路，多辆车辆受损，救援车辆（如起重机）在事故现场作业\",\n  \"report\": \"山体滑坡致道路中断，多辆车辆受损，救援力量正开展现场处置工作。\",\n  \"disaster_type_original\": \"山体滑坡\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1134",
+    "images": [
+      "sample_images\\landslide_滑坡_1134.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": \"大量（或约数十至数百）\",\n  \"object_relations\": \"滑坡引发的泥石流掩埋了区域内的建筑物、车辆及植被，造成大面积破坏\",\n  \"report\": \"滑坡灾害引发泥石流，掩埋大量建筑物与车辆，现场满目疮痍，救援难度大如9/11或卡特里娜飓风\",\n  \"disaster_type_original\": \"landslide\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "landslide_滑坡_1265",
+    "images": [
+      "sample_images\\landslide_滑坡_1265.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"landslide\",\n  \"damage_count\": 0,\n  \"object_relations\": \"救援人员（NDRF、军队等）协同移除阻挡道路的落石，落石为灾害产物，背景为山地环境\",\n  \"report\": \"山体滑坡致道路阻断，救援人员协作移除落石，暂未发现建筑物/车辆受损，灾情正在处置中\",\n  \"disaster_type_original\": \"山体滑坡（落石）\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "flood_洪涝_106",
+    "images": [
+      "sample_images\\flood_洪涝_106.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<image>\n你是一个灾害评估专家。请观察这张图片，完成以下任务并以JSON格式返回：\n1. disaster_type: 识别灾害类型\n2. damage_count: 估计受损建筑物/车辆数量\n3. object_relations: 描述图片中主要对象的关系\n4. report: 综合以上信息生成一段50字左右的灾情报告"
+      },
+      {
+        "from": "assistant",
+        "value": "{\n  \"disaster_type\": \"windstorm_or_typhoon\",\n  \"damage_count\": \"受损建筑物约3 - 5栋，车辆1 - 2辆\",\n  \"object_relations\": \"主要建筑物（如带蓝色棚顶、绿色阳台的建筑）屋顶严重受损，周边住宅建筑亦有不同程度的破坏，车辆停放在受损建筑旁\",\n  \"report\": \"飓风引发风灾，居民区多栋建筑屋顶受损，车辆受影响，灾情集中于住宅区，需紧急评估救援。\",\n  \"disaster_type_original\": \"飓风（风灾）\"\n}"
+      }
+    ]
+  }
+]

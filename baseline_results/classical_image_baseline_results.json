@@ -1,0 +1,1690 @@
+[
+  {
+    "id": "flood_洪涝_59",
+    "image": "sample_images\\flood_洪涝_59.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_478",
+    "image": "sample_images\\landslide_滑坡_478.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_287",
+    "image": "sample_images\\fire_火灾_287.jpg",
+    "ground_truth": "fire",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_574",
+    "image": "sample_images\\fire_火灾_574.jpg",
+    "ground_truth": "fire",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_447",
+    "image": "sample_images\\earthquake_地震_447.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_156",
+    "image": "sample_images\\earthquake_地震_156.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_718",
+    "image": "sample_images\\landslide_滑坡_718.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_29",
+    "image": "sample_images\\earthquake_地震_29.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_465",
+    "image": "sample_images\\earthquake_地震_465.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_758",
+    "image": "sample_images\\landslide_滑坡_758.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_380",
+    "image": "sample_images\\earthquake_地震_380.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_628",
+    "image": "sample_images\\fire_火灾_628.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1325",
+    "image": "sample_images\\typhoon_台风_1325.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_984",
+    "image": "sample_images\\typhoon_台风_984.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_83",
+    "image": "sample_images\\earthquake_地震_83.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_944",
+    "image": "sample_images\\typhoon_台风_944.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1313",
+    "image": "sample_images\\typhoon_台风_1313.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_392",
+    "image": "sample_images\\fire_火灾_392.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_623",
+    "image": "sample_images\\fire_火灾_623.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_506",
+    "image": "sample_images\\earthquake_地震_506.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_38",
+    "image": "sample_images\\flood_洪涝_38.png",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_467",
+    "image": "sample_images\\earthquake_地震_467.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1149",
+    "image": "sample_images\\typhoon_台风_1149.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1179",
+    "image": "sample_images\\typhoon_台风_1179.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1263",
+    "image": "sample_images\\typhoon_台风_1263.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_301",
+    "image": "sample_images\\earthquake_地震_301.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1136",
+    "image": "sample_images\\landslide_滑坡_1136.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1167",
+    "image": "sample_images\\landslide_滑坡_1167.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1203",
+    "image": "sample_images\\typhoon_台风_1203.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_461",
+    "image": "sample_images\\earthquake_地震_461.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_450",
+    "image": "sample_images\\earthquake_地震_450.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_387",
+    "image": "sample_images\\fire_火灾_387.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1069",
+    "image": "sample_images\\landslide_滑坡_1069.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_443",
+    "image": "sample_images\\landslide_滑坡_443.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_600",
+    "image": "sample_images\\fire_火灾_600.jpg",
+    "ground_truth": "fire",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_442",
+    "image": "sample_images\\landslide_滑坡_442.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_865",
+    "image": "sample_images\\landslide_滑坡_865.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_591",
+    "image": "sample_images\\earthquake_地震_591.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_787",
+    "image": "sample_images\\typhoon_台风_787.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_155",
+    "image": "sample_images\\flood_洪涝_155.jpeg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_580",
+    "image": "sample_images\\fire_火灾_580.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_610",
+    "image": "sample_images\\landslide_滑坡_610.jpg",
+    "ground_truth": "other",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_347",
+    "image": "sample_images\\flood_洪涝_347.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_351",
+    "image": "sample_images\\earthquake_地震_351.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_543",
+    "image": "sample_images\\fire_火灾_543.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_32",
+    "image": "sample_images\\earthquake_地震_32.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1087",
+    "image": "sample_images\\typhoon_台风_1087.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_364",
+    "image": "sample_images\\earthquake_地震_364.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_968",
+    "image": "sample_images\\typhoon_台风_968.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_914",
+    "image": "sample_images\\landslide_滑坡_914.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_548",
+    "image": "sample_images\\fire_火灾_548.jpg",
+    "ground_truth": "fire",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_18",
+    "image": "sample_images\\earthquake_地震_18.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_375",
+    "image": "sample_images\\flood_洪涝_375.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_339",
+    "image": "sample_images\\earthquake_地震_339.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_526",
+    "image": "sample_images\\fire_火灾_526.jpg",
+    "ground_truth": "fire",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_620",
+    "image": "sample_images\\fire_火灾_620.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_55",
+    "image": "sample_images\\earthquake_地震_55.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1251",
+    "image": "sample_images\\landslide_滑坡_1251.jpeg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1196",
+    "image": "sample_images\\landslide_滑坡_1196.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_505",
+    "image": "sample_images\\flood_洪涝_505.png",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_972",
+    "image": "sample_images\\typhoon_台风_972.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1256",
+    "image": "sample_images\\typhoon_台风_1256.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_278",
+    "image": "sample_images\\flood_洪涝_278.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_712",
+    "image": "sample_images\\landslide_滑坡_712.jpg",
+    "ground_truth": "flood",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_666",
+    "image": "sample_images\\landslide_滑坡_666.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_755",
+    "image": "sample_images\\landslide_滑坡_755.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1206",
+    "image": "sample_images\\typhoon_台风_1206.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_577",
+    "image": "sample_images\\earthquake_地震_577.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_568",
+    "image": "sample_images\\earthquake_地震_568.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_686",
+    "image": "sample_images\\landslide_滑坡_686.jpg",
+    "ground_truth": "landslide",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_358",
+    "image": "sample_images\\earthquake_地震_358.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_497",
+    "image": "sample_images\\landslide_滑坡_497.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_418",
+    "image": "sample_images\\earthquake_地震_418.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_941",
+    "image": "sample_images\\typhoon_台风_941.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_886",
+    "image": "sample_images\\typhoon_台风_886.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_592",
+    "image": "sample_images\\fire_火灾_592.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_316",
+    "image": "sample_images\\earthquake_地震_316.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_586",
+    "image": "sample_images\\fire_火灾_586.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_262",
+    "image": "sample_images\\flood_洪涝_262.jpg",
+    "ground_truth": "flood",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_467",
+    "image": "sample_images\\flood_洪涝_467.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_173",
+    "image": "sample_images\\earthquake_地震_173.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_507",
+    "image": "sample_images\\landslide_滑坡_507.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_323",
+    "image": "sample_images\\flood_洪涝_323.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_957",
+    "image": "sample_images\\landslide_滑坡_957.jpg",
+    "ground_truth": "other",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_100",
+    "image": "sample_images\\earthquake_地震_100.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_677",
+    "image": "sample_images\\landslide_滑坡_677.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_713",
+    "image": "sample_images\\landslide_滑坡_713.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_267",
+    "image": "sample_images\\fire_火灾_267.jpg",
+    "ground_truth": "fire",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_507",
+    "image": "sample_images\\flood_洪涝_507.jpg",
+    "ground_truth": "flood",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_858",
+    "image": "sample_images\\typhoon_台风_858.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_998",
+    "image": "sample_images\\landslide_滑坡_998.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_229",
+    "image": "sample_images\\flood_洪涝_229.jpg",
+    "ground_truth": "flood",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_496",
+    "image": "sample_images\\earthquake_地震_496.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_585",
+    "image": "sample_images\\landslide_滑坡_585.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_9",
+    "image": "sample_images\\fire_火灾_9.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_111",
+    "image": "sample_images\\earthquake_地震_111.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1260",
+    "image": "sample_images\\landslide_滑坡_1260.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_253",
+    "image": "sample_images\\fire_火灾_253.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1182",
+    "image": "sample_images\\landslide_滑坡_1182.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_210",
+    "image": "sample_images\\flood_洪涝_210.jpg",
+    "ground_truth": "flood",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_111",
+    "image": "sample_images\\flood_洪涝_111.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1297",
+    "image": "sample_images\\typhoon_台风_1297.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_526",
+    "image": "sample_images\\earthquake_地震_526.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1291",
+    "image": "sample_images\\typhoon_台风_1291.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_144",
+    "image": "sample_images\\earthquake_地震_144.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_770",
+    "image": "sample_images\\landslide_滑坡_770.jpg",
+    "ground_truth": "landslide",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_634",
+    "image": "sample_images\\fire_火灾_634.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_423",
+    "image": "sample_images\\landslide_滑坡_423.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_944",
+    "image": "sample_images\\landslide_滑坡_944.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_69",
+    "image": "sample_images\\flood_洪涝_69.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_80",
+    "image": "sample_images\\flood_洪涝_80.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_337",
+    "image": "sample_images\\earthquake_地震_337.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_946",
+    "image": "sample_images\\landslide_滑坡_946.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1131",
+    "image": "sample_images\\landslide_滑坡_1131.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1292",
+    "image": "sample_images\\typhoon_台风_1292.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_261",
+    "image": "sample_images\\fire_火灾_261.jpg",
+    "ground_truth": "fire",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1073",
+    "image": "sample_images\\typhoon_台风_1073.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_508",
+    "image": "sample_images\\earthquake_地震_508.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_276",
+    "image": "sample_images\\earthquake_地震_276.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_438",
+    "image": "sample_images\\earthquake_地震_438.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_527",
+    "image": "sample_images\\landslide_滑坡_527.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_504",
+    "image": "sample_images\\fire_火灾_504.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_463",
+    "image": "sample_images\\flood_洪涝_463.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_895",
+    "image": "sample_images\\landslide_滑坡_895.JPG",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_899",
+    "image": "sample_images\\landslide_滑坡_899.jpg",
+    "ground_truth": "landslide",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_711",
+    "image": "sample_images\\landslide_滑坡_711.jpg",
+    "ground_truth": "flood",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_802",
+    "image": "sample_images\\landslide_滑坡_802.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_615",
+    "image": "sample_images\\fire_火灾_615.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_992",
+    "image": "sample_images\\typhoon_台风_992.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_103",
+    "image": "sample_images\\flood_洪涝_103.jpg",
+    "ground_truth": "flood",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1281",
+    "image": "sample_images\\landslide_滑坡_1281.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1021",
+    "image": "sample_images\\landslide_滑坡_1021.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_550",
+    "image": "sample_images\\landslide_滑坡_550.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1187",
+    "image": "sample_images\\typhoon_台风_1187.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_289",
+    "image": "sample_images\\flood_洪涝_289.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_873",
+    "image": "sample_images\\typhoon_台风_873.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_828",
+    "image": "sample_images\\landslide_滑坡_828.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_347",
+    "image": "sample_images\\earthquake_地震_347.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1044",
+    "image": "sample_images\\landslide_滑坡_1044.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_292",
+    "image": "sample_images\\flood_洪涝_292.JPG",
+    "ground_truth": "flood",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_22",
+    "image": "sample_images\\earthquake_地震_22.jpg",
+    "ground_truth": "other",
+    "prediction": "other",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_544",
+    "image": "sample_images\\fire_火灾_544.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_324",
+    "image": "sample_images\\flood_洪涝_324.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1309",
+    "image": "sample_images\\typhoon_台风_1309.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_505",
+    "image": "sample_images\\fire_火灾_505.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_785",
+    "image": "sample_images\\landslide_滑坡_785.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1124",
+    "image": "sample_images\\typhoon_台风_1124.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_123",
+    "image": "sample_images\\flood_洪涝_123.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_60",
+    "image": "sample_images\\flood_洪涝_60.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_607",
+    "image": "sample_images\\fire_火灾_607.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_692",
+    "image": "sample_images\\landslide_滑坡_692.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_306",
+    "image": "sample_images\\fire_火灾_306.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1157",
+    "image": "sample_images\\typhoon_台风_1157.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_112",
+    "image": "sample_images\\flood_洪涝_112.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_439",
+    "image": "sample_images\\flood_洪涝_439.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_494",
+    "image": "sample_images\\flood_洪涝_494.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_272",
+    "image": "sample_images\\fire_火灾_272.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_474",
+    "image": "sample_images\\flood_洪涝_474.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_959",
+    "image": "sample_images\\typhoon_台风_959.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_559",
+    "image": "sample_images\\fire_火灾_559.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_397",
+    "image": "sample_images\\earthquake_地震_397.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_196",
+    "image": "sample_images\\flood_洪涝_196.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_539",
+    "image": "sample_images\\fire_火灾_539.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_359",
+    "image": "sample_images\\earthquake_地震_359.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "other",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_818",
+    "image": "sample_images\\typhoon_台风_818.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_395",
+    "image": "sample_images\\fire_火灾_395.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_462",
+    "image": "sample_images\\flood_洪涝_462.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_1036",
+    "image": "sample_images\\typhoon_台风_1036.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_209",
+    "image": "sample_images\\flood_洪涝_209.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_57",
+    "image": "sample_images\\flood_洪涝_57.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_700",
+    "image": "sample_images\\landslide_滑坡_700.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1283",
+    "image": "sample_images\\landslide_滑坡_1283.jpg",
+    "ground_truth": "landslide",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_921",
+    "image": "sample_images\\typhoon_台风_921.png",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_262",
+    "image": "sample_images\\earthquake_地震_262.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_102",
+    "image": "sample_images\\flood_洪涝_102.jpg",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_976",
+    "image": "sample_images\\landslide_滑坡_976.jpg",
+    "ground_truth": "other",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_397",
+    "image": "sample_images\\flood_洪涝_397.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_452",
+    "image": "sample_images\\flood_洪涝_452.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_460",
+    "image": "sample_images\\earthquake_地震_460.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_62",
+    "image": "sample_images\\flood_洪涝_62.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_444",
+    "image": "sample_images\\earthquake_地震_444.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_480",
+    "image": "sample_images\\earthquake_地震_480.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "fire",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_37",
+    "image": "sample_images\\flood_洪涝_37.png",
+    "ground_truth": "flood",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_153",
+    "image": "sample_images\\flood_洪涝_153.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_383",
+    "image": "sample_images\\flood_洪涝_383.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_793",
+    "image": "sample_images\\typhoon_台风_793.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "earthquake",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_259",
+    "image": "sample_images\\fire_火灾_259.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_154",
+    "image": "sample_images\\flood_洪涝_154.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_917",
+    "image": "sample_images\\landslide_滑坡_917.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_508",
+    "image": "sample_images\\fire_火灾_508.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1120",
+    "image": "sample_images\\landslide_滑坡_1120.jpg",
+    "ground_truth": "landslide",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_805",
+    "image": "sample_images\\typhoon_台风_805.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_421",
+    "image": "sample_images\\fire_火灾_421.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_801",
+    "image": "sample_images\\landslide_滑坡_801.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_2",
+    "image": "sample_images\\earthquake_地震_2.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_969",
+    "image": "sample_images\\landslide_滑坡_969.jpg",
+    "ground_truth": "flood",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_575",
+    "image": "sample_images\\landslide_滑坡_575.jpg",
+    "ground_truth": "landslide",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_558",
+    "image": "sample_images\\fire_火灾_558.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_448",
+    "image": "sample_images\\earthquake_地震_448.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "windstorm_or_typhoon",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_211",
+    "image": "sample_images\\earthquake_地震_211.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_1130",
+    "image": "sample_images\\landslide_滑坡_1130.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_922",
+    "image": "sample_images\\landslide_滑坡_922.jpg",
+    "ground_truth": "other",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_423",
+    "image": "sample_images\\earthquake_地震_423.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "landslide_滑坡_737",
+    "image": "sample_images\\landslide_滑坡_737.jpg",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_966",
+    "image": "sample_images\\typhoon_台风_966.jpg",
+    "ground_truth": "windstorm_or_typhoon",
+    "prediction": "windstorm_or_typhoon",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_80",
+    "image": "sample_images\\earthquake_地震_80.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "landslide",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_520",
+    "image": "sample_images\\fire_火灾_520.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "flood",
+    "correct": false,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "fire_火灾_608",
+    "image": "sample_images\\fire_火灾_608.jpg",
+    "ground_truth": "fire",
+    "prediction": "fire",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "flood_洪涝_142",
+    "image": "sample_images\\flood_洪涝_142.jpg",
+    "ground_truth": "landslide",
+    "prediction": "landslide",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "typhoon_台风_970",
+    "image": "sample_images\\typhoon_台风_970.png",
+    "ground_truth": "flood",
+    "prediction": "flood",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  },
+  {
+    "id": "earthquake_地震_194",
+    "image": "sample_images\\earthquake_地震_194.jpg",
+    "ground_truth": "earthquake",
+    "prediction": "earthquake",
+    "correct": true,
+    "baseline_type": "classical_image_only_ridge_classifier"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "release_name": "multi_disaster_visual_language_benchmark",
+  "version": "1.0-draft",
+  "updated_on": "2026-05-20",
+  "status": "draft_release_package",
+  "primary_benchmark": {
+    "name": "canonical_clean",
+    "train_file": "data/dataset_train_canonical_clean.json",
+    "validation_file": "data/dataset_val_canonical_clean.json",
+    "test_file": "data/dataset_test_canonical_clean.json",
+    "train_count": 1714,
+    "validation_count": 216,
+    "test_count": 211,
+    "canonical_labels": [
+      "flood",
+      "earthquake",
+      "fire",
+      "landslide",
+      "windstorm_or_typhoon",
+      "other"
+    ]
+  },
+  "supporting_benchmark": {
+    "name": "classification_full",
+    "train_file": "data/dataset_train_classification_full.json",
+    "validation_file": "data/dataset_val_classification_full.json",
+    "test_file": "data/dataset_test_classification_full.json",
+    "fallback_review_file": "data/test_fallback_audit.csv",
+    "train_count": 2453,
+    "validation_count": 306,
+    "test_count": 305,
+    "use_policy": "robustness_supporting_evidence"
+  },
+  "image_release": {
+    "local_image_directory": "sample_images",
+    "raw_image_public_release_status": "pending_license_provenance_privacy_sensitive_content_review",
+    "github_release_policy": "code_metadata_splits_scripts_evaluation_outputs_and_cleared_images_only",
+    "web_search_notice": "web_search_discovery_and_academic_use_do_not_establish_raw_image_redistribution_rights",
+    "fallback_release_plan": "metadata_splits_scripts_and_reproducible_acquisition_instructions"
+  },
+  "non_vlm_baseline": {
+    "name": "classical_image_only_ridge_classifier",
+    "results_file": "baseline_results/classical_image_baseline_results.json",
+    "metrics_file": "baseline_results/classical_image_baseline_metrics.json",
+    "strict_correct": "126/211",
+    "strict_accuracy": 0.5971563981042654,
+    "macro_f1": 0.5382327372426121,
+    "weighted_f1": 0.6023846323970484,
+    "valid_json_rate": null,
+    "note": "Image-only calibration baseline; JSON validity is not applicable."
+  },
+  "known_integrity_findings": {
+    "canonical_clean_train_val_md5_overlaps": 2,
+    "classification_full_train_val_md5_overlaps": 5,
+    "test_involved_cross_split_md5_overlaps": 0,
+    "missing_images_found": 0
+  },
+  "reproducibility_commands": [
+    "python scripts\\evaluate_classical_image_baseline.py",
+    "python scripts\\generate_publication_artifacts.py",
+    "python scripts\\verify_experiment_results.py",
+    "python scripts\\evaluate_prompt_schema_robustness.py --reuse_current_main_results"
+  ],
+  "documentation_files": [
+    "release_package/DATASET_CARD.md",
+    "release_package/RELEASE_README.md",
+    "release_package/metadata_schema.json",
+    "release_package/release_checklist.md"
+  ]
+}

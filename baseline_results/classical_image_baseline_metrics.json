@@ -1,0 +1,22 @@
+{
+  "total": 211,
+  "strict_correct": 126,
+  "accuracy": 0.5971563981042654,
+  "strict_accuracy": 0.5971563981042654,
+  "macro_f1": 0.5382327372426121,
+  "weighted_f1": 0.6023846323970484,
+  "valid_json_rate": null,
+  "valid_subset_count": 211,
+  "valid_subset_accuracy": 0.5971563981042654,
+  "valid_subset_macro_f1": 0.5382327372426121,
+  "valid_subset_weighted_f1": 0.6023846323970484,
+  "note": "Image-only classical baseline; JSON validity is not applicable.",
+  "config": {
+    "train_file": "F:\\数据集\\data\\dataset_train_canonical_clean.json",
+    "test_file": "F:\\数据集\\data\\dataset_test_canonical_clean.json",
+    "classifier": "StandardScaler + RidgeClassifier(class_weight='balanced')",
+    "features": "32x32 RGB pixels + RGB/HSV histograms + 4x4 gradient histograms + aspect features",
+    "alpha": 1000.0,
+    "seed": 42
+  }
+}

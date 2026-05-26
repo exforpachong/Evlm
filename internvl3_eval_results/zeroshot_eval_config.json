@@ -1,0 +1,17 @@
+{
+  "model_path": "models\\InternVL3-2B-hf",
+  "test_data_path": "data/dataset_test_canonical_clean.json",
+  "images_dir": "sample_images",
+  "output_dir": "internvl3_eval_results",
+  "torch_dtype": "bfloat16",
+  "device_map": "auto",
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "temperature": 0.0,
+  "seed": 42,
+  "limit": null,
+  "local_files_only": true,
+  "model_card": "https://huggingface.co/OpenGVLab/InternVL3-2B-hf",
+  "license": "qwen",
+  "note": "OpenGVLab InternVL3-2B Hugging Face image-text-to-text baseline."
+}
