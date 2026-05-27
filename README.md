@@ -62,8 +62,64 @@ Recommended public repository layout:
 | `baseline_results/` | Majority, random, and classical image-only baseline results |
 | `prompt_schema_robustness_results/` | Prompt/schema robustness results |
 | `ablation_eval_results_v3_retrained_20260514/` | Retrained 50% and 100% data-scale ablation results |
+| `lora_adapter/` | Qwen3-VL-2B LoRA adapter weights (main, r=16, ~67 MB) |
+| `ablation_adapters/` | LoRA adapter configs for 25%/50%/100% data-scale ablation (weights too large for GitHub; retrain with provided scripts) |
 
 The repository should contain only the data, code, metadata, and derived benchmark outputs needed to reproduce the results. Local planning notes, writing files, private credentials, local paths, full model weights, and unreviewed raw images should be kept outside the public repository.
+
+## Model Setup
+
+### Base models
+
+This benchmark uses two open VLM base models. Download them from HuggingFace before running evaluation:
+
+| Model | HuggingFace ID | Size | Purpose |
+| --- | --- | --- | --- |
+| Qwen3-VL-2B-Instruct | [Qwen/Qwen3-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) | ~4.5 GB | Primary VLM (zero-shot and LoRA) |
+| InternVL3-2B | [OpenGVLab/InternVL3-2B-hf](https://huggingface.co/OpenGVLab/InternVL3-2B-hf) | ~4.5 GB | Additional open VLM baseline |
+
+Download example:
+
+```python
+from huggingface_hub import snapshot_download
+snapshot_download("Qwen/Qwen3-VL-2B-Instruct", local_dir="models/Qwen3-VL-2B-Instruct")
+snapshot_download("OpenGVLab/InternVL3-2B-hf", local_dir="models/InternVL3-2B-hf")
+```
+
+### LoRA adapter
+
+The fine-tuned LoRA adapter for the main benchmark is included in this repository under `lora_adapter/`. It can be loaded with the PEFT library:
+
+```python
+from peft import PeftModel
+from transformers import Qwen2_5_VLForConditionalGeneration
+
+base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained("models/Qwen3-VL-2B-Instruct")
+model = PeftModel.from_pretrained(base_model, "lora_adapter")
+```
+
+Key LoRA configuration: rank=16, alpha=32, dropout=0.05, target modules: q/k/v/o/gate/up/down projections.
+
+### Ablation adapters
+
+Due to GitHub file size limits (the ablation adapters use rank=32, producing ~133 MB weight files), only the LoRA configurations are provided under `ablation_adapters/`. To reproduce the ablation adapters, retrain using the provided scripts:
+
+```powershell
+python scripts\train_ablation_canonical.py --scale 25
+python scripts\train_ablation_canonical.py --scale 50
+python scripts\train_ablation_canonical.py --scale 100
+```
+
+### Images
+
+Raw disaster images are not included in this repository due to licensing and privacy constraints. To acquire images, run the provided acquisition script:
+
+```powershell
+python scripts\download_real_disasters.py
+python scripts\filter_images.py
+```
+
+Note: Bing search results may vary over time, so exact image sets may differ from the original benchmark. The data split JSON files contain image filenames and labels, which serve as the canonical reference.
 
 ## Data Files
 
@@ -142,10 +198,10 @@ Run the classical image-only baseline:
 python scripts\evaluate_classical_image_baseline.py
 ```
 
-Run the main Qwen3-VL-2B benchmark, assuming the base model and LoRA adapter are available locally:
+Run the main Qwen3-VL-2B benchmark (download the base model first, the LoRA adapter is included in `lora_adapter/`):
 
 ```powershell
-python scripts\evaluate_v3.py --mode both --adapter_path finetune_output_v2\final_adapter
+python scripts\evaluate_v3.py --mode both --adapter_path lora_adapter
 ```
 
 Run the full 305-image robustness evaluation:
@@ -154,7 +210,7 @@ Run the full 305-image robustness evaluation:
 python scripts\run_full_305_v3_local.py --mode both
 ```
 
-Run the InternVL3-2B zero-shot baseline, assuming the model is available locally:
+Run the InternVL3-2B zero-shot baseline (download the model first from HuggingFace):
 
 ```powershell
 python scripts\evaluate_internvl3_baseline.py --model_path models\InternVL3-2B-hf --output_dir internvl3_eval_results --local_files_only

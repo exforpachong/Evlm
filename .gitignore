@@ -1,7 +1,6 @@
 # Large or private local artifacts
 models/
 sample_images/
-finetune_output_v2/
 run_logs/
 manuscript/
 paper_figures/
